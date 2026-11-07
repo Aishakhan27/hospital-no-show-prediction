@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 550px;
+            margin: auto;
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #173b63;
+        }
+
+        .probability {
+            font-size: 48px;
+            font-weight: bold;
+            color: #176b87;
+            margin: 25px 0;
+        }
+
+        .risk {
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .low {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .medium {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .high {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .warning {
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #475569;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #176b87;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Prediction Result</h1>
+
+    <p>Estimated probability of a missed appointment:</p>
+
+    <div class="probability">
+        {{ probability }}%
+    </div>
+
+    {% if probability < 20 %}
+        <div class="risk low">Lower estimated probability</div>
+
+    {% elif probability < 50 %}
+        <div class="risk medium">Moderate estimated probability</div>
+
+    {% else %}
+        <div class="risk high">Higher estimated probability</div>
+
+    {% endif %}
+
+    <div class="warning">
+        <strong>Important:</strong> This is a model-generated estimate,
+        not a certainty. A trained human staff member should review
+        the result. Never cancel or deny an appointment based on
+        this prediction.
+
+        This model was trained on synthetic data and is not validated
+        for real hospital use.
+    </div>
+
+    <a href="/">Predict Another Appointment</a>
+
+</div>
+
+</body>
+</html>

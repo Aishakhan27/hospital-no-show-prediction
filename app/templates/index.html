@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital No-Show Prediction</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            margin: 0;
+            padding: 30px 15px;
+            color: #334155;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+        }
+
+        h1 {
+            text-align: center;
+            color: #173b63;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #64748b;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: #176b87;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 10px;
+            margin-top: 25px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 7px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 11px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            background: white;
+            font-size: 14px;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: #176b87;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            margin-top: 30px;
+            background: #176b87;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #104e65;
+        }
+
+        .notice {
+            margin-top: 22px;
+            padding: 15px;
+            background: #f8fafc;
+            border-left: 4px solid #176b87;
+            border-radius: 5px;
+            font-size: 13px;
+            line-height: 1.6;
+            color: #475569;
+        }
+
+        @media (max-width: 600px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Hospital Appointment No-Show Prediction</h1>
+
+    <p class="subtitle">
+        Enter appointment details to estimate the probability of a missed appointment.
+    </p>
+
+    <form action="/predict" method="POST">
+
+        <h3>Appointment Information</h3>
+
+        <div class="form-grid">
+
+            <div>
+                <label>Lead Time (Days)</label>
+                <input type="number" name="lead_time_days"
+                       min="0" step="any" required>
+            </div>
+
+            <div>
+                <label>Appointment Hour (0–23)</label>
+                <input type="number" name="appointment_hour"
+                       min="0" max="23" required>
+            </div>
+
+            <div>
+                <label>Appointment Month (1–12)</label>
+                <input type="number" name="appointment_month"
+                       min="1" max="12" required>
+            </div>
+
+            <div>
+                <label>Appointment Weekday</label>
+                <select name="appointment_weekday" required>
+                    <option>Monday</option>
+                    <option>Tuesday</option>
+                    <option>Wednesday</option>
+                    <option>Thursday</option>
+                    <option>Friday</option>
+                    <option>Saturday</option>
+                    <option>Sunday</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Department</label>
+                <select name="department" required>
+                    <option>Dermatology</option>
+                    <option>ENT</option>
+                    <option>General Medicine</option>
+                    <option>Gynecology</option>
+                    <option>Ophthalmology</option>
+                    <option>Orthopedics</option>
+                    <option>Pediatrics</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Appointment Type</label>
+                <select name="appointment_type" required>
+                    <option>Follow-up</option>
+                    <option>New</option>
+                    <option>Routine Check</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Booking Channel</label>
+                <select name="booking_channel" required>
+                    <option>Mobile App</option>
+                    <option>Online Portal</option>
+                    <option>Phone</option>
+                    <option>Walk-in</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Reminder SMS Planned?</label>
+                <select name="reminder_sms_planned" required>
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Holiday Week?</label>
+                <select name="is_holiday_week" required>
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Weather Risk Month?</label>
+                <select name="weather_risk_month" required>
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+
+        </div>
+
+        <h3>Patient Information</h3>
+
+        <div class="form-grid">
+
+            <div>
+                <label>Age</label>
+                <input type="number" name="age"
+                       min="0" max="120" step="any" required>
+            </div>
+
+            <div>
+                <label>Gender</label>
+                <select name="gender" required>
+                    <option value="F">Female</option>
+                    <option value="M">Male</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Distance from Hospital (KM)</label>
+                <input type="number" name="distance_km"
+                       min="0" step="any" required>
+            </div>
+
+            <div>
+                <label>Payment Type</label>
+                <select name="payment_type" required>
+                    <option>Government Scheme</option>
+                    <option>Insurance</option>
+                    <option>Self-pay</option>
+                </select>
+            </div>
+
+        </div>
+
+        <h3>Previous Appointment History</h3>
+
+        <div class="form-grid">
+
+            <div>
+                <label>Previous Appointments</label>
+                <input type="number" name="prior_appointments"
+                       min="0" required>
+            </div>
+
+            <div>
+                <label>Previous No-Shows</label>
+                <input type="number" name="prior_no_shows"
+                       min="0" required>
+            </div>
+
+            <div>
+                <label>Days Since Last Attended Visit</label>
+                <input type="number" name="days_since_last_visit"
+                       min="0" step="any"
+                       placeholder="Leave blank if none">
+            </div>
+
+            <div>
+                <label>Previous Attended Visit?</label>
+                <select name="has_previous_attended_visit" required>
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </select>
+            </div>
+
+        </div>
+
+        <button type="submit">
+            Predict No-Show Probability
+        </button>
+
+    </form>
+
+    <div class="notice">
+        <strong>Important:</strong>
+        This tool provides a model-generated estimate for human review only.
+        It must not be used to cancel appointments or deny services.
+        The model was trained on synthetic data and has not been validated
+        for real hospital use.
+    </div>
+
+</div>
+
+</body>
+</html>
