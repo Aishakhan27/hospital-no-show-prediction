@@ -1,0 +1,901 @@
+appointment_id,patient_id,booking_datetime,appointment_datetime,lead_time_days,appointment_weekday,appointment_hour,appointment_month,department,appointment_type,booking_channel,reminder_sms_planned,is_holiday_week,weather_risk_month,age,gender,distance_km,payment_type,prior_appointments,prior_no_shows,days_since_last_visit,no_show,has_previous_attended_visit
+A504201,P100632,2024-12-31 10:45:00,2025-01-22 13:45:00,22,Wednesday,13,1,Dermatology,Routine Check,Online Portal,0,0,0,38.0,F,3.3,Government Scheme,1,0,225.0,0,1
+A504200,P100617,2024-12-31 10:45:00,2025-02-03 15:45:00,34,Monday,15,2,Orthopedics,Follow-up,Mobile App,1,0,0,28.0,M,4.5,Self-pay,2,0,11.0,0,1
+A504202,P101615,2024-12-31 11:30:00,2025-01-10 16:30:00,10,Friday,16,1,Orthopedics,Routine Check,Walk-in,0,0,0,37.0,M,7.9,Insurance,3,1,21.0,0,1
+A504203,P100199,2024-12-31 12:00:00,2025-01-11 15:00:00,11,Saturday,15,1,Orthopedics,Follow-up,Online Portal,1,0,0,41.0,M,6.7,Self-pay,3,3,,1,0
+A504204,P100923,2024-12-31 12:15:00,2025-01-06 16:15:00,6,Monday,16,1,General Medicine,Follow-up,Mobile App,1,0,0,16.0,F,3.3,Government Scheme,6,1,227.0,0,1
+A504205,P101608,2025-01-01 06:15:00,2025-01-10 08:15:00,9,Friday,8,1,General Medicine,Follow-up,Phone,1,0,0,21.0,M,20.8,Insurance,1,0,200.0,0,1
+A504206,P101542,2025-01-01 07:15:00,2025-01-08 09:15:00,7,Wednesday,9,1,Pediatrics,New,Phone,0,0,0,20.0,M,9.6,Insurance,1,0,234.0,1,1
+A504207,P101515,2025-01-01 08:30:00,2025-01-10 09:30:00,9,Friday,9,1,General Medicine,New,Phone,0,0,0,17.0,F,13.9,Insurance,3,0,8.0,0,1
+A504208,P100761,2025-01-01 09:15:00,2025-01-09 11:15:00,8,Thursday,11,1,Ophthalmology,New,Phone,1,0,0,43.0,M,4.3,Government Scheme,5,0,61.0,0,1
+A504209,P101526,2025-01-01 10:30:00,2025-01-15 11:30:00,14,Wednesday,11,1,Orthopedics,Follow-up,Mobile App,1,0,0,75.0,M,11.8,Self-pay,7,0,39.0,0,1
+A504210,P101412,2025-01-01 10:30:00,2025-01-04 13:30:00,3,Saturday,13,1,Orthopedics,Routine Check,Mobile App,1,0,0,45.0,F,29.2,Insurance,4,1,52.0,0,1
+A504211,P100719,2025-01-01 12:30:00,2025-01-29 15:30:00,28,Wednesday,15,1,Dermatology,Routine Check,Phone,1,0,0,23.0,F,2.2,Government Scheme,2,0,83.0,0,1
+A504212,P101647,2025-01-01 13:45:00,2025-01-09 15:45:00,8,Thursday,15,1,General Medicine,New,Online Portal,0,0,0,21.0,F,,Government Scheme,4,0,113.0,0,1
+A504213,P100373,2025-01-01 15:45:00,2025-01-03 16:45:00,2,Friday,16,1,Dermatology,Follow-up,Online Portal,0,0,0,56.0,F,9.9,Government Scheme,10,2,61.0,0,1
+A504214,P100511,2025-01-02 03:00:00,2025-01-13 08:00:00,11,Monday,8,1,ENT,Follow-up,Mobile App,0,0,0,21.0,F,3.0,Self-pay,4,1,86.0,0,1
+A504215,P101133,2025-01-02 03:15:00,2025-01-10 08:15:00,8,Friday,8,1,Orthopedics,Follow-up,Walk-in,1,0,0,52.0,M,12.9,Government Scheme,0,0,,0,0
+A504216,P100907,2025-01-02 04:15:00,2025-01-10 09:15:00,8,Friday,9,1,ENT,Routine Check,Phone,1,0,0,11.0,F,2.7,Government Scheme,2,0,91.0,0,1
+A504217,P100317,2025-01-02 06:00:00,2025-01-09 09:00:00,7,Thursday,9,1,General Medicine,Follow-up,Mobile App,1,0,0,31.0,F,5.8,Government Scheme,2,0,34.0,0,1
+A504218,P100335,2025-01-02 06:00:00,2025-01-13 09:00:00,11,Monday,9,1,Dermatology,New,Online Portal,1,0,0,14.0,F,4.7,Government Scheme,6,0,71.0,1,1
+A504219,P101498,2025-01-02 06:45:00,2025-01-04 13:45:00,2,Saturday,13,1,Pediatrics,Follow-up,Online Portal,1,0,0,81.0,F,21.4,Self-pay,0,0,,0,0
+A504220,P101851,2025-01-02 08:45:00,2025-01-11 09:45:00,9,Saturday,9,1,Orthopedics,Routine Check,Mobile App,0,0,0,37.0,M,3.3,Insurance,1,0,56.0,0,1
+A504221,P101333,2025-01-02 11:00:00,2025-01-16 14:00:00,14,Thursday,14,1,General Medicine,Routine Check,Walk-in,1,0,0,16.0,F,1.9,Insurance,4,2,197.0,0,1
+A504222,P101258,2025-01-02 11:15:00,2025-02-14 12:15:00,43,Friday,12,2,Orthopedics,Routine Check,Mobile App,1,0,0,41.0,M,7.5,Insurance,4,0,28.0,1,1
+A504223,P100272,2025-01-02 13:15:00,2025-01-10 16:15:00,8,Friday,16,1,ENT,Routine Check,Mobile App,1,0,0,8.0,M,5.9,Insurance,6,0,28.0,1,1
+A504224,P101296,2025-01-02 14:45:00,2025-01-09 15:45:00,7,Thursday,15,1,Ophthalmology,Follow-up,Phone,0,0,0,52.0,F,20.8,Insurance,2,0,202.0,0,1
+A504225,P100585,2025-01-03 03:30:00,2025-01-15 10:30:00,12,Wednesday,10,1,Dermatology,New,Walk-in,1,0,0,15.0,F,3.2,Government Scheme,2,2,,0,0
+A504226,P101703,2025-01-03 07:00:00,2025-01-13 14:00:00,10,Monday,14,1,Dermatology,New,Mobile App,1,0,0,47.0,M,8.8,Government Scheme,2,1,250.0,0,1
+A504227,P100010,2025-01-03 08:15:00,2025-01-07 15:15:00,4,Tuesday,15,1,Pediatrics,Routine Check,Mobile App,1,0,0,69.0,M,8.4,Self-pay,1,0,26.0,0,1
+A504228,P100908,2025-01-03 09:15:00,2025-01-13 10:15:00,10,Monday,10,1,Orthopedics,Follow-up,Walk-in,1,0,0,38.0,M,1.5,Insurance,5,0,9.0,0,1
+A504229,P101092,2025-01-03 10:45:00,2025-01-06 12:45:00,3,Monday,12,1,Pediatrics,New,Walk-in,1,0,0,13.0,M,14.3,Insurance,1,0,25.0,1,1
+A504230,P101177,2025-01-03 11:15:00,2025-01-10 16:15:00,7,Friday,16,1,Ophthalmology,Follow-up,Online Portal,1,0,0,19.0,F,19.8,Self-pay,3,3,,0,0
+A504231,P100330,2025-01-03 13:15:00,2025-01-29 16:15:00,26,Wednesday,16,1,Pediatrics,Routine Check,Walk-in,1,0,0,89.0,M,9.6,Insurance,6,4,130.0,1,1
+A504232,P100582,2025-01-04 07:15:00,2025-01-09 14:15:00,5,Thursday,14,1,Pediatrics,Follow-up,Walk-in,1,0,0,76.0,M,1.2,Self-pay,5,1,1.0,0,1
+A504233,P100753,2025-01-04 08:45:00,2025-01-08 12:45:00,4,Wednesday,12,1,Ophthalmology,Routine Check,Mobile App,1,0,0,19.0,F,13.2,Government Scheme,1,0,95.0,0,1
+A504234,P101402,2025-01-04 09:00:00,2025-01-11 10:00:00,7,Saturday,10,1,General Medicine,Routine Check,Mobile App,1,1,0,61.0,F,41.2,Insurance,4,0,182.0,0,1
+A504235,P101653,2025-01-04 09:30:00,2025-01-06 15:30:00,2,Monday,15,1,General Medicine,New,Walk-in,1,0,0,95.0,M,3.0,Self-pay,4,4,,0,0
+A504236,P100348,2025-01-04 09:45:00,2025-01-06 10:45:00,2,Monday,10,1,Pediatrics,Follow-up,Phone,1,0,0,57.0,M,9.2,Self-pay,1,1,,0,0
+A504237,P100036,2025-01-04 11:00:00,2025-01-09 17:00:00,5,Thursday,17,1,Dermatology,Follow-up,Online Portal,1,0,0,41.0,M,10.0,Self-pay,0,0,,0,0
+A504238,P101183,2025-01-04 11:15:00,2025-01-08 12:15:00,4,Wednesday,12,1,Ophthalmology,New,Phone,0,0,0,66.0,F,4.5,Self-pay,2,0,179.0,0,1
+A504239,P101867,2025-01-05 01:00:00,2025-02-03 08:00:00,29,Monday,8,2,General Medicine,New,Online Portal,0,0,0,60.0,M,11.0,Insurance,3,0,35.0,1,1
+A504240,P100183,2025-01-05 06:15:00,2025-01-13 12:15:00,8,Monday,12,1,Ophthalmology,Follow-up,Mobile App,0,0,0,47.0,M,5.5,Insurance,2,0,50.0,0,1
+A504241,P100295,2025-01-05 06:45:00,2025-01-08 11:45:00,3,Wednesday,11,1,Ophthalmology,Routine Check,Mobile App,1,0,0,55.0,M,15.9,Self-pay,3,1,59.0,0,1
+A504242,P101748,2025-01-05 08:15:00,2025-01-15 09:15:00,10,Wednesday,9,1,General Medicine,Follow-up,Walk-in,1,0,0,55.0,F,4.1,Insurance,7,0,4.0,0,1
+A504243,P101286,2025-01-05 10:15:00,2025-01-13 11:15:00,8,Monday,11,1,Pediatrics,New,Walk-in,0,0,0,49.0,M,6.0,Government Scheme,1,0,312.0,0,1
+A504244,P101033,2025-01-05 11:00:00,2025-01-17 13:00:00,12,Friday,13,1,Pediatrics,Follow-up,Phone,1,0,0,44.0,F,16.7,Insurance,6,3,85.0,0,1
+A504245,P100517,2025-01-05 12:00:00,2025-01-11 17:00:00,6,Saturday,17,1,Ophthalmology,Follow-up,Walk-in,1,0,0,38.0,F,2.5,Government Scheme,4,0,174.0,0,1
+A504246,P101523,2025-01-05 13:30:00,2025-01-18 16:30:00,13,Saturday,16,1,Gynecology,New,Phone,1,0,0,29.0,F,5.8,Insurance,0,0,,0,0
+A504247,P100205,2025-01-05 13:45:00,2025-01-20 17:45:00,15,Monday,17,1,General Medicine,Follow-up,Phone,1,0,0,58.0,F,9.7,Insurance,5,0,9.0,0,1
+A504248,P100786,2025-01-06 05:30:00,2025-01-13 09:30:00,7,Monday,9,1,ENT,Routine Check,Phone,1,0,0,34.0,M,31.7,Insurance,5,0,79.0,0,1
+A504249,P101269,2025-01-06 06:00:00,2025-01-15 08:00:00,9,Wednesday,8,1,Dermatology,Follow-up,Walk-in,1,0,0,24.0,M,6.1,Insurance,2,0,202.0,0,1
+A504250,P101135,2025-01-06 07:00:00,2025-01-16 10:00:00,10,Thursday,10,1,General Medicine,Follow-up,Mobile App,1,0,0,47.0,F,24.2,Insurance,5,0,34.0,0,1
+A504251,P101405,2025-01-06 07:45:00,2025-01-22 09:45:00,16,Wednesday,9,1,Pediatrics,New,Mobile App,1,0,0,11.0,M,18.9,Insurance,1,0,208.0,0,1
+A504252,P100269,2025-01-06 08:00:00,2025-01-18 14:00:00,12,Saturday,14,1,Pediatrics,Follow-up,Online Portal,1,0,0,30.0,F,1.2,Government Scheme,1,0,285.0,0,1
+A504253,P101064,2025-01-06 08:15:00,2025-01-16 09:15:00,10,Thursday,9,1,Orthopedics,New,Mobile App,1,0,0,95.0,F,7.9,Insurance,0,0,,0,0
+A504254,P100164,2025-01-06 08:30:00,2025-01-28 11:30:00,22,Tuesday,11,1,Orthopedics,Follow-up,Mobile App,1,0,0,56.0,M,1.1,Government Scheme,3,1,10.0,0,1
+A504255,P100028,2025-01-06 10:00:00,2025-03-03 14:00:00,56,Monday,14,3,General Medicine,Routine Check,Walk-in,0,0,0,24.0,M,8.7,Self-pay,0,0,,0,0
+A504256,P100649,2025-01-06 10:15:00,2025-01-17 11:15:00,11,Friday,11,1,Pediatrics,New,Mobile App,1,0,0,30.0,M,4.8,Government Scheme,7,0,12.0,0,1
+A504257,P101524,2025-01-06 10:45:00,2025-01-20 12:45:00,14,Monday,12,1,General Medicine,New,Online Portal,1,1,0,31.0,M,2.6,Insurance,3,0,12.0,0,1
+A504258,P100383,2025-01-06 12:00:00,2025-01-07 17:00:00,1,Tuesday,17,1,Gynecology,New,Mobile App,0,0,0,23.0,F,60.0,Self-pay,1,1,,0,0
+A504259,P100248,2025-01-06 12:45:00,2025-01-17 13:45:00,11,Friday,13,1,General Medicine,Follow-up,Phone,1,1,0,52.0,F,11.2,Insurance,0,0,,0,0
+A504260,P100432,2025-01-07 04:30:00,2025-01-23 10:30:00,16,Thursday,10,1,ENT,Follow-up,Phone,1,0,0,44.0,M,7.1,Self-pay,1,0,220.0,0,1
+A504261,P101525,2025-01-07 05:15:00,2025-01-15 08:15:00,8,Wednesday,8,1,General Medicine,New,Mobile App,1,0,0,50.0,M,1.6,Government Scheme,9,0,0.0,0,1
+A504262,P101526,2025-01-07 06:15:00,2025-01-15 11:15:00,8,Wednesday,11,1,General Medicine,Follow-up,Mobile App,1,0,0,75.0,M,11.8,Self-pay,7,0,44.0,0,1
+A504263,P101148,2025-01-07 09:30:00,2025-01-21 15:30:00,14,Tuesday,15,1,General Medicine,New,Online Portal,1,0,0,95.0,M,2.7,Insurance,2,0,72.0,0,1
+A504264,P101714,2025-01-07 10:00:00,2025-01-15 15:00:00,8,Wednesday,15,1,General Medicine,Routine Check,Walk-in,1,1,0,41.0,M,2.8,Insurance,1,0,136.0,0,1
+A504265,P101430,2025-01-07 11:00:00,2025-01-17 16:00:00,10,Friday,16,1,Pediatrics,Follow-up,Online Portal,1,0,0,41.0,M,4.7,Self-pay,4,0,42.0,0,1
+A504266,P101582,2025-01-07 11:45:00,2025-01-21 15:45:00,14,Tuesday,15,1,General Medicine,Follow-up,Walk-in,1,1,0,51.0,F,13.2,Government Scheme,3,1,56.0,1,1
+A504267,P100558,2025-01-07 14:30:00,2025-01-20 15:30:00,13,Monday,15,1,General Medicine,New,Walk-in,0,0,0,58.0,M,4.8,Self-pay,5,0,76.0,1,1
+A504268,P100716,2025-01-07 15:45:00,2025-02-07 16:45:00,31,Friday,16,2,Orthopedics,Follow-up,Mobile App,1,0,0,23.0,M,10.0,Insurance,2,0,206.0,0,1
+A504269,P100775,2025-01-08 06:00:00,2025-01-21 09:00:00,13,Tuesday,9,1,General Medicine,Routine Check,Phone,1,0,0,47.0,M,3.1,Government Scheme,0,0,,1,0
+A504270,P101253,2025-01-08 06:00:00,2025-01-23 13:00:00,15,Thursday,13,1,General Medicine,Follow-up,Online Portal,0,0,0,69.0,M,3.7,Government Scheme,2,0,225.0,0,1
+A504271,P101626,2025-01-08 08:45:00,2025-01-20 11:45:00,12,Monday,11,1,Orthopedics,New,Online Portal,1,0,0,17.0,M,,Self-pay,0,0,,1,0
+A504272,P101109,2025-01-08 09:15:00,2025-01-22 16:15:00,14,Wednesday,16,1,Dermatology,Routine Check,Phone,0,0,0,27.0,F,3.6,Government Scheme,4,0,123.0,0,1
+A504273,P101669,2025-01-08 09:30:00,2025-01-22 14:30:00,14,Wednesday,14,1,Orthopedics,New,Walk-in,1,0,0,31.0,F,15.4,Insurance,2,0,249.0,0,1
+A504274,P101858,2025-01-08 12:15:00,2025-01-31 17:15:00,23,Friday,17,1,General Medicine,Routine Check,Online Portal,1,0,0,34.0,F,7.1,Insurance,11,0,29.0,1,1
+A504275,P101446,2025-01-08 13:00:00,2025-01-16 14:00:00,8,Thursday,14,1,Ophthalmology,Routine Check,Walk-in,0,0,0,32.0,M,4.4,Government Scheme,2,1,274.0,0,1
+A504276,P100320,2025-01-08 13:45:00,2025-01-11 16:45:00,3,Saturday,16,1,Ophthalmology,Follow-up,Phone,1,0,0,31.0,F,8.1,Government Scheme,2,1,160.0,0,1
+A504277,P101468,2025-01-09 04:00:00,2025-01-18 10:00:00,9,Saturday,10,1,General Medicine,New,Phone,0,0,0,64.0,M,4.2,Government Scheme,4,0,89.0,0,1
+A504278,P100330,2025-01-09 04:45:00,2025-01-28 09:45:00,19,Tuesday,9,1,Orthopedics,New,Walk-in,0,1,0,89.0,M,9.6,Insurance,6,4,135.0,0,1
+A504279,P100514,2025-01-09 04:45:00,2025-01-13 10:45:00,4,Monday,10,1,ENT,Follow-up,Mobile App,0,0,0,46.0,F,3.2,Insurance,2,2,,0,0
+A504280,P100398,2025-01-09 05:15:00,2025-01-16 10:15:00,7,Thursday,10,1,Pediatrics,New,Online Portal,1,0,0,39.0,F,27.8,Government Scheme,2,0,184.0,1,1
+A504281,P101351,2025-01-09 06:00:00,2025-01-20 10:00:00,11,Monday,10,1,Pediatrics,New,Mobile App,1,0,0,24.0,F,4.3,Government Scheme,0,0,,0,0
+A504282,P100844,2025-01-09 06:15:00,2025-01-27 12:15:00,18,Monday,12,1,ENT,Follow-up,Walk-in,1,0,0,29.0,F,24.7,Self-pay,3,0,18.0,1,1
+A504283,P100164,2025-01-09 07:00:00,2025-01-13 10:00:00,4,Monday,10,1,Ophthalmology,New,Walk-in,1,0,0,56.0,M,1.1,Government Scheme,3,1,13.0,0,1
+A504284,P100854,2025-01-09 08:00:00,2025-02-03 09:00:00,25,Monday,9,2,Dermatology,Follow-up,Online Portal,1,0,0,91.0,M,5.9,Insurance,6,3,218.0,0,1
+A504285,P100941,2025-01-09 08:00:00,2025-01-27 10:00:00,18,Monday,10,1,General Medicine,Follow-up,Walk-in,1,1,0,14.0,M,6.6,Government Scheme,4,0,20.0,0,1
+A504286,P100765,2025-01-09 08:30:00,2025-01-25 15:30:00,16,Saturday,15,1,Gynecology,Follow-up,Phone,1,0,0,35.0,F,6.9,Government Scheme,4,0,58.0,0,1
+A504287,P100153,2025-01-09 08:45:00,2025-01-13 15:45:00,4,Monday,15,1,Orthopedics,Follow-up,Phone,0,0,0,59.0,M,8.8,Self-pay,1,0,95.0,0,1
+A504288,P100967,2025-01-09 09:45:00,2025-01-20 16:45:00,11,Monday,16,1,ENT,Follow-up,Phone,0,0,0,31.0,M,21.3,Insurance,0,0,,0,0
+A504289,P100693,2025-01-09 09:45:00,2025-01-31 11:45:00,22,Friday,11,1,ENT,Routine Check,Phone,1,0,0,76.0,F,2.8,Insurance,3,0,149.0,0,1
+A504290,P100657,2025-01-09 12:00:00,2025-01-10 16:00:00,1,Friday,16,1,Pediatrics,Routine Check,Walk-in,1,0,0,69.0,F,11.1,Insurance,2,0,128.0,0,1
+A504291,P101508,2025-01-09 12:30:00,2025-01-23 16:30:00,14,Thursday,16,1,Pediatrics,Follow-up,Mobile App,1,0,0,32.0,F,15.6,Government Scheme,5,3,260.0,1,1
+A504292,P100777,2025-01-10 02:15:00,2025-01-14 09:15:00,4,Tuesday,9,1,Pediatrics,Follow-up,Walk-in,1,0,0,32.0,M,3.2,Self-pay,9,4,36.0,0,1
+A504293,P101555,2025-01-10 04:45:00,2025-01-20 08:45:00,10,Monday,8,1,General Medicine,Follow-up,Phone,1,0,0,41.0,M,6.9,Government Scheme,1,0,283.0,1,1
+A504295,P101534,2025-01-10 06:00:00,2025-01-18 09:00:00,8,Saturday,9,1,Pediatrics,New,Walk-in,1,0,0,39.0,M,16.3,Self-pay,3,1,8.0,0,1
+A504294,P100012,2025-01-10 06:00:00,2025-01-15 09:00:00,5,Wednesday,9,1,Ophthalmology,New,Online Portal,0,1,0,50.0,M,3.1,Insurance,0,0,,0,0
+A504296,P100258,2025-01-10 08:00:00,2025-01-25 15:00:00,15,Saturday,15,1,General Medicine,Follow-up,Phone,0,0,0,15.0,M,1.3,Insurance,0,0,,0,0
+A504297,P100072,2025-01-10 08:30:00,2025-01-13 11:30:00,3,Monday,11,1,General Medicine,Follow-up,Mobile App,1,0,0,27.0,F,8.1,Government Scheme,3,0,33.0,0,1
+A504298,P101676,2025-01-10 09:30:00,2025-01-13 11:30:00,3,Monday,11,1,General Medicine,New,Mobile App,1,0,0,42.0,F,8.5,Government Scheme,9,1,8.0,0,1
+A504299,P100594,2025-01-10 11:15:00,2025-01-29 16:15:00,19,Wednesday,16,1,Pediatrics,Follow-up,Online Portal,1,0,0,58.0,F,7.6,Self-pay,3,3,,0,0
+A504300,P100494,2025-01-10 11:30:00,2025-01-28 15:30:00,18,Tuesday,15,1,Dermatology,New,Mobile App,1,0,0,49.0,M,4.0,Government Scheme,5,1,45.0,0,1
+A504302,P100635,2025-01-10 14:00:00,2025-01-18 17:00:00,8,Saturday,17,1,General Medicine,New,Online Portal,1,0,0,30.0,F,3.1,Self-pay,0,0,,1,0
+A504301,P101292,2025-01-10 14:00:00,2025-01-23 16:00:00,13,Thursday,16,1,General Medicine,New,Walk-in,0,1,0,61.0,F,36.3,Government Scheme,0,0,,1,0
+A504303,P101801,2025-01-11 01:45:00,2025-01-22 08:45:00,11,Wednesday,8,1,ENT,Routine Check,Phone,1,0,0,72.0,M,8.8,Government Scheme,4,0,119.0,0,1
+A504304,P100685,2025-01-11 04:15:00,2025-01-20 09:15:00,9,Monday,9,1,Orthopedics,Follow-up,Online Portal,0,0,0,59.0,F,10.7,Insurance,1,0,142.0,0,1
+A504305,P100753,2025-01-11 05:30:00,2025-01-15 08:30:00,4,Wednesday,8,1,General Medicine,Routine Check,Mobile App,1,0,0,19.0,F,13.2,Government Scheme,2,0,2.0,0,1
+A504306,P101006,2025-01-11 05:45:00,2025-02-01 09:45:00,21,Saturday,9,2,Pediatrics,Follow-up,Phone,0,0,0,52.0,M,19.9,Government Scheme,2,0,105.0,0,1
+A504307,P100006,2025-01-11 05:45:00,2025-01-27 10:45:00,16,Monday,10,1,Orthopedics,New,Mobile App,1,0,0,49.0,F,1.7,Government Scheme,7,0,25.0,0,1
+A504308,P100577,2025-01-11 06:00:00,2025-01-14 11:00:00,3,Tuesday,11,1,General Medicine,Follow-up,Walk-in,1,0,0,31.0,F,5.8,Insurance,0,0,,0,0
+A504310,P101289,2025-01-11 07:15:00,2025-01-14 13:15:00,3,Tuesday,13,1,General Medicine,Follow-up,Online Portal,1,0,0,47.0,M,6.1,Government Scheme,9,4,88.0,0,1
+A504309,P100595,2025-01-11 07:15:00,2025-02-07 12:15:00,27,Friday,12,2,Pediatrics,Follow-up,Online Portal,0,0,0,53.0,F,3.6,Insurance,1,0,73.0,1,1
+A504311,P101760,2025-01-11 08:15:00,2025-01-16 14:15:00,5,Thursday,14,1,Ophthalmology,Follow-up,Phone,0,1,0,50.0,M,10.4,Self-pay,3,2,60.0,1,1
+A504312,P100194,2025-01-11 09:15:00,2025-01-27 15:15:00,16,Monday,15,1,Gynecology,Routine Check,Mobile App,1,0,0,18.0,F,41.6,Government Scheme,10,7,7.0,1,1
+A504313,P101340,2025-01-11 09:15:00,2025-01-20 13:15:00,9,Monday,13,1,Orthopedics,Follow-up,Walk-in,1,0,0,50.0,F,2.7,Insurance,2,0,154.0,0,1
+A504314,P100399,2025-01-11 10:00:00,2025-01-13 11:00:00,2,Monday,11,1,General Medicine,Follow-up,Walk-in,0,0,0,21.0,M,16.1,Insurance,4,0,60.0,0,1
+A504315,P100364,2025-01-11 10:30:00,2025-01-28 14:30:00,17,Tuesday,14,1,ENT,Follow-up,Phone,1,1,0,32.0,F,9.2,Self-pay,3,1,30.0,1,1
+A504316,P101824,2025-01-11 10:45:00,2025-01-28 15:45:00,17,Tuesday,15,1,General Medicine,New,Walk-in,0,1,0,72.0,M,2.3,Insurance,3,0,33.0,0,1
+A504317,P100723,2025-01-11 14:00:00,2025-01-21 16:00:00,10,Tuesday,16,1,Dermatology,Routine Check,Phone,1,0,0,66.0,F,3.0,Self-pay,2,0,109.0,1,1
+A504318,P101838,2025-01-11 14:45:00,2025-01-25 15:45:00,14,Saturday,15,1,General Medicine,New,Phone,0,0,0,,F,57.0,Insurance,2,0,47.0,1,1
+A504319,P100528,2025-01-12 03:00:00,2025-01-21 09:00:00,9,Tuesday,9,1,General Medicine,New,Walk-in,1,0,0,19.0,M,8.8,Self-pay,3,2,157.0,1,1
+A504320,P100486,2025-01-12 09:45:00,2025-02-08 10:45:00,27,Saturday,10,2,Ophthalmology,New,Online Portal,1,0,0,38.0,F,2.3,Government Scheme,1,0,206.0,0,1
+A504321,P101249,2025-01-12 11:00:00,2025-01-25 14:00:00,13,Saturday,14,1,Dermatology,New,Phone,1,0,0,36.0,F,6.3,Self-pay,2,0,49.0,0,1
+A504322,P101471,2025-01-12 12:15:00,2025-01-31 14:15:00,19,Friday,14,1,Gynecology,New,Online Portal,0,0,0,25.0,F,3.1,Government Scheme,5,1,5.0,0,1
+A504323,P100748,2025-01-13 05:45:00,2025-01-23 10:45:00,10,Thursday,10,1,Dermatology,Routine Check,Phone,0,1,0,42.0,M,24.7,Government Scheme,6,0,31.0,0,1
+A504325,P100170,2025-01-13 07:45:00,2025-01-31 09:45:00,18,Friday,9,1,Gynecology,New,Phone,1,0,0,19.0,F,8.7,Self-pay,5,2,130.0,0,1
+A504324,P101255,2025-01-13 07:45:00,2025-01-18 12:45:00,5,Saturday,12,1,Pediatrics,New,Walk-in,1,0,0,60.0,M,2.7,Government Scheme,6,3,27.0,0,1
+A504326,P100642,2025-01-13 08:45:00,2025-01-18 10:45:00,5,Saturday,10,1,Pediatrics,Routine Check,Online Portal,1,0,0,81.0,M,13.7,Insurance,5,0,95.0,0,1
+A504327,P101294,2025-01-13 10:45:00,2025-01-24 11:45:00,11,Friday,11,1,Dermatology,New,Phone,1,0,0,62.0,M,6.0,Government Scheme,4,1,37.0,0,1
+A504329,P100764,2025-01-13 11:30:00,2025-01-24 14:30:00,11,Friday,14,1,ENT,Routine Check,Online Portal,0,0,0,65.0,F,19.1,Government Scheme,4,1,131.0,0,1
+A504328,P100961,2025-01-13 11:30:00,2025-02-01 15:30:00,19,Saturday,15,2,General Medicine,Follow-up,Online Portal,1,0,0,16.0,M,8.2,Government Scheme,11,3,103.0,0,1
+A504330,P100113,2025-01-13 11:45:00,2025-02-14 13:45:00,32,Friday,13,2,Gynecology,New,Mobile App,1,0,0,95.0,F,11.9,Government Scheme,2,1,276.0,0,1
+A504331,P101720,2025-01-13 13:30:00,2025-02-03 16:30:00,21,Monday,16,2,Dermatology,Follow-up,Phone,0,0,0,14.0,M,4.4,Self-pay,1,0,127.0,0,1
+A504332,P100537,2025-01-14 05:45:00,2025-01-23 09:45:00,9,Thursday,9,1,ENT,Follow-up,Walk-in,0,0,0,75.0,M,24.4,Insurance,5,3,213.0,0,1
+A504333,P100538,2025-01-14 06:15:00,2025-01-22 11:15:00,8,Wednesday,11,1,Dermatology,Follow-up,Walk-in,0,0,0,35.0,M,7.7,Government Scheme,0,0,,0,0
+A504335,P100210,2025-01-14 07:00:00,2025-01-22 14:00:00,8,Wednesday,14,1,Pediatrics,Follow-up,Phone,1,0,0,72.0,F,6.6,Government Scheme,4,2,41.0,0,1
+A504334,P101116,2025-01-14 07:00:00,2025-01-31 14:00:00,17,Friday,14,1,Dermatology,New,Online Portal,0,1,0,18.0,M,2.0,Government Scheme,4,1,21.0,1,1
+A504336,P101294,2025-01-14 07:15:00,2025-01-21 08:15:00,7,Tuesday,8,1,Ophthalmology,Follow-up,Walk-in,0,0,0,62.0,M,6.0,Government Scheme,4,1,38.0,0,1
+A504337,P100521,2025-01-14 09:15:00,2025-01-28 15:15:00,14,Tuesday,15,1,General Medicine,New,Online Portal,0,0,0,62.0,M,10.7,Self-pay,0,0,,0,0
+A504338,P100654,2025-01-14 09:45:00,2025-01-21 16:45:00,7,Tuesday,16,1,General Medicine,Follow-up,Walk-in,1,0,0,10.0,F,19.8,Government Scheme,7,3,72.0,0,1
+A504341,P100649,2025-01-14 10:45:00,2025-02-10 14:45:00,27,Monday,14,2,Dermatology,New,Mobile App,1,1,0,30.0,M,4.8,Government Scheme,7,0,20.0,1,1
+A504340,P101144,2025-01-14 10:45:00,2025-01-14 11:45:00,0,Tuesday,11,1,General Medicine,Routine Check,Online Portal,0,0,0,62.0,M,15.7,Self-pay,7,6,307.0,1,1
+A504339,P100472,2025-01-14 10:45:00,2025-01-31 14:45:00,17,Friday,14,1,General Medicine,Follow-up,Walk-in,1,0,0,20.0,F,3.2,Self-pay,2,0,30.0,1,1
+A504342,P101342,2025-01-14 11:30:00,2025-01-25 13:30:00,11,Saturday,13,1,Dermatology,Routine Check,Mobile App,1,0,0,34.0,F,,Government Scheme,1,0,333.0,0,1
+A504343,P101684,2025-01-14 13:30:00,2025-01-20 16:30:00,6,Monday,16,1,Pediatrics,Follow-up,Mobile App,0,0,0,43.0,F,2.8,Government Scheme,5,0,35.0,0,1
+A504344,P101075,2025-01-14 15:15:00,2025-01-27 17:15:00,13,Monday,17,1,Ophthalmology,Follow-up,Online Portal,1,0,0,32.0,F,5.0,Insurance,0,0,,1,0
+A504345,P101694,2025-01-15 03:15:00,2025-02-03 10:15:00,19,Monday,10,2,Dermatology,Routine Check,Walk-in,0,0,0,90.0,F,6.4,Insurance,0,0,,1,0
+A504346,P100572,2025-01-15 04:15:00,2025-01-29 11:15:00,14,Wednesday,11,1,Dermatology,Follow-up,Phone,1,0,0,39.0,F,5.4,Insurance,10,0,32.0,1,1
+A504347,P100401,2025-01-15 07:30:00,2025-02-22 13:30:00,38,Saturday,13,2,Pediatrics,New,Walk-in,1,0,0,50.0,F,5.7,Self-pay,10,0,27.0,0,1
+A504348,P101503,2025-01-15 07:30:00,2025-01-24 13:30:00,9,Friday,13,1,ENT,Follow-up,Phone,0,0,0,54.0,F,8.4,Insurance,0,0,,0,0
+A504349,P101457,2025-01-15 07:45:00,2025-01-24 08:45:00,9,Friday,8,1,General Medicine,Follow-up,Online Portal,1,0,0,90.0,F,11.2,Insurance,0,0,,1,0
+A504350,P101317,2025-01-15 08:45:00,2025-02-03 10:45:00,19,Monday,10,2,General Medicine,New,Online Portal,1,0,0,22.0,M,4.5,Self-pay,12,0,46.0,0,1
+A504351,P100053,2025-01-15 09:15:00,2025-02-14 16:15:00,30,Friday,16,2,Ophthalmology,New,Walk-in,1,0,0,58.0,F,8.8,Self-pay,4,0,130.0,0,1
+A504352,P101597,2025-01-15 11:30:00,2025-01-20 14:30:00,5,Monday,14,1,Pediatrics,New,Phone,0,0,0,24.0,F,7.9,Insurance,4,0,225.0,1,1
+A504353,P101597,2025-01-15 12:45:00,2025-01-22 15:45:00,7,Wednesday,15,1,Gynecology,New,Walk-in,0,0,0,24.0,F,7.9,Insurance,4,0,226.0,0,1
+A504354,P101398,2025-01-16 02:45:00,2025-01-20 09:45:00,4,Monday,9,1,General Medicine,Follow-up,Phone,1,0,0,29.0,F,19.4,Government Scheme,2,1,239.0,0,1
+A504355,P100854,2025-01-16 03:30:00,2025-01-20 09:30:00,4,Monday,9,1,Pediatrics,New,Online Portal,0,0,0,,M,5.9,Insurance,6,3,225.0,1,1
+A504356,P101721,2025-01-16 06:15:00,2025-02-17 10:15:00,32,Monday,10,2,Orthopedics,Follow-up,Mobile App,1,0,0,32.0,M,20.7,Government Scheme,2,1,230.0,0,1
+A504357,P101078,2025-01-16 06:45:00,2025-01-22 13:45:00,6,Wednesday,13,1,Dermatology,Routine Check,Online Portal,0,0,0,43.0,M,3.8,Government Scheme,0,0,,0,0
+A504358,P100786,2025-01-16 10:45:00,2025-01-24 14:45:00,8,Friday,14,1,General Medicine,Follow-up,Phone,1,0,0,34.0,M,31.7,Insurance,6,0,3.0,0,1
+A504359,P101578,2025-01-17 03:00:00,2025-01-20 08:00:00,3,Monday,8,1,General Medicine,New,Online Portal,1,0,0,36.0,M,5.1,Self-pay,3,2,355.0,0,1
+A504360,P100767,2025-01-17 04:30:00,2025-02-03 09:30:00,17,Monday,9,2,Pediatrics,Follow-up,Phone,1,0,0,45.0,F,1.5,Insurance,5,0,183.0,1,1
+A504361,P101385,2025-01-17 05:00:00,2025-02-14 09:00:00,28,Friday,9,2,General Medicine,Routine Check,Online Portal,0,0,0,86.0,F,26.6,Self-pay,6,2,41.0,1,1
+A504362,P100124,2025-01-17 05:15:00,2025-01-25 09:15:00,8,Saturday,9,1,Dermatology,Follow-up,Phone,1,0,0,20.0,F,25.8,Insurance,1,0,292.0,0,1
+A504363,P100577,2025-01-17 07:00:00,2025-01-28 14:00:00,11,Tuesday,14,1,Ophthalmology,New,Phone,1,0,0,31.0,F,5.8,Insurance,1,0,2.0,0,1
+A504364,P100176,2025-01-17 09:45:00,2025-01-28 16:45:00,11,Tuesday,16,1,Pediatrics,Follow-up,Walk-in,1,0,0,52.0,M,9.6,Government Scheme,2,0,133.0,0,1
+A504365,P101310,2025-01-17 10:00:00,2025-01-23 12:00:00,6,Thursday,12,1,Pediatrics,Routine Check,Phone,0,0,0,60.0,F,3.0,Insurance,1,1,,0,0
+A504366,P100384,2025-01-17 10:30:00,2025-01-20 11:30:00,3,Monday,11,1,Ophthalmology,New,Phone,1,0,0,53.0,M,1.0,Government Scheme,1,0,115.0,0,1
+A504367,P101127,2025-01-17 11:45:00,2025-01-20 16:45:00,3,Monday,16,1,Orthopedics,Follow-up,Online Portal,1,0,0,63.0,M,10.0,Insurance,1,1,,0,0
+A504368,P100959,2025-01-17 13:45:00,2025-01-30 14:45:00,13,Thursday,14,1,General Medicine,New,Mobile App,0,0,0,4.0,M,14.6,Insurance,1,0,31.0,1,1
+A504369,P101253,2025-01-18 04:15:00,2025-01-29 08:15:00,11,Wednesday,8,1,Pediatrics,Follow-up,Mobile App,1,0,0,69.0,M,3.7,Government Scheme,2,0,235.0,0,1
+A504370,P101672,2025-01-18 06:45:00,2025-01-24 10:45:00,6,Friday,10,1,Ophthalmology,Follow-up,Phone,0,0,0,14.0,F,26.3,Insurance,1,0,219.0,1,1
+A504371,P100561,2025-01-18 06:45:00,2025-02-03 11:45:00,16,Monday,11,2,Pediatrics,Follow-up,Online Portal,1,0,0,40.0,F,9.0,Government Scheme,4,1,73.0,0,1
+A504372,P101141,2025-01-18 07:15:00,2025-02-12 14:15:00,25,Wednesday,14,2,Pediatrics,New,Phone,1,0,0,65.0,F,4.6,Government Scheme,2,0,14.0,0,1
+A504373,P101536,2025-01-18 07:30:00,2025-02-01 10:30:00,14,Saturday,10,2,Orthopedics,Follow-up,Mobile App,0,0,0,24.0,F,9.5,Government Scheme,0,0,,0,0
+A504374,P100528,2025-01-18 07:45:00,2025-01-30 08:45:00,12,Thursday,8,1,ENT,New,Walk-in,1,0,0,19.0,M,8.8,Self-pay,3,2,163.0,1,1
+A504376,P100499,2025-01-18 08:30:00,2025-01-29 14:30:00,11,Wednesday,14,1,General Medicine,New,Mobile App,1,0,0,59.0,M,8.0,Government Scheme,4,0,13.0,0,1
+A504375,P101166,2025-01-18 08:30:00,2025-01-27 10:30:00,9,Monday,10,1,General Medicine,Follow-up,Online Portal,0,0,0,44.0,M,4.6,Government Scheme,5,0,25.0,0,1
+A504377,P101484,2025-01-18 08:45:00,2025-01-31 10:45:00,13,Friday,10,1,Gynecology,Follow-up,Mobile App,1,0,0,39.0,F,9.2,Insurance,6,1,60.0,0,1
+A504378,P100514,2025-01-18 09:00:00,2025-02-28 11:00:00,41,Friday,11,2,General Medicine,Routine Check,Online Portal,1,0,0,46.0,F,3.2,Insurance,3,2,4.0,1,1
+A504379,P101195,2025-01-18 12:45:00,2025-02-21 17:45:00,34,Friday,17,2,Pediatrics,Follow-up,Phone,1,0,0,11.0,M,4.4,Government Scheme,2,0,26.0,0,1
+A504380,P101016,2025-01-18 13:15:00,2025-02-05 15:15:00,18,Wednesday,15,2,General Medicine,New,Mobile App,1,0,0,30.0,F,6.9,Insurance,2,0,142.0,0,1
+A504381,P101717,2025-01-18 15:00:00,2025-01-27 16:00:00,9,Monday,16,1,Dermatology,New,Mobile App,1,0,0,95.0,M,6.3,Government Scheme,2,1,41.0,0,1
+A504382,P101130,2025-01-18 15:30:00,2025-02-03 16:30:00,16,Monday,16,2,Pediatrics,Routine Check,Mobile App,1,0,0,8.0,M,4.8,Insurance,9,2,54.0,0,1
+A504383,P100646,2025-01-19 02:00:00,2025-02-04 09:00:00,16,Tuesday,9,2,General Medicine,Follow-up,Online Portal,1,0,0,44.0,M,13.4,Government Scheme,1,0,93.0,0,1
+A504384,P101349,2025-01-19 02:00:00,2025-01-28 09:00:00,9,Tuesday,9,1,Ophthalmology,New,Mobile App,0,0,0,61.0,F,3.1,Insurance,4,0,196.0,0,1
+A504385,P100100,2025-01-19 02:00:00,2025-01-31 08:00:00,12,Friday,8,1,Orthopedics,New,Mobile App,1,0,0,40.0,F,7.8,Insurance,2,0,120.0,0,1
+A504386,P100654,2025-01-19 05:45:00,2025-01-31 10:45:00,12,Friday,10,1,Pediatrics,Routine Check,Phone,1,0,0,10.0,F,19.8,Government Scheme,7,3,77.0,0,1
+A504387,P101317,2025-01-19 07:15:00,2025-01-20 12:15:00,1,Monday,12,1,Orthopedics,Routine Check,Online Portal,1,0,0,22.0,M,4.5,Self-pay,12,0,50.0,1,1
+A504388,P101310,2025-01-19 07:30:00,2025-01-30 10:30:00,11,Thursday,10,1,Orthopedics,Follow-up,Phone,1,0,0,60.0,F,3.0,Insurance,1,1,,0,0
+A504389,P101072,2025-01-19 08:15:00,2025-01-24 14:15:00,5,Friday,14,1,ENT,Follow-up,Walk-in,1,0,0,95.0,M,11.0,Insurance,18,0,38.0,0,1
+A504390,P101509,2025-01-19 09:30:00,2025-01-28 15:30:00,9,Tuesday,15,1,ENT,New,Mobile App,1,1,0,41.0,M,1.0,Government Scheme,0,0,,0,0
+A504391,P100003,2025-01-19 10:45:00,2025-02-10 11:45:00,22,Monday,11,2,General Medicine,Follow-up,Online Portal,1,0,0,38.0,M,7.1,Government Scheme,2,0,80.0,0,1
+A504392,P100021,2025-01-19 11:00:00,2025-01-22 14:00:00,3,Wednesday,14,1,Orthopedics,Follow-up,Walk-in,1,0,0,41.0,M,11.3,Insurance,3,0,109.0,0,1
+A504393,P100797,2025-01-19 11:45:00,2025-01-24 13:45:00,5,Friday,13,1,Ophthalmology,New,Phone,1,0,0,26.0,M,6.2,Insurance,2,0,31.0,0,1
+A504394,P101357,2025-01-19 11:45:00,2025-01-22 16:45:00,3,Wednesday,16,1,General Medicine,New,Walk-in,0,0,0,55.0,M,14.0,Government Scheme,0,0,,0,0
+A504395,P101379,2025-01-19 13:30:00,2025-01-20 15:30:00,1,Monday,15,1,Pediatrics,Routine Check,Mobile App,1,0,0,19.0,F,,Insurance,4,1,120.0,0,1
+A504396,P100954,2025-01-19 14:15:00,2025-01-30 17:15:00,11,Thursday,17,1,Pediatrics,Follow-up,Walk-in,1,1,0,20.0,F,14.2,Insurance,4,1,29.0,0,1
+A504397,P101266,2025-01-20 07:15:00,2025-01-23 14:15:00,3,Thursday,14,1,Gynecology,Follow-up,Walk-in,1,0,0,67.0,F,12.6,Insurance,1,0,290.0,0,1
+A504398,P101405,2025-01-20 08:30:00,2025-01-29 12:30:00,9,Wednesday,12,1,ENT,Routine Check,Online Portal,1,1,0,11.0,M,18.9,Insurance,1,0,222.0,0,1
+A504399,P100714,2025-01-20 09:30:00,2025-01-27 13:30:00,7,Monday,13,1,Pediatrics,Routine Check,Walk-in,0,0,0,34.0,F,9.5,,6,3,33.0,0,1
+A504400,P100960,2025-01-20 10:30:00,2025-02-17 13:30:00,28,Monday,13,2,Dermatology,Follow-up,Phone,1,0,0,63.0,F,12.6,Government Scheme,7,0,19.0,0,1
+A504401,P101690,2025-01-20 10:30:00,2025-01-28 13:30:00,8,Tuesday,13,1,ENT,Follow-up,Online Portal,0,0,0,38.0,F,23.1,Insurance,1,1,,0,0
+A504402,P101145,2025-01-20 13:15:00,2025-01-27 15:15:00,7,Monday,15,1,Dermatology,New,Walk-in,1,0,0,48.0,F,4.4,Government Scheme,4,0,25.0,0,1
+A504403,P101222,2025-01-20 15:30:00,2025-01-27 16:30:00,7,Monday,16,1,General Medicine,New,Phone,1,0,0,57.0,F,1.9,Self-pay,4,0,142.0,0,1
+A504404,P100968,2025-01-21 02:00:00,2025-01-27 09:00:00,6,Monday,9,1,General Medicine,New,Mobile App,0,0,0,71.0,F,1.9,Self-pay,5,0,13.0,0,1
+A504405,P100362,2025-01-21 02:00:00,2025-02-06 09:00:00,16,Thursday,9,2,Pediatrics,Routine Check,Mobile App,1,1,0,34.0,F,9.7,Self-pay,0,0,,0,0
+A504406,P100164,2025-01-21 08:30:00,2025-01-31 14:30:00,10,Friday,14,1,Dermatology,New,Phone,1,0,0,56.0,M,1.1,Government Scheme,4,1,7.0,0,1
+A504407,P101358,2025-01-21 08:30:00,2025-02-07 12:30:00,17,Friday,12,2,General Medicine,New,Walk-in,1,0,0,20.0,F,5.9,Government Scheme,5,4,41.0,1,1
+A504408,P100639,2025-01-21 08:45:00,2025-02-06 14:45:00,16,Thursday,14,2,General Medicine,Routine Check,Walk-in,1,0,0,76.0,F,1.6,Self-pay,9,2,67.0,1,1
+A504409,P100924,2025-01-21 09:30:00,2025-02-03 10:30:00,13,Monday,10,2,Pediatrics,New,Phone,1,0,0,10.0,F,13.6,Government Scheme,7,0,17.0,0,1
+A504410,P101378,2025-01-21 11:00:00,2025-01-23 14:00:00,2,Thursday,14,1,Pediatrics,New,Mobile App,1,0,0,41.0,F,6.7,Government Scheme,1,0,272.0,0,1
+A504411,P100338,2025-01-21 11:30:00,2025-01-30 12:30:00,9,Thursday,12,1,General Medicine,Follow-up,Walk-in,1,0,0,14.0,M,23.9,Self-pay,2,0,60.0,0,1
+A504412,P101281,2025-01-21 12:00:00,2025-01-24 15:00:00,3,Friday,15,1,Pediatrics,New,Phone,1,0,0,77.0,F,0.7,Government Scheme,5,1,35.0,0,1
+A504413,P101796,2025-01-21 12:45:00,2025-02-08 13:45:00,18,Saturday,13,2,General Medicine,Follow-up,Phone,0,0,0,95.0,M,4.2,Insurance,2,0,81.0,0,1
+A504414,P100586,2025-01-22 02:45:00,2025-01-29 09:45:00,7,Wednesday,9,1,Ophthalmology,Follow-up,Phone,1,0,0,24.0,M,2.4,Government Scheme,0,0,,0,0
+A504415,P101726,2025-01-22 05:00:00,2025-01-27 09:00:00,5,Monday,9,1,Ophthalmology,New,Phone,1,0,0,40.0,F,5.2,Government Scheme,2,0,62.0,0,1
+A504416,P101609,2025-01-22 05:45:00,2025-01-28 09:45:00,6,Tuesday,9,1,Pediatrics,Follow-up,Walk-in,1,0,0,49.0,F,18.3,Insurance,1,0,18.0,0,1
+A504417,P101354,2025-01-22 06:15:00,2025-01-29 11:15:00,7,Wednesday,11,1,General Medicine,Routine Check,Online Portal,1,0,0,35.0,M,18.6,Government Scheme,5,3,132.0,1,1
+A504418,P100407,2025-01-22 06:30:00,2025-02-19 11:30:00,28,Wednesday,11,2,Pediatrics,New,Mobile App,1,0,0,71.0,M,5.8,Insurance,1,0,312.0,1,1
+A504419,P101055,2025-01-22 06:45:00,2025-02-01 10:45:00,10,Saturday,10,2,Dermatology,New,Phone,0,0,0,25.0,M,2.5,Self-pay,1,0,264.0,0,1
+A504420,P100913,2025-01-22 08:30:00,2025-02-26 09:30:00,35,Wednesday,9,2,Orthopedics,Follow-up,Phone,0,0,0,53.0,M,5.0,Insurance,1,0,139.0,0,1
+A504421,P101347,2025-01-22 08:45:00,2025-02-19 09:45:00,28,Wednesday,9,2,Orthopedics,Follow-up,Walk-in,1,0,0,21.0,F,33.5,Insurance,2,1,116.0,1,1
+A504422,P100576,2025-01-22 09:00:00,2025-01-28 16:00:00,6,Tuesday,16,1,Orthopedics,New,Phone,0,0,0,54.0,F,29.1,Government Scheme,4,1,8.0,0,1
+A504423,P100403,2025-01-22 11:15:00,2025-02-10 16:15:00,19,Monday,16,2,General Medicine,New,Online Portal,0,0,0,62.0,F,20.5,Government Scheme,5,1,74.0,1,1
+A504424,P100234,2025-01-22 11:15:00,2025-01-31 17:15:00,9,Friday,17,1,ENT,New,Walk-in,0,0,0,,M,4.2,Insurance,4,2,106.0,0,1
+A504425,P100400,2025-01-22 13:30:00,2025-01-28 14:30:00,6,Tuesday,14,1,Dermatology,Follow-up,Phone,0,0,0,25.0,M,3.2,Government Scheme,2,0,99.0,0,1
+A504426,P100001,2025-01-23 04:45:00,2025-02-04 09:45:00,12,Tuesday,9,2,Orthopedics,Follow-up,Online Portal,1,0,0,56.0,F,2.3,Insurance,8,0,99.0,0,1
+A504427,P101111,2025-01-23 05:00:00,2025-02-19 09:00:00,27,Wednesday,9,2,General Medicine,Follow-up,Phone,1,0,0,40.0,M,4.4,Self-pay,0,0,,0,0
+A504428,P101071,2025-01-23 05:45:00,2025-01-28 09:45:00,5,Tuesday,9,1,Orthopedics,Follow-up,Online Portal,1,1,0,37.0,F,7.1,,4,0,95.0,0,1
+A504429,P101606,2025-01-23 06:30:00,2025-02-25 12:30:00,33,Tuesday,12,2,Ophthalmology,Follow-up,Phone,0,0,0,28.0,M,4.6,Self-pay,1,0,239.0,0,1
+A504430,P100928,2025-01-23 07:15:00,2025-01-31 11:15:00,8,Friday,11,1,General Medicine,Follow-up,Online Portal,0,0,0,54.0,M,6.6,Insurance,3,1,170.0,0,1
+A504431,P101105,2025-01-23 07:45:00,2025-02-03 08:45:00,11,Monday,8,2,Dermatology,Follow-up,Online Portal,1,0,0,57.0,M,9.1,Insurance,3,0,65.0,0,1
+A504432,P100217,2025-01-23 08:30:00,2025-02-03 15:30:00,11,Monday,15,2,General Medicine,Follow-up,Mobile App,1,0,0,17.0,M,4.0,Insurance,3,0,65.0,0,1
+A504433,P101402,2025-01-23 08:45:00,2025-01-30 12:45:00,7,Thursday,12,1,Dermatology,Follow-up,Phone,0,0,0,61.0,F,41.2,Insurance,5,0,11.0,0,1
+A504434,P100937,2025-01-23 09:45:00,2025-02-22 15:45:00,30,Saturday,15,2,ENT,Routine Check,Walk-in,1,0,0,28.0,F,11.1,Government Scheme,5,1,58.0,0,1
+A504435,P101724,2025-01-23 09:45:00,2025-01-28 12:45:00,5,Tuesday,12,1,Pediatrics,Follow-up,Online Portal,1,0,0,33.0,F,25.0,Government Scheme,11,1,84.0,0,1
+A504436,P100568,2025-01-23 11:00:00,2025-02-03 17:00:00,11,Monday,17,2,Pediatrics,Follow-up,Walk-in,1,0,0,10.0,F,10.9,Government Scheme,2,0,71.0,0,1
+A504437,P101695,2025-01-23 11:45:00,2025-02-06 14:45:00,14,Thursday,14,2,Orthopedics,New,Walk-in,1,0,0,37.0,F,15.6,Insurance,1,0,312.0,0,1
+A504438,P101785,2025-01-24 03:15:00,2025-02-08 10:15:00,15,Saturday,10,2,General Medicine,New,Phone,0,0,0,55.0,M,5.6,Insurance,2,0,17.0,0,1
+A504439,P101161,2025-01-24 05:15:00,2025-02-15 08:15:00,22,Saturday,8,2,Gynecology,New,Phone,0,0,0,66.0,F,5.1,Insurance,2,0,84.0,0,1
+A504440,P100262,2025-01-24 06:00:00,2025-02-03 11:00:00,10,Monday,11,2,Orthopedics,New,Walk-in,0,1,0,60.0,F,4.4,Government Scheme,1,0,274.0,0,1
+A504441,P100979,2025-01-24 08:45:00,2025-01-27 10:45:00,3,Monday,10,1,General Medicine,New,Online Portal,1,0,0,21.0,M,5.9,Insurance,1,0,149.0,0,1
+A504442,P101027,2025-01-24 09:15:00,2025-01-28 10:15:00,4,Tuesday,10,1,Pediatrics,Follow-up,Online Portal,1,0,0,19.0,F,16.0,Insurance,4,3,245.0,0,1
+A504443,P100866,2025-01-24 09:30:00,2025-01-28 14:30:00,4,Tuesday,14,1,General Medicine,Follow-up,Mobile App,1,0,0,39.0,M,5.1,Self-pay,0,0,,0,0
+A504444,P100112,2025-01-24 11:15:00,2025-02-10 16:15:00,17,Monday,16,2,Orthopedics,Routine Check,Phone,1,0,0,40.0,F,7.3,Government Scheme,6,1,29.0,0,1
+A504446,P100018,2025-01-24 12:00:00,2025-02-15 16:00:00,22,Saturday,16,2,ENT,Routine Check,Online Portal,1,0,0,55.0,M,3.9,Insurance,1,0,339.0,0,1
+A504445,P101068,2025-01-24 12:00:00,2025-01-31 15:00:00,7,Friday,15,1,Dermatology,Follow-up,Online Portal,0,0,0,25.0,M,,Government Scheme,0,0,,0,0
+A504447,P100585,2025-01-24 12:30:00,2025-02-06 14:30:00,13,Thursday,14,2,Gynecology,Follow-up,Mobile App,1,0,0,15.0,F,3.2,Government Scheme,4,3,9.0,1,1
+A504448,P101557,2025-01-24 13:15:00,2025-02-03 15:15:00,10,Monday,15,2,ENT,Follow-up,Mobile App,0,0,0,68.0,F,8.0,Self-pay,1,0,258.0,0,1
+A504449,P101290,2025-01-25 05:00:00,2025-02-22 10:00:00,28,Saturday,10,2,Orthopedics,Follow-up,Phone,1,0,0,22.0,M,2.7,Insurance,5,2,158.0,0,1
+A504450,P100725,2025-01-25 06:45:00,2025-02-17 13:45:00,23,Monday,13,2,General Medicine,Follow-up,Mobile App,1,0,0,75.0,M,19.9,Self-pay,0,0,,0,0
+A504451,P100949,2025-01-25 06:45:00,2025-02-03 09:45:00,9,Monday,9,2,General Medicine,Routine Check,Walk-in,1,0,0,28.0,F,1.9,Insurance,4,0,21.0,0,1
+A504452,P101249,2025-01-25 07:15:00,2025-02-05 11:15:00,11,Wednesday,11,2,General Medicine,New,Online Portal,0,0,0,36.0,F,6.3,Self-pay,2,0,62.0,0,1
+A504453,P100272,2025-01-25 08:45:00,2025-01-29 14:45:00,4,Wednesday,14,1,Pediatrics,Follow-up,Phone,1,0,0,8.0,M,5.9,Insurance,7,1,51.0,0,1
+A504454,P101681,2025-01-25 13:00:00,2025-01-30 15:00:00,5,Thursday,15,1,Pediatrics,Routine Check,Walk-in,0,0,0,70.0,F,8.5,Insurance,3,0,144.0,0,1
+A504455,P101402,2025-01-25 13:30:00,2025-02-17 14:30:00,23,Monday,14,2,Dermatology,Follow-up,Online Portal,0,1,0,61.0,F,41.2,Insurance,5,0,14.0,0,1
+A504456,P101316,2025-01-26 02:30:00,2025-01-31 08:30:00,5,Friday,8,1,Dermatology,Follow-up,Phone,1,0,0,38.0,F,11.4,Self-pay,4,0,45.0,0,1
+A504457,P100312,2025-01-26 05:45:00,2025-02-08 10:45:00,13,Saturday,10,2,General Medicine,Follow-up,Mobile App,1,0,0,,M,16.9,Government Scheme,4,1,214.0,0,1
+A504458,P101299,2025-01-26 07:00:00,2025-02-15 08:00:00,20,Saturday,8,2,Pediatrics,Routine Check,Mobile App,1,0,0,,F,8.9,Government Scheme,2,2,,0,0
+A504459,P100689,2025-01-26 07:15:00,2025-02-18 10:15:00,23,Tuesday,10,2,Orthopedics,New,Mobile App,0,0,0,58.0,F,12.7,Self-pay,3,0,166.0,1,1
+A504460,P100558,2025-01-26 09:30:00,2025-02-07 11:30:00,12,Friday,11,2,General Medicine,Routine Check,Mobile App,1,0,0,58.0,M,4.8,Self-pay,6,1,95.0,0,1
+A504461,P100272,2025-01-26 09:45:00,2025-01-31 15:45:00,5,Friday,15,1,Pediatrics,Follow-up,Mobile App,1,0,0,8.0,M,5.9,Insurance,7,1,52.0,0,1
+A504462,P101466,2025-01-26 10:30:00,2025-02-10 15:30:00,15,Monday,15,2,Orthopedics,Follow-up,Online Portal,0,0,0,33.0,M,6.4,Insurance,3,1,263.0,0,1
+A504463,P100468,2025-01-26 10:30:00,2025-01-29 14:30:00,3,Wednesday,14,1,General Medicine,New,Mobile App,1,0,0,34.0,M,4.8,Self-pay,1,0,159.0,0,1
+A504464,P100805,2025-01-26 11:00:00,2025-01-30 16:00:00,4,Thursday,16,1,Orthopedics,Routine Check,Phone,1,0,0,31.0,F,33.0,Self-pay,4,1,250.0,0,1
+A504465,P100140,2025-01-26 14:30:00,2025-01-29 16:30:00,3,Wednesday,16,1,Pediatrics,New,Mobile App,0,0,0,44.0,F,13.6,Insurance,6,0,11.0,0,1
+A504466,P100000,2025-01-26 15:15:00,2025-02-04 16:15:00,9,Tuesday,16,2,ENT,New,Walk-in,0,0,0,45.0,F,17.7,Self-pay,10,2,104.0,0,1
+A504467,P100061,2025-01-27 03:00:00,2025-02-03 09:00:00,7,Monday,9,2,Pediatrics,Follow-up,Phone,1,0,0,58.0,M,0.5,Insurance,1,0,260.0,0,1
+A504468,P100402,2025-01-27 04:30:00,2025-01-30 10:30:00,3,Thursday,10,1,Pediatrics,Routine Check,Mobile App,1,0,0,13.0,M,6.7,Government Scheme,2,1,172.0,0,1
+A504469,P101840,2025-01-27 05:00:00,2025-02-17 12:00:00,21,Monday,12,2,General Medicine,Follow-up,Phone,1,0,0,41.0,F,1.3,Government Scheme,1,0,201.0,0,1
+A504471,P100136,2025-01-27 05:15:00,2025-02-05 11:15:00,9,Wednesday,11,2,Dermatology,New,Walk-in,1,0,0,26.0,M,9.8,Insurance,2,0,37.0,0,1
+A504470,P100177,2025-01-27 05:15:00,2025-02-07 10:15:00,11,Friday,10,2,General Medicine,Follow-up,Phone,0,0,0,76.0,F,10.2,Insurance,4,4,,1,0
+A504472,P100000,2025-01-27 05:15:00,2025-02-01 11:15:00,5,Saturday,11,2,Gynecology,New,Walk-in,1,0,0,45.0,F,17.7,Self-pay,10,2,104.0,0,1
+A504473,P100313,2025-01-27 07:15:00,2025-01-28 09:15:00,1,Tuesday,9,1,General Medicine,Follow-up,Walk-in,1,0,0,27.0,M,15.3,Insurance,5,1,20.0,0,1
+A504474,P101807,2025-01-27 07:45:00,2025-02-10 08:45:00,14,Monday,8,2,Ophthalmology,New,Phone,1,0,0,57.0,F,3.0,Self-pay,6,0,58.0,0,1
+A504475,P100582,2025-01-27 08:30:00,2025-03-03 13:30:00,35,Monday,13,3,Ophthalmology,Routine Check,Phone,1,0,0,76.0,M,1.2,Self-pay,6,1,17.0,0,1
+A504476,P100924,2025-01-27 08:45:00,2025-02-10 11:45:00,14,Monday,11,2,Pediatrics,Follow-up,Phone,0,0,0,10.0,F,,Government Scheme,7,0,23.0,0,1
+A504477,P101538,2025-01-27 09:00:00,2025-02-03 15:00:00,7,Monday,15,2,ENT,New,Online Portal,0,0,0,56.0,M,5.2,,0,0,,0,0
+A504478,P100000,2025-01-27 09:45:00,2025-02-10 13:45:00,14,Monday,13,2,ENT,New,Phone,1,0,0,45.0,F,17.7,Self-pay,10,2,105.0,0,1
+A504479,P100455,2025-01-27 10:45:00,2025-02-10 15:45:00,14,Monday,15,2,General Medicine,Follow-up,Online Portal,1,0,0,36.0,F,1.5,Insurance,2,0,66.0,0,1
+A504480,P101700,2025-01-27 12:15:00,2025-02-04 13:15:00,8,Tuesday,13,2,Pediatrics,New,Walk-in,1,0,0,51.0,F,3.9,Insurance,1,0,277.0,1,1
+A504481,P101421,2025-01-27 13:45:00,2025-02-03 15:45:00,7,Monday,15,2,General Medicine,Follow-up,Mobile App,1,0,0,40.0,F,10.9,Self-pay,4,1,98.0,0,1
+A504482,P100919,2025-01-28 01:45:00,2025-02-01 08:45:00,4,Saturday,8,2,ENT,Follow-up,Mobile App,1,0,0,40.0,F,3.9,Government Scheme,1,0,40.0,0,1
+A504483,P101130,2025-01-28 04:30:00,2025-01-31 11:30:00,3,Friday,11,1,Pediatrics,New,Online Portal,1,0,0,8.0,M,4.8,Insurance,9,2,63.0,0,1
+A504484,P100208,2025-01-28 04:45:00,2025-02-18 08:45:00,21,Tuesday,8,2,General Medicine,New,Phone,0,0,0,56.0,F,46.1,Insurance,5,0,31.0,0,1
+A504485,P101816,2025-01-28 05:00:00,2025-02-12 08:00:00,15,Wednesday,8,2,Orthopedics,New,Online Portal,1,0,0,27.0,M,6.4,Insurance,2,0,157.0,0,1
+A504486,P101874,2025-01-28 07:00:00,2025-03-01 10:00:00,32,Saturday,10,3,General Medicine,New,Phone,1,0,0,79.0,M,,Government Scheme,10,0,19.0,0,1
+A504487,P100784,2025-01-28 08:15:00,2025-02-03 10:15:00,6,Monday,10,2,Pediatrics,Routine Check,Phone,1,0,0,42.0,M,8.2,Government Scheme,4,0,76.0,0,1
+A504488,P101760,2025-01-28 12:15:00,2025-02-08 15:15:00,11,Saturday,15,2,General Medicine,Routine Check,Phone,1,0,0,50.0,M,10.4,Self-pay,4,3,78.0,0,1
+A504489,P101057,2025-01-28 12:45:00,2025-02-04 15:45:00,7,Tuesday,15,2,General Medicine,Follow-up,Phone,1,0,0,60.0,F,8.3,Insurance,0,0,,0,0
+A504490,P100703,2025-01-28 16:30:00,2025-02-05 17:30:00,8,Wednesday,17,2,General Medicine,Follow-up,Walk-in,0,0,0,17.0,M,5.1,Insurance,2,1,242.0,0,1
+A504491,P101339,2025-01-29 02:45:00,2025-02-01 09:45:00,3,Saturday,9,2,Pediatrics,Routine Check,Walk-in,0,0,0,46.0,M,11.1,Government Scheme,2,0,38.0,0,1
+A504492,P101703,2025-01-29 03:45:00,2025-02-03 08:45:00,5,Monday,8,2,Dermatology,Follow-up,Walk-in,1,0,0,47.0,M,8.8,Government Scheme,3,1,15.0,0,1
+A504493,P100596,2025-01-29 06:30:00,2025-03-11 13:30:00,41,Tuesday,13,3,Ophthalmology,Routine Check,Phone,1,0,0,17.0,M,6.4,Self-pay,0,0,,0,0
+A504494,P100905,2025-01-29 06:45:00,2025-02-06 11:45:00,8,Thursday,11,2,Pediatrics,Follow-up,Online Portal,1,0,0,11.0,M,7.4,Insurance,0,0,,1,0
+A504495,P100100,2025-01-29 07:30:00,2025-02-08 10:30:00,10,Saturday,10,2,Gynecology,Follow-up,Phone,1,0,0,40.0,F,7.8,Insurance,2,0,130.0,0,1
+A504497,P101852,2025-01-29 08:00:00,2025-02-07 14:00:00,9,Friday,14,2,Pediatrics,Routine Check,Phone,0,0,0,18.0,M,4.8,Government Scheme,3,0,136.0,1,1
+A504496,P100616,2025-01-29 08:00:00,2025-02-01 09:00:00,3,Saturday,9,2,ENT,Routine Check,Walk-in,0,0,0,50.0,M,1.3,Insurance,0,0,,0,0
+A504498,P101667,2025-01-29 08:15:00,2025-03-21 14:15:00,51,Friday,14,3,General Medicine,Routine Check,Mobile App,0,0,0,33.0,F,3.5,Insurance,6,1,69.0,0,1
+A504499,P100250,2025-01-29 09:00:00,2025-02-08 14:00:00,10,Saturday,14,2,General Medicine,New,Phone,0,0,0,33.0,M,7.5,Self-pay,2,0,217.0,0,1
+A504500,P101580,2025-01-29 09:30:00,2025-02-07 15:30:00,9,Friday,15,2,Pediatrics,Follow-up,Online Portal,1,0,0,33.0,F,21.9,Government Scheme,0,0,,0,0
+A504501,P101799,2025-01-29 10:30:00,2025-02-03 15:30:00,5,Monday,15,2,Orthopedics,Follow-up,Phone,0,0,0,43.0,M,,Insurance,2,2,,1,0
+A504502,P100714,2025-01-29 10:45:00,2025-02-05 13:45:00,7,Wednesday,13,2,Orthopedics,Follow-up,Phone,1,0,0,34.0,F,9.5,Government Scheme,7,3,1.0,0,1
+A504503,P100174,2025-01-29 13:00:00,2025-02-06 14:00:00,8,Thursday,14,2,Orthopedics,Follow-up,Mobile App,1,0,0,47.0,M,11.2,Self-pay,1,0,378.0,0,1
+A504504,P100587,2025-01-29 13:15:00,2025-03-05 16:15:00,35,Wednesday,16,3,Orthopedics,Follow-up,Mobile App,1,0,0,87.0,F,5.1,Insurance,1,0,145.0,0,1
+A504505,P101058,2025-01-29 13:45:00,2025-02-03 17:45:00,5,Monday,17,2,Pediatrics,New,Phone,1,0,0,49.0,M,3.4,Insurance,0,0,,0,0
+A504506,P100641,2025-01-30 03:15:00,2025-02-07 09:15:00,8,Friday,9,2,General Medicine,Follow-up,Online Portal,1,0,0,39.0,M,3.3,Government Scheme,0,0,,0,0
+A504507,P101106,2025-01-30 03:45:00,2025-02-05 09:45:00,6,Wednesday,9,2,ENT,New,Online Portal,0,0,0,71.0,M,2.3,Government Scheme,2,0,109.0,0,1
+A504508,P100433,2025-01-30 05:45:00,2025-02-01 10:45:00,2,Saturday,10,2,General Medicine,Routine Check,Phone,1,0,0,46.0,F,2.0,Government Scheme,2,0,111.0,0,1
+A504509,P100229,2025-01-30 05:45:00,2025-02-08 10:45:00,9,Saturday,10,2,Dermatology,Routine Check,Online Portal,1,0,0,93.0,M,8.3,Insurance,1,0,99.0,0,1
+A504510,P101521,2025-01-30 06:30:00,2025-02-11 10:30:00,12,Tuesday,10,2,Pediatrics,Follow-up,Walk-in,1,0,0,37.0,M,3.6,Insurance,3,0,177.0,0,1
+A504511,P100658,2025-01-30 06:45:00,2025-02-03 09:45:00,4,Monday,9,2,Pediatrics,Follow-up,Walk-in,1,1,0,32.0,M,6.2,Insurance,7,1,64.0,0,1
+A504512,P101184,2025-01-30 07:45:00,2025-02-10 14:45:00,11,Monday,14,2,Dermatology,New,Phone,0,0,0,23.0,F,10.6,Self-pay,4,1,88.0,0,1
+A504513,P101000,2025-01-30 08:45:00,2025-03-13 09:45:00,42,Thursday,9,3,Dermatology,New,Phone,1,0,0,37.0,F,15.4,Self-pay,6,2,58.0,1,1
+A504514,P100690,2025-01-30 09:45:00,2025-02-07 15:45:00,8,Friday,15,2,Dermatology,New,Mobile App,0,0,0,14.0,F,2.4,Self-pay,3,3,,1,0
+A504515,P101244,2025-01-30 10:45:00,2025-02-24 14:45:00,25,Monday,14,2,General Medicine,New,Phone,1,0,0,73.0,F,8.0,Self-pay,7,0,28.0,0,1
+A504516,P100572,2025-01-30 11:15:00,2025-02-05 14:15:00,6,Wednesday,14,2,General Medicine,New,Online Portal,0,0,0,39.0,F,5.4,Insurance,11,1,47.0,0,1
+A504517,P101683,2025-01-30 11:30:00,2025-02-13 14:30:00,14,Thursday,14,2,General Medicine,Routine Check,Walk-in,1,0,0,37.0,M,4.1,Insurance,1,0,201.0,1,1
+A504518,P100575,2025-01-30 13:15:00,2025-02-11 16:15:00,12,Tuesday,16,2,Ophthalmology,New,Phone,1,0,0,29.0,M,8.0,Insurance,5,0,161.0,0,1
+A504519,P100566,2025-01-31 03:00:00,2025-02-07 10:00:00,7,Friday,10,2,ENT,Follow-up,Mobile App,0,0,0,33.0,F,12.3,Self-pay,6,1,30.0,0,1
+A504520,P101032,2025-01-31 03:15:00,2025-02-18 09:15:00,18,Tuesday,9,2,General Medicine,Follow-up,Online Portal,1,0,0,16.0,F,2.7,Government Scheme,4,0,58.0,0,1
+A504521,P101168,2025-01-31 07:00:00,2025-02-20 10:00:00,20,Thursday,10,2,General Medicine,Routine Check,Phone,1,0,0,95.0,M,9.7,Government Scheme,2,0,268.0,1,1
+A504522,P100401,2025-01-31 07:15:00,2025-02-12 08:15:00,12,Wednesday,8,2,Pediatrics,Follow-up,Phone,0,0,0,50.0,F,5.7,Self-pay,10,0,43.0,0,1
+A504523,P100907,2025-01-31 07:45:00,2025-02-10 09:45:00,10,Monday,9,2,Pediatrics,Follow-up,Phone,1,0,0,11.0,F,2.7,Government Scheme,3,0,20.0,0,1
+A504524,P101181,2025-01-31 11:15:00,2025-02-04 15:15:00,4,Tuesday,15,2,Dermatology,Follow-up,Online Portal,0,0,0,32.0,M,10.3,Self-pay,2,2,,1,0
+A504525,P100313,2025-01-31 14:30:00,2025-03-01 17:30:00,29,Saturday,17,3,General Medicine,Follow-up,Online Portal,1,0,0,27.0,M,15.3,Insurance,6,1,3.0,0,1
+A504526,P101647,2025-02-01 02:00:00,2025-02-08 09:00:00,7,Saturday,9,2,Pediatrics,Follow-up,Mobile App,1,0,0,21.0,F,4.3,Government Scheme,5,0,22.0,0,1
+A504527,P101294,2025-02-01 04:30:00,2025-02-08 08:30:00,7,Saturday,8,2,General Medicine,Follow-up,Online Portal,1,0,0,62.0,M,6.0,Government Scheme,6,1,7.0,0,1
+A504528,P101130,2025-02-01 06:30:00,2025-02-06 11:30:00,5,Thursday,11,2,General Medicine,New,Online Portal,1,0,0,8.0,M,4.8,Insurance,10,2,0.0,0,1
+A504530,P101353,2025-02-01 09:30:00,2025-02-04 15:30:00,3,Tuesday,15,2,General Medicine,Follow-up,Phone,0,0,0,68.0,F,2.1,Government Scheme,3,1,89.0,1,1
+A504529,P101466,2025-02-01 09:30:00,2025-02-10 10:30:00,9,Monday,10,2,Ophthalmology,Follow-up,Phone,1,0,0,33.0,M,6.4,Insurance,3,1,269.0,0,1
+A504531,P100609,2025-02-01 11:15:00,2025-02-11 14:15:00,10,Tuesday,14,2,General Medicine,Follow-up,Walk-in,1,0,0,29.0,M,7.4,Self-pay,8,5,141.0,0,1
+A504532,P101361,2025-02-01 11:30:00,2025-02-18 13:30:00,17,Tuesday,13,2,General Medicine,New,Online Portal,1,0,0,21.0,F,5.0,Insurance,2,2,,0,0
+A504533,P101416,2025-02-01 12:15:00,2025-02-11 14:15:00,10,Tuesday,14,2,Gynecology,New,Phone,0,0,0,95.0,F,4.2,Government Scheme,3,0,144.0,0,1
+A504534,P100854,2025-02-01 13:00:00,2025-02-04 15:00:00,3,Tuesday,15,2,Pediatrics,Routine Check,Mobile App,1,0,0,91.0,M,5.9,Insurance,7,4,241.0,0,1
+A504535,P100349,2025-02-02 03:15:00,2025-03-01 09:15:00,27,Saturday,9,3,General Medicine,Follow-up,Phone,1,0,0,30.0,M,7.8,Self-pay,2,1,305.0,0,1
+A504536,P100192,2025-02-02 03:45:00,2025-03-03 08:45:00,29,Monday,8,3,General Medicine,Follow-up,Phone,1,0,0,30.0,F,7.8,Government Scheme,0,0,,1,0
+A504537,P101339,2025-02-02 05:30:00,2025-02-11 09:30:00,9,Tuesday,9,2,Ophthalmology,Follow-up,Phone,1,0,0,46.0,M,11.1,Government Scheme,3,0,0.0,0,1
+A504538,P100933,2025-02-02 07:00:00,2025-02-12 10:00:00,10,Wednesday,10,2,Ophthalmology,Follow-up,Phone,1,0,0,63.0,M,36.0,Insurance,8,1,59.0,1,1
+A504539,P100551,2025-02-02 08:45:00,2025-02-20 10:45:00,18,Thursday,10,2,General Medicine,Follow-up,Phone,1,1,0,37.0,F,2.5,Government Scheme,1,0,40.0,0,1
+A504541,P100768,2025-02-02 09:15:00,2025-02-06 16:15:00,4,Thursday,16,2,Dermatology,Follow-up,Phone,1,0,0,20.0,F,1.7,Government Scheme,1,0,347.0,1,1
+A504542,P100693,2025-02-02 09:15:00,2025-02-24 10:15:00,22,Monday,10,2,Orthopedics,Routine Check,Online Portal,1,0,0,76.0,F,2.8,Insurance,4,0,1.0,0,1
+A504540,P101687,2025-02-02 09:15:00,2025-02-18 12:15:00,16,Tuesday,12,2,Pediatrics,Follow-up,Online Portal,1,0,0,45.0,F,,Insurance,7,4,92.0,0,1
+A504543,P100549,2025-02-02 09:45:00,2025-02-13 10:45:00,11,Thursday,10,2,General Medicine,Routine Check,Online Portal,1,0,0,57.0,F,19.3,Government Scheme,1,0,165.0,0,1
+A504544,P101730,2025-02-02 10:00:00,2025-02-04 15:00:00,2,Tuesday,15,2,General Medicine,Follow-up,Online Portal,1,0,0,15.0,F,5.1,Government Scheme,5,1,14.0,0,1
+A504545,P100112,2025-02-02 12:00:00,2025-02-13 14:00:00,11,Thursday,14,2,Dermatology,Follow-up,Phone,1,0,0,40.0,F,7.3,Government Scheme,6,1,38.0,0,1
+A504546,P100294,2025-02-02 12:45:00,2025-02-25 13:45:00,23,Tuesday,13,2,General Medicine,Follow-up,Mobile App,1,0,0,33.0,M,15.8,Insurance,1,0,155.0,0,1
+A504547,P101288,2025-02-02 12:45:00,2025-03-01 14:45:00,27,Saturday,14,3,Dermatology,Follow-up,Online Portal,1,0,0,42.0,F,4.3,Insurance,5,0,82.0,0,1
+A504548,P100866,2025-02-02 13:00:00,2025-02-24 15:00:00,22,Monday,15,2,Dermatology,Follow-up,Phone,1,0,0,39.0,M,5.1,Self-pay,1,0,4.0,0,1
+A504549,P100642,2025-02-02 15:15:00,2025-02-07 17:15:00,5,Friday,17,2,General Medicine,Follow-up,Mobile App,0,0,0,81.0,M,13.7,Insurance,6,0,15.0,1,1
+A504551,P100786,2025-02-03 06:15:00,2025-02-13 09:15:00,10,Thursday,9,2,General Medicine,New,Phone,1,0,0,34.0,M,31.7,Insurance,7,0,9.0,0,1
+A504550,P101573,2025-02-03 06:15:00,2025-02-11 09:15:00,8,Tuesday,9,2,Dermatology,Follow-up,Online Portal,1,0,0,44.0,F,8.5,Insurance,2,1,167.0,1,1
+A504552,P100974,2025-02-03 08:30:00,2025-02-10 09:30:00,7,Monday,9,2,Pediatrics,New,Phone,1,0,0,12.0,F,1.7,Insurance,1,0,51.0,0,1
+A504553,P100352,2025-02-03 08:45:00,2025-02-14 11:45:00,11,Friday,11,2,Ophthalmology,Routine Check,Walk-in,1,0,0,24.0,M,8.7,Government Scheme,2,1,193.0,0,1
+A504554,P100219,2025-02-03 08:45:00,2025-03-01 09:45:00,26,Saturday,9,3,General Medicine,New,Phone,0,0,0,36.0,F,24.9,Government Scheme,17,10,31.0,1,1
+A504555,P100777,2025-02-03 09:00:00,2025-03-03 15:00:00,28,Monday,15,3,General Medicine,New,Walk-in,1,0,0,32.0,M,3.2,Self-pay,11,4,19.0,0,1
+A504556,P101089,2025-02-03 09:45:00,2025-02-21 11:45:00,18,Friday,11,2,Ophthalmology,Follow-up,Phone,0,0,0,52.0,M,18.2,Insurance,2,0,351.0,0,1
+A504557,P100176,2025-02-03 10:15:00,2025-02-07 11:15:00,4,Friday,11,2,ENT,Follow-up,Mobile App,1,0,0,52.0,M,9.6,Government Scheme,3,0,5.0,0,1
+A504558,P100625,2025-02-03 11:00:00,2025-02-15 14:00:00,12,Saturday,14,2,General Medicine,New,Phone,1,0,0,29.0,M,12.0,Government Scheme,1,1,,1,0
+A504559,P101006,2025-02-04 01:30:00,2025-02-22 08:30:00,18,Saturday,8,2,Orthopedics,Routine Check,Mobile App,1,0,0,52.0,M,19.9,Government Scheme,3,0,2.0,0,1
+A504560,P100372,2025-02-04 01:45:00,2025-03-03 08:45:00,27,Monday,8,3,General Medicine,Routine Check,Phone,1,0,0,44.0,F,7.4,Self-pay,2,0,175.0,0,1
+A504561,P100814,2025-02-04 02:00:00,2025-02-11 09:00:00,7,Tuesday,9,2,Ophthalmology,Follow-up,Mobile App,1,0,0,80.0,F,4.4,Insurance,5,0,182.0,0,1
+A504562,P100276,2025-02-04 05:15:00,2025-02-21 11:15:00,17,Friday,11,2,Pediatrics,Follow-up,Walk-in,1,0,0,43.0,M,6.0,Government Scheme,4,0,42.0,0,1
+A504563,P101466,2025-02-04 05:45:00,2025-02-14 09:45:00,10,Friday,9,2,Dermatology,Follow-up,Online Portal,1,0,0,33.0,M,6.4,Insurance,3,1,272.0,1,1
+A504564,P100965,2025-02-04 06:30:00,2025-02-08 10:30:00,4,Saturday,10,2,Pediatrics,Follow-up,Phone,0,0,0,21.0,F,4.7,Self-pay,3,1,114.0,0,1
+A504565,P100000,2025-02-04 07:00:00,2025-02-13 14:00:00,9,Thursday,14,2,General Medicine,Follow-up,Mobile App,1,0,0,45.0,F,17.7,Self-pay,11,2,2.0,0,1
+A504566,P101244,2025-02-04 07:45:00,2025-03-17 10:45:00,41,Monday,10,3,Gynecology,Routine Check,Walk-in,0,0,0,73.0,F,8.0,Self-pay,7,0,33.0,0,1
+A504567,P100196,2025-02-04 08:30:00,2025-02-17 09:30:00,13,Monday,9,2,Pediatrics,Routine Check,Phone,1,0,0,50.0,F,3.8,Insurance,2,0,196.0,0,1
+A504568,P100968,2025-02-04 08:30:00,2025-02-21 15:30:00,17,Friday,15,2,ENT,Follow-up,Online Portal,1,0,0,,F,1.9,Self-pay,6,0,7.0,0,1
+A504569,P100657,2025-02-04 09:00:00,2025-02-17 11:00:00,13,Monday,11,2,Orthopedics,Routine Check,Phone,1,0,0,69.0,F,11.1,Insurance,4,0,14.0,0,1
+A504570,P100401,2025-02-04 09:45:00,2025-02-15 16:45:00,11,Saturday,16,2,Gynecology,Follow-up,Walk-in,0,0,0,50.0,F,5.7,Self-pay,10,0,48.0,0,1
+A504571,P100927,2025-02-04 11:00:00,2025-02-10 13:00:00,6,Monday,13,2,Pediatrics,Routine Check,Online Portal,1,0,0,43.0,F,5.8,Self-pay,0,0,,1,0
+A504572,P101161,2025-02-04 12:30:00,2025-03-10 13:30:00,34,Monday,13,3,Orthopedics,Routine Check,Walk-in,1,0,0,66.0,F,5.1,Insurance,2,0,96.0,0,1
+A504573,P100933,2025-02-04 12:45:00,2025-02-17 17:45:00,13,Monday,17,2,Pediatrics,Follow-up,Mobile App,1,0,0,63.0,M,36.0,Insurance,8,1,62.0,0,1
+A504574,P100545,2025-02-04 13:00:00,2025-02-18 16:00:00,14,Tuesday,16,2,General Medicine,Follow-up,Online Portal,0,0,0,41.0,F,5.1,Government Scheme,2,1,196.0,0,1
+A504575,P100200,2025-02-04 13:30:00,2025-02-17 14:30:00,13,Monday,14,2,ENT,Routine Check,Phone,1,0,0,43.0,M,4.1,Insurance,1,0,91.0,0,1
+A504576,P100027,2025-02-04 14:30:00,2025-02-14 15:30:00,10,Friday,15,2,Pediatrics,Follow-up,Phone,0,0,0,33.0,F,8.3,Insurance,9,4,71.0,0,1
+A504577,P101571,2025-02-05 02:30:00,2025-03-04 09:30:00,27,Tuesday,9,3,ENT,Routine Check,Mobile App,1,0,0,93.0,F,3.9,Insurance,9,1,55.0,0,1
+A504578,P101402,2025-02-05 03:15:00,2025-02-14 10:15:00,9,Friday,10,2,Gynecology,Follow-up,Mobile App,0,0,0,61.0,F,41.2,Insurance,6,0,5.0,0,1
+A504579,P101516,2025-02-05 05:30:00,2025-03-01 10:30:00,24,Saturday,10,3,Ophthalmology,Follow-up,Walk-in,1,0,0,44.0,M,5.4,Government Scheme,1,0,134.0,0,1
+A504580,P101337,2025-02-05 06:15:00,2025-02-17 12:15:00,12,Monday,12,2,Pediatrics,Follow-up,Online Portal,0,0,0,75.0,F,8.8,Insurance,6,2,195.0,0,1
+A504581,P101758,2025-02-05 08:00:00,2025-02-08 11:00:00,3,Saturday,11,2,Orthopedics,New,Walk-in,0,0,0,35.0,M,17.4,Government Scheme,3,0,68.0,0,1
+A504582,P101837,2025-02-05 09:00:00,2025-04-28 15:00:00,82,Monday,15,4,Orthopedics,Routine Check,Walk-in,1,0,0,45.0,F,2.9,Self-pay,2,0,157.0,0,1
+A504583,P100490,2025-02-05 09:15:00,2025-02-18 12:15:00,13,Tuesday,12,2,General Medicine,Follow-up,Mobile App,1,0,0,43.0,M,,Insurance,3,0,213.0,0,1
+A504584,P101031,2025-02-05 11:00:00,2025-02-14 14:00:00,9,Friday,14,2,Pediatrics,Follow-up,Walk-in,1,0,0,28.0,M,5.4,Government Scheme,3,0,216.0,0,1
+A504585,P101260,2025-02-05 11:45:00,2025-02-15 15:45:00,10,Saturday,15,2,General Medicine,Routine Check,Walk-in,0,0,0,51.0,M,1.2,Government Scheme,2,2,,1,0
+A504586,P100475,2025-02-06 03:00:00,2025-02-21 08:00:00,15,Friday,8,2,ENT,Follow-up,Walk-in,0,0,0,49.0,M,,Government Scheme,0,0,,0,0
+A504587,P100093,2025-02-06 04:30:00,2025-02-10 11:30:00,4,Monday,11,2,Gynecology,Follow-up,Walk-in,0,0,0,17.0,F,,Insurance,0,0,,0,0
+A504589,P100857,2025-02-06 07:00:00,2025-02-10 12:00:00,4,Monday,12,2,General Medicine,Follow-up,Walk-in,1,0,0,8.0,M,7.1,Self-pay,4,1,49.0,0,1
+A504588,P101353,2025-02-06 07:00:00,2025-02-19 13:00:00,13,Wednesday,13,2,Dermatology,New,Online Portal,1,0,0,68.0,F,2.1,Government Scheme,4,2,93.0,0,1
+A504590,P100446,2025-02-06 07:15:00,2025-02-26 11:15:00,20,Wednesday,11,2,General Medicine,Routine Check,Phone,1,0,0,20.0,M,11.1,Government Scheme,3,1,348.0,0,1
+A504591,P100739,2025-02-06 07:15:00,2025-02-07 08:15:00,1,Friday,8,2,Ophthalmology,Follow-up,Mobile App,1,0,0,66.0,M,32.4,Insurance,2,0,121.0,0,1
+A504593,P100767,2025-02-06 07:30:00,2025-03-03 08:30:00,25,Monday,8,3,ENT,Routine Check,Walk-in,0,0,0,45.0,F,1.5,Insurance,6,1,203.0,0,1
+A504592,P100714,2025-02-06 07:30:00,2025-02-11 12:30:00,5,Tuesday,12,2,Pediatrics,Follow-up,Online Portal,1,0,0,34.0,F,9.5,Government Scheme,8,3,0.0,0,1
+A504594,P100725,2025-02-06 10:30:00,2025-02-14 12:30:00,8,Friday,12,2,Dermatology,Routine Check,Online Portal,1,0,0,75.0,M,19.9,Self-pay,0,0,,0,0
+A504595,P101776,2025-02-06 11:00:00,2025-02-17 16:00:00,11,Monday,16,2,Pediatrics,Follow-up,Walk-in,1,0,0,35.0,M,5.2,Government Scheme,4,2,328.0,0,1
+A504596,P100567,2025-02-06 13:15:00,2025-02-11 17:15:00,5,Tuesday,17,2,General Medicine,Follow-up,Phone,1,0,0,37.0,M,1.9,Self-pay,3,0,59.0,0,1
+A504597,P101059,2025-02-06 13:30:00,2025-02-21 15:30:00,15,Friday,15,2,General Medicine,Follow-up,Mobile App,1,0,0,40.0,M,5.5,Self-pay,5,0,143.0,0,1
+A504598,P100911,2025-02-06 14:30:00,2025-02-13 17:30:00,7,Thursday,17,2,ENT,Follow-up,Walk-in,1,0,0,33.0,F,1.1,Insurance,2,1,247.0,0,1
+A504599,P101708,2025-02-07 03:15:00,2025-02-26 09:15:00,19,Wednesday,9,2,General Medicine,Routine Check,Online Portal,1,1,0,49.0,M,2.7,Self-pay,3,2,393.0,1,1
+A504600,P101628,2025-02-07 05:15:00,2025-02-18 08:15:00,11,Tuesday,8,2,Orthopedics,Follow-up,Phone,1,1,0,38.0,M,3.5,Insurance,2,0,162.0,0,1
+A504601,P101854,2025-02-07 06:00:00,2025-02-15 11:00:00,8,Saturday,11,2,Ophthalmology,Follow-up,Mobile App,1,0,0,35.0,M,7.2,Insurance,2,0,320.0,0,1
+A504602,P100361,2025-02-07 07:15:00,2025-02-17 09:15:00,10,Monday,9,2,General Medicine,Follow-up,Phone,1,0,0,21.0,F,12.4,Government Scheme,1,1,,1,0
+A504603,P100078,2025-02-07 08:00:00,2025-03-03 12:00:00,24,Monday,12,3,Pediatrics,Routine Check,Walk-in,1,0,0,29.0,F,14.9,Government Scheme,5,1,2.0,0,1
+A504604,P100623,2025-02-07 09:00:00,2025-02-12 11:00:00,5,Wednesday,11,2,Pediatrics,New,Walk-in,1,0,0,79.0,F,5.0,Insurance,5,0,58.0,0,1
+A504605,P101262,2025-02-07 10:45:00,2025-02-14 17:45:00,7,Friday,17,2,Pediatrics,Follow-up,Mobile App,1,0,0,34.0,M,4.4,Insurance,4,0,235.0,0,1
+A504606,P101180,2025-02-07 14:30:00,2025-02-26 15:30:00,19,Wednesday,15,2,Dermatology,Follow-up,Phone,0,0,0,79.0,M,4.7,Self-pay,2,0,66.0,1,1
+A504607,P101604,2025-02-08 03:30:00,2025-02-20 10:30:00,12,Thursday,10,2,Pediatrics,New,Mobile App,0,0,0,32.0,F,5.4,Self-pay,4,0,30.0,0,1
+A504608,P101819,2025-02-08 04:15:00,2025-02-14 08:15:00,6,Friday,8,2,ENT,New,Phone,1,0,0,23.0,F,5.3,Government Scheme,2,0,163.0,0,1
+A504609,P100449,2025-02-08 05:00:00,2025-02-12 11:00:00,4,Wednesday,11,2,Orthopedics,Follow-up,Online Portal,1,0,0,24.0,F,2.8,Insurance,8,1,56.0,0,1
+A504610,P101659,2025-02-08 05:15:00,2025-02-10 08:15:00,2,Monday,8,2,Ophthalmology,New,Phone,0,0,0,41.0,M,6.6,Self-pay,8,4,191.0,1,1
+A504611,P101469,2025-02-08 06:45:00,2025-02-24 11:45:00,16,Monday,11,2,Pediatrics,New,Mobile App,1,0,0,6.0,M,2.3,Government Scheme,2,0,297.0,0,1
+A504612,P100646,2025-02-08 08:30:00,2025-02-18 09:30:00,10,Tuesday,9,2,ENT,Follow-up,Phone,1,0,0,44.0,M,13.4,Government Scheme,2,0,3.0,0,1
+A504613,P101244,2025-02-08 10:00:00,2025-02-19 12:00:00,11,Wednesday,12,2,Dermatology,Follow-up,Mobile App,1,0,0,73.0,F,8.0,Self-pay,7,0,37.0,0,1
+A504614,P101351,2025-02-08 10:30:00,2025-02-26 11:30:00,18,Wednesday,11,2,General Medicine,New,Phone,1,0,0,24.0,F,4.3,Government Scheme,1,0,19.0,1,1
+A504615,P100768,2025-02-08 12:15:00,2025-02-24 15:15:00,16,Monday,15,2,Pediatrics,Follow-up,Online Portal,1,0,0,20.0,F,1.7,Government Scheme,2,1,354.0,1,1
+A504616,P101381,2025-02-08 12:45:00,2025-02-18 15:45:00,10,Tuesday,15,2,General Medicine,New,Online Portal,1,0,0,59.0,M,11.1,Government Scheme,2,0,41.0,0,1
+A504617,P101296,2025-02-08 13:00:00,2025-02-11 14:00:00,3,Tuesday,14,2,Pediatrics,New,Walk-in,1,0,0,52.0,F,20.8,Insurance,4,0,29.0,0,1
+A504618,P100649,2025-02-08 14:45:00,2025-02-21 15:45:00,13,Friday,15,2,Orthopedics,Follow-up,Phone,1,0,0,30.0,M,4.8,Government Scheme,9,0,12.0,0,1
+A504619,P101645,2025-02-09 02:45:00,2025-02-15 09:45:00,6,Saturday,9,2,Ophthalmology,Follow-up,Phone,1,0,0,63.0,F,2.5,Self-pay,7,2,39.0,1,1
+A504620,P101286,2025-02-09 05:00:00,2025-02-14 10:00:00,5,Friday,10,2,ENT,Follow-up,Mobile App,1,0,0,49.0,M,6.0,Government Scheme,2,0,26.0,0,1
+A504622,P100942,2025-02-09 06:30:00,2025-02-19 11:30:00,10,Wednesday,11,2,Gynecology,New,Mobile App,1,0,0,75.0,F,3.6,Self-pay,1,0,344.0,1,1
+A504621,P100676,2025-02-09 06:30:00,2025-02-27 13:30:00,18,Thursday,13,2,General Medicine,New,Phone,1,0,0,95.0,M,4.1,Government Scheme,0,0,,0,0
+A504623,P100195,2025-02-09 06:30:00,2025-02-24 08:30:00,15,Monday,8,2,Orthopedics,Routine Check,Walk-in,1,1,0,25.0,F,9.5,Insurance,6,0,30.0,0,1
+A504624,P101581,2025-02-09 10:15:00,2025-02-17 16:15:00,8,Monday,16,2,Orthopedics,Follow-up,Phone,1,0,0,26.0,F,9.5,Insurance,8,3,167.0,0,1
+A504625,P101376,2025-02-09 10:15:00,2025-03-08 13:15:00,27,Saturday,13,3,General Medicine,Follow-up,Mobile App,1,0,0,56.0,F,3.9,Insurance,0,0,,0,0
+A504626,P100814,2025-02-09 11:00:00,2025-02-18 12:00:00,9,Tuesday,12,2,General Medicine,Routine Check,Walk-in,0,0,0,80.0,F,4.4,Insurance,5,0,188.0,0,1
+A504627,P101101,2025-02-09 12:30:00,2025-03-21 14:30:00,40,Friday,14,3,General Medicine,Routine Check,Phone,1,0,0,40.0,F,11.6,Insurance,3,0,111.0,1,1
+A504628,P101686,2025-02-09 13:45:00,2025-03-01 16:45:00,20,Saturday,16,3,Pediatrics,Follow-up,Mobile App,1,0,0,39.0,F,2.8,Government Scheme,1,0,153.0,0,1
+A504629,P100225,2025-02-09 15:15:00,2025-03-01 17:15:00,20,Saturday,17,3,ENT,Follow-up,Walk-in,1,0,0,32.0,M,6.2,Government Scheme,1,0,208.0,0,1
+A504630,P100545,2025-02-10 03:15:00,2025-02-19 08:15:00,9,Wednesday,8,2,ENT,New,Online Portal,1,0,0,41.0,F,5.1,Government Scheme,2,1,201.0,1,1
+A504631,P100777,2025-02-10 06:15:00,2025-02-20 10:15:00,10,Thursday,10,2,Ophthalmology,Follow-up,Walk-in,0,0,0,32.0,M,3.2,Self-pay,11,4,26.0,0,1
+A504632,P100021,2025-02-10 08:00:00,2025-02-17 11:00:00,7,Monday,11,2,General Medicine,Follow-up,Walk-in,0,0,0,41.0,M,11.3,,4,0,18.0,0,1
+A504633,P100477,2025-02-10 08:30:00,2025-02-19 14:30:00,9,Wednesday,14,2,General Medicine,Routine Check,Phone,1,0,0,46.0,F,2.1,Government Scheme,2,0,83.0,0,1
+A504634,P101184,2025-02-10 09:15:00,2025-02-11 15:15:00,1,Tuesday,15,2,General Medicine,Follow-up,Online Portal,1,0,0,23.0,F,10.6,Self-pay,4,1,99.0,1,1
+A504635,P101733,2025-02-10 09:45:00,2025-02-24 14:45:00,14,Monday,14,2,General Medicine,Routine Check,Phone,1,0,0,43.0,F,6.4,Insurance,11,1,83.0,1,1
+A504637,P101164,2025-02-10 10:15:00,2025-02-13 16:15:00,3,Thursday,16,2,General Medicine,Follow-up,Online Portal,1,0,0,42.0,F,12.6,Self-pay,7,2,83.0,0,1
+A504636,P101643,2025-02-10 10:15:00,2025-02-21 11:15:00,11,Friday,11,2,Orthopedics,Follow-up,Phone,1,0,0,56.0,F,6.2,Insurance,4,1,166.0,1,1
+A504638,P100217,2025-02-10 11:45:00,2025-02-15 15:45:00,5,Saturday,15,2,Orthopedics,Routine Check,Online Portal,1,0,0,17.0,M,4.0,Insurance,4,0,6.0,0,1
+A504639,P100572,2025-02-10 12:00:00,2025-02-25 14:00:00,15,Tuesday,14,2,Gynecology,Follow-up,Walk-in,1,0,0,39.0,F,5.4,Insurance,12,1,4.0,0,1
+A504640,P100814,2025-02-10 14:00:00,2025-02-18 17:00:00,8,Tuesday,17,2,General Medicine,Routine Check,Phone,1,0,0,80.0,F,4.4,Insurance,5,0,189.0,0,1
+A504641,P100965,2025-02-10 14:45:00,2025-02-17 15:45:00,7,Monday,15,2,Dermatology,New,Mobile App,0,0,0,21.0,F,4.7,Self-pay,4,1,2.0,1,1
+A504642,P101192,2025-02-10 15:30:00,2025-03-04 16:30:00,22,Tuesday,16,3,General Medicine,Routine Check,Phone,0,0,0,54.0,M,24.2,Self-pay,4,0,97.0,0,1
+A504643,P100618,2025-02-11 03:15:00,2025-02-18 09:15:00,7,Tuesday,9,2,General Medicine,New,Walk-in,1,0,0,51.0,F,13.6,Insurance,3,0,54.0,0,1
+A504645,P100790,2025-02-11 04:45:00,2025-02-24 10:45:00,13,Monday,10,2,Ophthalmology,New,Phone,1,0,0,46.0,F,11.5,Self-pay,3,1,203.0,1,1
+A504644,P101294,2025-02-11 04:45:00,2025-02-12 09:45:00,1,Wednesday,9,2,Dermatology,New,Phone,1,1,0,62.0,M,6.0,Government Scheme,7,1,2.0,0,1
+A504646,P101834,2025-02-11 05:45:00,2025-03-03 09:45:00,20,Monday,9,3,Dermatology,Routine Check,Mobile App,1,0,0,91.0,F,7.0,Insurance,11,0,32.0,0,1
+A504647,P101567,2025-02-11 07:30:00,2025-02-21 11:30:00,10,Friday,11,2,Orthopedics,Follow-up,Mobile App,0,0,0,27.0,F,4.3,Government Scheme,1,1,,0,0
+A504648,P100949,2025-02-11 08:30:00,2025-02-14 14:30:00,3,Friday,14,2,Gynecology,Routine Check,Phone,1,0,0,28.0,F,1.9,Insurance,5,0,7.0,0,1
+A504649,P100857,2025-02-11 10:15:00,2025-02-15 11:15:00,4,Saturday,11,2,General Medicine,Follow-up,Phone,0,0,0,8.0,M,7.1,Self-pay,5,1,0.0,0,1
+A504650,P101100,2025-02-11 12:15:00,2025-02-15 13:15:00,4,Saturday,13,2,Dermatology,New,Walk-in,1,0,0,29.0,F,4.3,Insurance,2,0,42.0,0,1
+A504651,P100109,2025-02-11 15:45:00,2025-02-17 16:45:00,6,Monday,16,2,General Medicine,New,Walk-in,0,0,0,35.0,F,4.0,Government Scheme,5,1,47.0,0,1
+A504652,P100059,2025-02-12 01:45:00,2025-02-26 08:45:00,14,Wednesday,8,2,Dermatology,Follow-up,Mobile App,1,0,0,21.0,F,16.2,Government Scheme,3,0,43.0,0,1
+A504653,P101549,2025-02-12 03:45:00,2025-02-19 09:45:00,7,Wednesday,9,2,Ophthalmology,New,Walk-in,1,0,0,20.0,M,5.5,Government Scheme,1,0,292.0,0,1
+A504654,P100345,2025-02-12 04:45:00,2025-03-03 11:45:00,19,Monday,11,3,Ophthalmology,New,Mobile App,1,0,0,57.0,M,7.1,Government Scheme,1,1,,1,0
+A504655,P101597,2025-02-12 05:15:00,2025-03-10 09:15:00,26,Monday,9,3,Dermatology,Follow-up,Walk-in,0,0,0,24.0,F,7.9,Insurance,6,1,20.0,0,1
+A504657,P101197,2025-02-12 05:30:00,2025-03-03 08:30:00,19,Monday,8,3,General Medicine,Routine Check,Phone,1,0,0,23.0,M,18.3,Self-pay,7,1,71.0,1,1
+A504656,P101805,2025-02-12 05:30:00,2025-02-26 08:30:00,14,Wednesday,8,2,Pediatrics,Follow-up,Phone,1,0,0,74.0,F,9.8,Government Scheme,5,0,45.0,0,1
+A504658,P101085,2025-02-12 06:30:00,2025-02-24 13:30:00,12,Monday,13,2,ENT,Follow-up,Walk-in,1,1,0,24.0,F,4.1,Self-pay,3,0,123.0,0,1
+A504659,P100745,2025-02-12 10:30:00,2025-03-03 16:30:00,19,Monday,16,3,General Medicine,Follow-up,Mobile App,1,0,0,46.0,M,16.1,Insurance,1,1,,1,0
+A504660,P100958,2025-02-12 11:15:00,2025-02-22 15:15:00,10,Saturday,15,2,Pediatrics,Routine Check,Walk-in,1,0,0,,M,7.2,Insurance,0,0,,0,0
+A504661,P100519,2025-02-12 12:45:00,2025-02-21 14:45:00,9,Friday,14,2,General Medicine,Routine Check,Walk-in,0,0,0,29.0,M,2.0,Insurance,3,0,143.0,0,1
+A504662,P101595,2025-02-12 14:15:00,2025-02-17 15:15:00,5,Monday,15,2,General Medicine,Follow-up,Walk-in,0,0,0,26.0,F,7.2,Insurance,2,1,295.0,0,1
+A504663,P100441,2025-02-12 14:30:00,2025-03-03 16:30:00,19,Monday,16,3,General Medicine,Follow-up,Online Portal,1,0,0,12.0,M,1.9,Insurance,2,0,96.0,1,1
+A504664,P101815,2025-02-13 02:15:00,2025-04-07 09:15:00,53,Monday,9,4,ENT,Routine Check,Phone,1,0,0,33.0,M,3.2,Government Scheme,2,0,270.0,1,1
+A504665,P100824,2025-02-13 06:00:00,2025-02-22 08:00:00,9,Saturday,8,2,Ophthalmology,Routine Check,Mobile App,0,0,0,36.0,M,5.7,Insurance,1,0,287.0,0,1
+A504666,P101064,2025-02-13 06:15:00,2025-02-17 09:15:00,4,Monday,9,2,Pediatrics,New,Phone,1,0,0,95.0,F,7.9,Insurance,1,0,27.0,0,1
+A504667,P100456,2025-02-13 07:30:00,2025-03-10 12:30:00,25,Monday,12,3,ENT,Follow-up,Online Portal,1,0,0,27.0,M,,Government Scheme,3,0,95.0,0,1
+A504668,P100854,2025-02-13 08:15:00,2025-02-24 09:15:00,11,Monday,9,2,General Medicine,Routine Check,Phone,1,0,0,91.0,M,,Insurance,9,4,8.0,0,1
+A504669,P101679,2025-02-13 08:30:00,2025-03-24 12:30:00,39,Monday,12,3,General Medicine,Routine Check,Phone,0,0,0,24.0,F,8.8,Self-pay,2,1,390.0,0,1
+A504670,P100773,2025-02-13 09:30:00,2025-02-27 12:30:00,14,Thursday,12,2,Gynecology,Follow-up,Walk-in,1,0,0,34.0,F,6.2,Government Scheme,3,1,148.0,0,1
+A504671,P100767,2025-02-13 09:45:00,2025-03-06 14:45:00,21,Thursday,14,3,Dermatology,Follow-up,Mobile App,1,0,0,45.0,F,,Insurance,6,1,210.0,0,1
+A504672,P101319,2025-02-13 10:00:00,2025-02-27 16:00:00,14,Thursday,16,2,ENT,Routine Check,Phone,0,0,0,68.0,M,6.9,Insurance,2,0,176.0,0,1
+A504673,P100451,2025-02-13 10:45:00,2025-02-27 12:45:00,14,Thursday,12,2,Orthopedics,Follow-up,Online Portal,0,0,0,33.0,M,1.8,Self-pay,0,0,,0,0
+A504674,P100970,2025-02-13 11:45:00,2025-03-19 12:45:00,34,Wednesday,12,3,Gynecology,Follow-up,Walk-in,1,0,0,20.0,F,2.4,Government Scheme,3,0,251.0,1,1
+A504675,P101422,2025-02-13 11:45:00,2025-03-10 14:45:00,25,Monday,14,3,ENT,Follow-up,Mobile App,0,0,0,65.0,F,,Insurance,3,0,91.0,0,1
+A504676,P101498,2025-02-13 12:45:00,2025-02-21 14:45:00,8,Friday,14,2,General Medicine,Follow-up,Walk-in,0,0,0,81.0,F,21.4,Self-pay,1,0,39.0,0,1
+A504677,P100336,2025-02-13 13:15:00,2025-02-27 14:15:00,14,Thursday,14,2,ENT,Routine Check,Phone,1,1,0,23.0,M,5.3,Government Scheme,1,0,308.0,0,1
+A504678,P100872,2025-02-13 14:30:00,2025-03-14 16:30:00,29,Friday,16,3,Pediatrics,New,Mobile App,1,0,0,76.0,F,11.3,Insurance,5,0,170.0,0,1
+A504679,P101457,2025-02-13 16:45:00,2025-03-14 17:45:00,29,Friday,17,3,General Medicine,Follow-up,Walk-in,0,0,0,90.0,F,11.2,Insurance,1,1,,0,0
+A504680,P101505,2025-02-14 03:00:00,2025-03-03 10:00:00,17,Monday,10,3,General Medicine,New,Walk-in,1,0,0,30.0,M,13.1,Government Scheme,5,1,136.0,0,1
+A504681,P100857,2025-02-14 04:15:00,2025-02-19 10:15:00,5,Wednesday,10,2,Pediatrics,Follow-up,Phone,1,0,0,8.0,M,7.1,Self-pay,5,1,3.0,0,1
+A504682,P101200,2025-02-14 08:15:00,2025-03-01 10:15:00,15,Saturday,10,3,Orthopedics,New,Phone,1,0,0,30.0,F,27.1,Self-pay,4,1,148.0,0,1
+A504683,P101418,2025-02-14 08:15:00,2025-02-24 09:15:00,10,Monday,9,2,Ophthalmology,New,Walk-in,1,0,0,22.0,F,2.5,Insurance,3,1,82.0,0,1
+A504684,P101507,2025-02-14 08:45:00,2025-02-24 13:45:00,10,Monday,13,2,Pediatrics,Follow-up,Walk-in,1,0,0,55.0,F,6.3,Insurance,4,0,226.0,0,1
+A504685,P101281,2025-02-14 10:00:00,2025-03-03 16:00:00,17,Monday,16,3,ENT,Follow-up,Mobile App,1,0,0,77.0,F,0.7,Government Scheme,6,1,20.0,0,1
+A504686,P100021,2025-02-14 16:45:00,2025-02-15 17:45:00,1,Saturday,17,2,General Medicine,New,Mobile App,0,0,0,41.0,M,,Insurance,4,0,23.0,1,1
+A504687,P100842,2025-02-15 02:45:00,2025-03-11 09:45:00,24,Tuesday,9,3,General Medicine,Routine Check,Mobile App,1,0,0,29.0,M,2.5,Insurance,2,2,,1,0
+A504688,P100747,2025-02-15 05:15:00,2025-03-06 11:15:00,19,Thursday,11,3,Ophthalmology,New,Online Portal,0,0,0,17.0,F,9.4,Government Scheme,0,0,,1,0
+A504689,P100085,2025-02-15 06:00:00,2025-02-18 13:00:00,3,Tuesday,13,2,Pediatrics,Follow-up,Online Portal,1,0,0,30.0,F,1.9,Government Scheme,3,0,235.0,0,1
+A504690,P101271,2025-02-15 06:30:00,2025-02-18 10:30:00,3,Tuesday,10,2,ENT,Follow-up,Online Portal,1,0,0,53.0,M,4.0,Insurance,0,0,,0,0
+A504691,P101630,2025-02-15 09:00:00,2025-02-24 16:00:00,9,Monday,16,2,General Medicine,Follow-up,Walk-in,1,0,0,46.0,F,3.8,Self-pay,0,0,,0,0
+A504692,P101809,2025-02-15 09:15:00,2025-02-28 14:15:00,13,Friday,14,2,Ophthalmology,Follow-up,Online Portal,0,0,0,38.0,M,3.4,Insurance,4,0,160.0,0,1
+A504693,P101505,2025-02-15 10:00:00,2025-02-24 13:00:00,9,Monday,13,2,ENT,Follow-up,Walk-in,1,0,0,30.0,M,13.1,Government Scheme,5,1,137.0,0,1
+A504695,P100414,2025-02-15 10:30:00,2025-03-04 14:30:00,17,Tuesday,14,3,General Medicine,Routine Check,Online Portal,1,0,0,44.0,M,3.3,Government Scheme,0,0,,0,0
+A504694,P100025,2025-02-15 10:30:00,2025-02-24 11:30:00,9,Monday,11,2,Dermatology,Follow-up,Walk-in,1,0,0,16.0,F,6.9,Government Scheme,2,1,332.0,0,1
+A504696,P100268,2025-02-15 11:00:00,2025-03-05 15:00:00,18,Wednesday,15,3,Ophthalmology,Follow-up,Online Portal,1,0,0,32.0,F,5.3,Government Scheme,1,0,118.0,0,1
+A504697,P101760,2025-02-15 12:30:00,2025-02-27 16:30:00,12,Thursday,16,2,ENT,New,Phone,0,0,0,50.0,M,10.4,Self-pay,5,3,6.0,0,1
+A504698,P100878,2025-02-15 13:00:00,2025-03-03 14:00:00,16,Monday,14,3,Orthopedics,New,Mobile App,1,0,0,28.0,F,6.2,Insurance,4,2,350.0,0,1
+A504699,P100237,2025-02-15 13:30:00,2025-03-03 15:30:00,16,Monday,15,3,Dermatology,New,Walk-in,0,0,0,65.0,M,14.8,Government Scheme,1,0,139.0,0,1
+A504700,P101741,2025-02-16 02:00:00,2025-03-03 09:00:00,15,Monday,9,3,ENT,New,Walk-in,1,0,0,65.0,F,1.4,Self-pay,2,1,87.0,0,1
+A504701,P100970,2025-02-16 03:30:00,2025-02-18 10:30:00,2,Tuesday,10,2,Gynecology,Follow-up,Phone,1,0,0,20.0,F,2.4,Government Scheme,3,0,254.0,0,1
+A504702,P100553,2025-02-16 05:00:00,2025-02-22 10:00:00,6,Saturday,10,2,ENT,New,Mobile App,1,0,0,69.0,F,4.3,Insurance,1,0,397.0,0,1
+A504704,P100142,2025-02-16 05:45:00,2025-02-17 11:45:00,1,Monday,11,2,Gynecology,Routine Check,Phone,1,0,0,49.0,F,6.9,Government Scheme,2,1,168.0,0,1
+A504703,P101137,2025-02-16 05:45:00,2025-03-10 10:45:00,22,Monday,10,3,Pediatrics,Follow-up,Mobile App,1,1,0,41.0,F,22.0,Insurance,1,0,114.0,1,1
+A504705,P101809,2025-02-16 06:00:00,2025-02-28 09:00:00,12,Friday,9,2,Ophthalmology,New,Phone,1,0,0,38.0,M,3.4,Insurance,4,0,161.0,0,1
+A504706,P100508,2025-02-16 06:15:00,2025-02-25 09:15:00,9,Tuesday,9,2,ENT,Follow-up,Phone,1,0,0,56.0,M,6.4,Government Scheme,0,0,,0,0
+A504707,P101269,2025-02-16 07:30:00,2025-02-28 14:30:00,12,Friday,14,2,General Medicine,New,Phone,1,0,0,24.0,M,6.1,Insurance,3,0,31.0,0,1
+A504708,P101526,2025-02-16 07:45:00,2025-02-27 12:45:00,11,Thursday,12,2,Pediatrics,New,Mobile App,0,0,0,75.0,M,11.8,Self-pay,9,0,31.0,0,1
+A504709,P100164,2025-02-16 10:15:00,2025-02-20 16:15:00,4,Thursday,16,2,General Medicine,Follow-up,Phone,1,0,0,56.0,M,1.1,Government Scheme,6,1,15.0,0,1
+A504710,P101459,2025-02-16 10:30:00,2025-02-18 14:30:00,2,Tuesday,14,2,General Medicine,Follow-up,Mobile App,1,0,0,92.0,F,20.0,Insurance,3,0,219.0,0,1
+A504711,P100169,2025-02-16 10:45:00,2025-02-25 12:45:00,9,Tuesday,12,2,Dermatology,Routine Check,Phone,0,0,0,22.0,F,1.4,Insurance,2,0,129.0,0,1
+A504712,P101471,2025-02-16 11:15:00,2025-03-04 13:15:00,16,Tuesday,13,3,Pediatrics,Follow-up,Online Portal,1,0,0,25.0,F,3.1,Government Scheme,6,1,15.0,0,1
+A504713,P101650,2025-02-16 12:45:00,2025-03-04 13:45:00,16,Tuesday,13,3,General Medicine,Follow-up,Phone,1,0,0,52.0,F,1.7,Insurance,0,0,,0,0
+A504714,P101800,2025-02-16 15:45:00,2025-03-15 17:45:00,27,Saturday,17,3,Pediatrics,Routine Check,Mobile App,1,0,0,29.0,M,4.3,Government Scheme,5,0,159.0,1,1
+A504715,P101200,2025-02-17 03:00:00,2025-03-01 09:00:00,12,Saturday,9,3,General Medicine,Follow-up,Mobile App,0,0,0,30.0,F,27.1,Self-pay,4,1,151.0,1,1
+A504716,P101724,2025-02-17 03:30:00,2025-02-26 09:30:00,9,Wednesday,9,2,Dermatology,Follow-up,Online Portal,1,0,0,33.0,F,25.0,Government Scheme,12,1,19.0,0,1
+A504717,P101565,2025-02-17 05:45:00,2025-04-07 10:45:00,49,Monday,10,4,Dermatology,Follow-up,Walk-in,0,0,0,47.0,F,6.8,Government Scheme,4,0,86.0,0,1
+A504719,P101863,2025-02-17 06:15:00,2025-03-14 10:15:00,25,Friday,10,3,ENT,Routine Check,Walk-in,1,0,0,24.0,M,14.0,Insurance,9,0,41.0,1,1
+A504718,P100075,2025-02-17 06:15:00,2025-02-21 08:15:00,4,Friday,8,2,General Medicine,Follow-up,Phone,0,0,0,14.0,M,1.4,Government Scheme,0,0,,0,0
+A504720,P100994,2025-02-17 06:30:00,2025-02-26 10:30:00,9,Wednesday,10,2,ENT,New,Mobile App,1,0,0,33.0,M,6.0,Government Scheme,1,0,337.0,0,1
+A504721,P101711,2025-02-17 07:30:00,2025-03-05 08:30:00,16,Wednesday,8,3,General Medicine,Routine Check,Phone,1,0,0,41.0,M,4.9,Government Scheme,2,0,114.0,1,1
+A504722,P101590,2025-02-17 07:30:00,2025-02-20 13:30:00,3,Thursday,13,2,Gynecology,New,Mobile App,0,0,0,42.0,F,7.2,Self-pay,3,1,166.0,0,1
+A504723,P100261,2025-02-17 07:45:00,2025-02-25 11:45:00,8,Tuesday,11,2,Orthopedics,New,Walk-in,1,0,0,54.0,M,45.7,Government Scheme,4,1,148.0,0,1
+A504724,P101582,2025-02-17 08:45:00,2025-02-27 14:45:00,10,Thursday,14,2,Pediatrics,Routine Check,Online Portal,1,0,0,51.0,F,13.2,Government Scheme,4,2,97.0,0,1
+A504725,P101724,2025-02-17 09:15:00,2025-03-01 10:15:00,12,Saturday,10,3,Dermatology,Follow-up,Phone,1,0,0,33.0,F,25.0,Government Scheme,12,1,19.0,0,1
+A504726,P101640,2025-02-17 11:30:00,2025-03-01 16:30:00,12,Saturday,16,3,General Medicine,Follow-up,Online Portal,1,0,0,20.0,M,17.0,Self-pay,2,0,293.0,1,1
+A504727,P101296,2025-02-17 11:45:00,2025-03-01 12:45:00,12,Saturday,12,3,Pediatrics,Follow-up,Online Portal,1,0,0,52.0,F,20.8,Insurance,5,0,5.0,0,1
+A504728,P100360,2025-02-18 04:00:00,2025-02-22 08:00:00,4,Saturday,8,2,Orthopedics,Follow-up,Mobile App,1,0,0,38.0,F,5.6,Self-pay,3,0,135.0,0,1
+A504729,P101260,2025-02-18 04:00:00,2025-02-28 10:00:00,10,Friday,10,2,Orthopedics,New,Mobile App,1,0,0,51.0,M,1.2,Government Scheme,3,3,,1,0
+A504730,P101317,2025-02-18 04:00:00,2025-02-27 08:00:00,9,Thursday,8,2,General Medicine,Follow-up,Online Portal,1,0,0,22.0,M,4.5,Self-pay,14,1,14.0,0,1
+A504731,P101872,2025-02-18 04:45:00,2025-02-26 11:45:00,8,Wednesday,11,2,General Medicine,Routine Check,Walk-in,0,0,0,31.0,M,3.3,Insurance,7,2,184.0,0,1
+A504732,P100205,2025-02-18 05:45:00,2025-03-28 09:45:00,38,Friday,9,3,Orthopedics,Follow-up,Online Portal,0,0,0,58.0,F,,Insurance,7,0,19.0,0,1
+A504733,P100478,2025-02-18 06:45:00,2025-03-12 10:45:00,22,Wednesday,10,3,General Medicine,Routine Check,Phone,0,0,0,47.0,F,11.3,Insurance,0,0,,0,0
+A504734,P100215,2025-02-18 06:45:00,2025-03-19 11:45:00,29,Wednesday,11,3,General Medicine,New,Walk-in,1,0,0,23.0,M,1.8,Insurance,1,0,207.0,0,1
+A504735,P101732,2025-02-18 07:00:00,2025-02-24 10:00:00,6,Monday,10,2,ENT,Follow-up,Walk-in,1,0,0,76.0,M,6.3,Insurance,3,0,108.0,0,1
+A504736,P101778,2025-02-18 08:45:00,2025-03-07 12:45:00,17,Friday,12,3,Dermatology,Follow-up,Online Portal,0,0,0,81.0,M,9.4,Government Scheme,4,0,250.0,0,1
+A504737,P100915,2025-02-18 09:00:00,2025-02-22 14:00:00,4,Saturday,14,2,Dermatology,Follow-up,Online Portal,0,0,0,79.0,F,3.6,Insurance,3,2,114.0,0,1
+A504738,P101131,2025-02-18 09:15:00,2025-02-27 14:15:00,9,Thursday,14,2,Pediatrics,Follow-up,Phone,1,0,0,41.0,F,4.2,Insurance,1,0,277.0,0,1
+A504739,P101641,2025-02-18 09:30:00,2025-02-24 15:30:00,6,Monday,15,2,Pediatrics,Follow-up,Online Portal,1,0,0,10.0,F,11.2,Self-pay,1,0,341.0,0,1
+A504740,P101272,2025-02-18 11:15:00,2025-03-01 12:15:00,11,Saturday,12,3,Dermatology,Follow-up,Mobile App,1,1,0,47.0,M,18.3,Insurance,5,0,133.0,0,1
+A504741,P101371,2025-02-19 03:30:00,2025-03-03 09:30:00,12,Monday,9,3,General Medicine,New,Phone,0,0,0,74.0,F,3.9,Self-pay,2,2,,1,0
+A504742,P100525,2025-02-19 03:30:00,2025-02-22 10:30:00,3,Saturday,10,2,Dermatology,New,Online Portal,1,0,0,25.0,F,2.2,Government Scheme,0,0,,0,0
+A504743,P100405,2025-02-19 04:00:00,2025-02-28 11:00:00,9,Friday,11,2,Dermatology,Routine Check,Phone,1,0,0,24.0,F,7.0,Government Scheme,1,0,155.0,1,1
+A504745,P101089,2025-02-19 05:45:00,2025-04-07 08:45:00,47,Monday,8,4,Dermatology,New,Walk-in,1,0,0,52.0,M,18.2,Insurance,2,0,367.0,1,1
+A504744,P101504,2025-02-19 05:45:00,2025-03-03 10:45:00,12,Monday,10,3,General Medicine,Follow-up,Walk-in,1,0,0,15.0,M,7.2,Government Scheme,3,1,108.0,0,1
+A504746,P100459,2025-02-19 11:45:00,2025-02-26 17:45:00,7,Wednesday,17,2,Pediatrics,Follow-up,Phone,1,1,0,25.0,F,9.0,Self-pay,8,4,53.0,0,1
+A504747,P100317,2025-02-19 12:45:00,2025-03-05 13:45:00,14,Wednesday,13,3,Gynecology,Follow-up,Walk-in,1,0,0,31.0,F,5.8,Government Scheme,3,0,41.0,0,1
+A504748,P100006,2025-02-19 13:00:00,2025-02-25 16:00:00,6,Tuesday,16,2,Dermatology,Follow-up,Mobile App,1,0,0,49.0,F,1.7,Government Scheme,8,0,23.0,0,1
+A504749,P100333,2025-02-19 14:15:00,2025-03-11 16:15:00,20,Tuesday,16,3,General Medicine,Follow-up,Online Portal,0,0,0,24.0,F,8.7,,2,1,80.0,1,1
+A504750,P101508,2025-02-20 05:15:00,2025-02-28 08:15:00,8,Friday,8,2,General Medicine,Follow-up,Phone,1,0,0,32.0,F,15.6,Government Scheme,6,4,301.0,0,1
+A504751,P100582,2025-02-20 07:00:00,2025-03-05 09:00:00,13,Wednesday,9,3,Ophthalmology,Follow-up,Phone,0,0,0,76.0,M,1.2,Self-pay,6,1,41.0,0,1
+A504752,P101394,2025-02-20 07:30:00,2025-03-10 09:30:00,18,Monday,9,3,Gynecology,New,Phone,1,0,0,40.0,F,0.9,Self-pay,2,0,244.0,0,1
+A504753,P100848,2025-02-20 08:45:00,2025-03-01 15:45:00,9,Saturday,15,3,Pediatrics,Routine Check,Phone,1,0,0,29.0,M,1.7,Insurance,1,0,330.0,0,1
+A504754,P101144,2025-02-20 09:00:00,2025-02-25 13:00:00,5,Tuesday,13,2,Pediatrics,Routine Check,Walk-in,1,0,0,62.0,M,15.7,Self-pay,8,7,344.0,0,1
+A504755,P100618,2025-02-20 09:00:00,2025-03-08 16:00:00,16,Saturday,16,3,Ophthalmology,Routine Check,Phone,0,0,0,51.0,F,13.6,Insurance,4,0,1.0,0,1
+A504757,P100811,2025-02-20 10:00:00,2025-02-26 16:00:00,6,Wednesday,16,2,General Medicine,Follow-up,Phone,0,0,0,39.0,M,10.5,Self-pay,4,0,79.0,0,1
+A504756,P101695,2025-02-20 10:00:00,2025-03-06 12:00:00,14,Thursday,12,3,Gynecology,Follow-up,Mobile App,1,0,0,37.0,F,15.6,Insurance,2,0,13.0,0,1
+A504758,P101142,2025-02-20 10:15:00,2025-03-12 14:15:00,20,Wednesday,14,3,General Medicine,Follow-up,Mobile App,1,0,0,48.0,F,11.5,Insurance,3,2,326.0,0,1
+A504759,P100559,2025-02-20 10:45:00,2025-02-21 11:45:00,1,Friday,11,2,Dermatology,Routine Check,Online Portal,1,0,0,33.0,M,1.9,Insurance,3,0,85.0,1,1
+A504760,P101474,2025-02-20 10:45:00,2025-02-24 14:45:00,4,Monday,14,2,Pediatrics,New,Phone,1,0,0,43.0,M,6.7,Government Scheme,0,0,,0,0
+A504761,P100970,2025-02-20 12:00:00,2025-03-20 16:00:00,28,Thursday,16,3,Pediatrics,Follow-up,Walk-in,0,1,0,20.0,F,2.4,Government Scheme,4,0,2.0,0,1
+A504762,P100639,2025-02-20 14:30:00,2025-03-10 15:30:00,18,Monday,15,3,ENT,Follow-up,Mobile App,1,0,0,76.0,F,1.6,Self-pay,10,3,98.0,0,1
+A504763,P100604,2025-02-21 02:00:00,2025-02-24 09:00:00,3,Monday,9,2,Ophthalmology,New,Online Portal,1,0,0,30.0,F,17.5,Insurance,4,0,191.0,0,1
+A504764,P100770,2025-02-21 02:45:00,2025-03-10 08:45:00,17,Monday,8,3,General Medicine,Follow-up,Online Portal,1,0,0,78.0,F,,Self-pay,0,0,,0,0
+A504765,P101559,2025-02-21 03:30:00,2025-02-24 10:30:00,3,Monday,10,2,Orthopedics,Follow-up,Walk-in,1,0,0,56.0,M,9.1,Government Scheme,7,0,115.0,0,1
+A504766,P100000,2025-02-21 04:15:00,2025-03-04 09:15:00,11,Tuesday,9,3,Dermatology,Follow-up,Online Portal,0,0,0,45.0,F,17.7,Self-pay,14,2,7.0,0,1
+A504767,P101526,2025-02-21 04:45:00,2025-03-05 10:45:00,12,Wednesday,10,3,Ophthalmology,Follow-up,Phone,0,0,0,75.0,M,11.8,Self-pay,9,0,36.0,0,1
+A504768,P100194,2025-02-21 05:00:00,2025-02-24 11:00:00,3,Monday,11,2,Ophthalmology,New,Online Portal,1,0,0,18.0,F,41.6,Government Scheme,11,8,48.0,0,1
+A504769,P100903,2025-02-21 07:00:00,2025-03-01 09:00:00,8,Saturday,9,3,Orthopedics,Routine Check,Mobile App,0,0,0,48.0,F,19.4,Government Scheme,3,1,78.0,1,1
+A504770,P101303,2025-02-21 07:30:00,2025-02-26 11:30:00,5,Wednesday,11,2,General Medicine,Follow-up,Phone,1,0,0,43.0,M,14.4,Government Scheme,2,0,224.0,0,1
+A504771,P100216,2025-02-21 09:00:00,2025-03-06 14:00:00,13,Thursday,14,3,Orthopedics,New,Mobile App,1,0,0,57.0,F,2.3,Government Scheme,7,0,47.0,0,1
+A504772,P100333,2025-02-21 09:30:00,2025-03-24 11:30:00,31,Monday,11,3,General Medicine,Routine Check,Phone,1,0,0,24.0,F,8.7,Insurance,2,1,82.0,0,1
+A504774,P100868,2025-02-21 10:30:00,2025-02-24 14:30:00,3,Monday,14,2,Pediatrics,Follow-up,Online Portal,0,0,0,16.0,F,7.9,Government Scheme,2,1,251.0,0,1
+A504773,P101116,2025-02-21 10:30:00,2025-03-07 16:30:00,14,Friday,16,3,Orthopedics,Routine Check,Online Portal,1,0,0,18.0,M,2.0,Government Scheme,5,2,59.0,0,1
+A504775,P100763,2025-02-21 11:45:00,2025-03-03 14:45:00,10,Monday,14,3,Ophthalmology,New,Mobile App,1,0,0,35.0,M,7.3,Government Scheme,3,1,297.0,0,1
+A504776,P100272,2025-02-22 07:15:00,2025-03-13 10:15:00,19,Thursday,10,3,Pediatrics,New,Phone,1,0,0,8.0,M,5.9,Insurance,9,1,21.0,0,1
+A504777,P101410,2025-02-22 07:45:00,2025-03-21 13:45:00,27,Friday,13,3,Orthopedics,Follow-up,Walk-in,1,0,0,56.0,F,9.5,Government Scheme,0,0,,0,0
+A504778,P101004,2025-02-22 09:30:00,2025-03-01 15:30:00,7,Saturday,15,3,Orthopedics,Routine Check,Phone,1,0,0,66.0,M,3.4,Government Scheme,3,0,143.0,0,1
+A504779,P100289,2025-02-22 10:00:00,2025-02-28 12:00:00,6,Friday,12,2,Dermatology,Follow-up,Walk-in,1,0,0,16.0,F,4.9,Self-pay,7,1,206.0,0,1
+A504780,P101293,2025-02-22 10:00:00,2025-02-24 16:00:00,2,Monday,16,2,Dermatology,Follow-up,Phone,1,0,0,46.0,F,8.9,Government Scheme,3,0,114.0,1,1
+A504781,P100793,2025-02-22 10:30:00,2025-02-24 14:30:00,2,Monday,14,2,Gynecology,New,Online Portal,0,0,0,14.0,F,,Insurance,5,1,332.0,0,1
+A504782,P101180,2025-02-22 11:45:00,2025-03-04 15:45:00,10,Tuesday,15,3,General Medicine,Follow-up,Walk-in,1,0,0,79.0,M,4.7,Self-pay,2,0,80.0,1,1
+A504783,P100178,2025-02-22 12:15:00,2025-02-24 14:15:00,2,Monday,14,2,Pediatrics,New,Phone,1,0,0,58.0,F,9.2,Government Scheme,1,0,179.0,0,1
+A504784,P101601,2025-02-22 14:00:00,2025-03-04 17:00:00,10,Tuesday,17,3,General Medicine,Follow-up,Phone,1,1,0,31.0,M,6.9,Self-pay,1,0,298.0,0,1
+A504785,P101475,2025-02-23 05:30:00,2025-02-25 11:30:00,2,Tuesday,11,2,Dermatology,Follow-up,Mobile App,0,1,0,48.0,M,15.2,Government Scheme,3,0,299.0,1,1
+A504786,P101298,2025-02-23 08:00:00,2025-03-06 11:00:00,11,Thursday,11,3,Orthopedics,Follow-up,Phone,0,0,0,55.0,M,4.8,Government Scheme,0,0,,0,0
+A504787,P100066,2025-02-23 11:00:00,2025-03-06 12:00:00,11,Thursday,12,3,Dermatology,Follow-up,Online Portal,1,0,0,16.0,F,0.7,Insurance,3,0,332.0,0,1
+A504788,P101315,2025-02-23 12:00:00,2025-03-07 16:00:00,12,Friday,16,3,Ophthalmology,Routine Check,Phone,1,0,0,76.0,M,5.0,Insurance,2,1,258.0,0,1
+A504789,P101497,2025-02-23 13:15:00,2025-02-27 16:15:00,4,Thursday,16,2,Pediatrics,Follow-up,Online Portal,1,0,0,74.0,F,4.9,Self-pay,0,0,,0,0
+A504790,P100844,2025-02-23 15:00:00,2025-02-28 17:00:00,5,Friday,17,2,Dermatology,New,Walk-in,1,0,0,29.0,F,24.7,Self-pay,4,1,63.0,0,1
+A504791,P100444,2025-02-24 01:30:00,2025-03-08 08:30:00,12,Saturday,8,3,Orthopedics,Routine Check,Online Portal,1,0,0,43.0,M,1.6,Government Scheme,4,2,179.0,0,1
+A504792,P101749,2025-02-24 04:15:00,2025-02-25 09:15:00,1,Tuesday,9,2,Ophthalmology,Follow-up,Online Portal,1,0,0,40.0,F,6.0,Self-pay,1,0,109.0,1,1
+A504794,P100355,2025-02-24 06:00:00,2025-03-13 11:00:00,17,Thursday,11,3,Pediatrics,Routine Check,Mobile App,1,0,0,65.0,F,23.7,Self-pay,1,1,,1,0
+A504793,P100999,2025-02-24 06:00:00,2025-03-08 12:00:00,12,Saturday,12,3,ENT,Follow-up,Mobile App,1,0,0,47.0,F,9.7,Insurance,6,1,72.0,1,1
+A504795,P101149,2025-02-24 06:45:00,2025-03-28 08:45:00,32,Friday,8,3,Dermatology,Routine Check,Phone,1,1,0,,F,2.4,Government Scheme,6,0,114.0,0,1
+A504796,P100051,2025-02-24 08:30:00,2025-03-15 15:30:00,19,Saturday,15,3,General Medicine,Follow-up,Phone,1,0,0,23.0,M,5.6,Self-pay,6,2,41.0,0,1
+A504797,P100219,2025-02-24 08:45:00,2025-03-07 11:45:00,11,Friday,11,3,General Medicine,Follow-up,Online Portal,1,0,0,36.0,F,24.9,Government Scheme,17,10,52.0,0,1
+A504798,P100734,2025-02-24 09:00:00,2025-02-27 13:00:00,3,Thursday,13,2,Orthopedics,New,Walk-in,1,0,0,26.0,M,21.3,Self-pay,1,0,123.0,0,1
+A504799,P100261,2025-02-24 11:00:00,2025-02-27 14:00:00,3,Thursday,14,2,General Medicine,Routine Check,Walk-in,1,0,0,54.0,M,45.7,,4,1,155.0,0,1
+A504800,P100337,2025-02-24 11:45:00,2025-03-05 13:45:00,9,Wednesday,13,3,Gynecology,Follow-up,Mobile App,1,0,0,37.0,F,6.7,Insurance,1,0,368.0,0,1
+A504801,P101772,2025-02-24 14:45:00,2025-03-03 15:45:00,7,Monday,15,3,General Medicine,Follow-up,Phone,1,0,0,49.0,M,4.1,Government Scheme,4,0,175.0,0,1
+A504802,P101414,2025-02-25 04:00:00,2025-03-13 09:00:00,16,Thursday,9,3,General Medicine,New,Mobile App,1,0,0,36.0,F,21.9,Insurance,2,0,294.0,0,1
+A504803,P101739,2025-02-25 04:45:00,2025-02-26 08:45:00,1,Wednesday,8,2,Ophthalmology,Follow-up,Online Portal,1,0,0,75.0,F,4.3,Government Scheme,2,0,55.0,0,1
+A504804,P100573,2025-02-25 05:00:00,2025-02-26 10:00:00,1,Wednesday,10,2,Dermatology,Follow-up,Phone,0,0,0,39.0,M,19.3,Insurance,8,1,194.0,0,1
+A504805,P100000,2025-02-25 05:15:00,2025-03-14 09:15:00,17,Friday,9,3,Dermatology,New,Mobile App,1,0,0,45.0,F,17.7,Self-pay,14,2,11.0,0,1
+A504806,P100626,2025-02-25 05:30:00,2025-03-10 10:30:00,13,Monday,10,3,General Medicine,Routine Check,Phone,1,0,0,40.0,M,2.1,Self-pay,3,0,47.0,0,1
+A504807,P101292,2025-02-25 06:00:00,2025-03-24 10:00:00,27,Monday,10,3,Orthopedics,Follow-up,Online Portal,1,0,0,61.0,F,36.3,Government Scheme,1,1,,1,0
+A504808,P100879,2025-02-25 06:30:00,2025-02-27 09:30:00,2,Thursday,9,2,Dermatology,Routine Check,Online Portal,0,0,0,53.0,F,24.0,Government Scheme,1,0,332.0,0,1
+A504809,P100667,2025-02-25 06:45:00,2025-03-22 09:45:00,25,Saturday,9,3,Dermatology,New,Mobile App,1,0,0,15.0,F,25.7,Government Scheme,1,0,153.0,1,1
+A504810,P100899,2025-02-25 08:15:00,2025-03-10 13:15:00,13,Monday,13,3,Dermatology,Routine Check,Walk-in,1,0,0,33.0,F,2.3,Self-pay,3,0,84.0,0,1
+A504811,P101304,2025-02-25 09:45:00,2025-04-02 10:45:00,36,Wednesday,10,4,General Medicine,New,Online Portal,0,0,0,23.0,F,5.6,Insurance,7,0,66.0,0,1
+A504813,P100744,2025-02-25 10:00:00,2025-03-17 14:00:00,20,Monday,14,3,Orthopedics,Routine Check,Phone,1,1,0,51.0,F,9.5,Government Scheme,1,0,189.0,0,1
+A504812,P100356,2025-02-25 10:00:00,2025-03-06 16:00:00,9,Thursday,16,3,General Medicine,New,Phone,0,0,0,21.0,M,52.9,Self-pay,0,0,,0,0
+A504814,P101778,2025-02-25 10:15:00,2025-03-19 15:15:00,22,Wednesday,15,3,General Medicine,New,Walk-in,1,0,0,81.0,M,9.4,Government Scheme,4,0,257.0,0,1
+A504815,P100328,2025-02-25 12:15:00,2025-03-13 16:15:00,16,Thursday,16,3,Dermatology,Routine Check,Online Portal,1,1,0,18.0,M,6.2,Government Scheme,1,0,89.0,1,1
+A504816,P101586,2025-02-25 14:15:00,2025-03-03 15:15:00,6,Monday,15,3,General Medicine,Follow-up,Online Portal,0,0,0,19.0,F,15.9,Insurance,2,1,75.0,0,1
+A504817,P101537,2025-02-26 01:30:00,2025-03-10 08:30:00,12,Monday,8,3,Ophthalmology,Follow-up,Walk-in,1,0,0,43.0,M,13.8,Government Scheme,4,0,99.0,0,1
+A504818,P100166,2025-02-26 04:30:00,2025-03-07 11:30:00,9,Friday,11,3,Gynecology,Follow-up,Mobile App,1,0,0,37.0,F,18.1,Government Scheme,3,0,111.0,0,1
+A504819,P101562,2025-02-26 04:45:00,2025-03-17 09:45:00,19,Monday,9,3,Orthopedics,Follow-up,Phone,1,0,0,42.0,F,3.3,Government Scheme,3,0,77.0,0,1
+A504820,P100624,2025-02-26 06:45:00,2025-03-05 10:45:00,7,Wednesday,10,3,General Medicine,Follow-up,Walk-in,1,0,0,22.0,M,5.3,Insurance,1,0,185.0,0,1
+A504821,P101095,2025-02-26 07:15:00,2025-03-20 11:15:00,22,Thursday,11,3,Dermatology,New,Walk-in,1,0,0,55.0,F,42.7,Government Scheme,5,1,73.0,1,1
+A504822,P101196,2025-02-26 07:30:00,2025-02-28 14:30:00,2,Friday,14,2,ENT,New,Mobile App,0,0,0,14.0,M,4.8,Government Scheme,3,2,168.0,0,1
+A504823,P100294,2025-02-26 07:45:00,2025-03-18 08:45:00,20,Tuesday,8,3,General Medicine,Routine Check,Online Portal,0,0,0,33.0,M,15.8,Insurance,2,0,0.0,0,1
+A504824,P101296,2025-02-26 08:45:00,2025-03-04 11:45:00,6,Tuesday,11,3,General Medicine,Follow-up,Phone,0,0,0,52.0,F,20.8,Insurance,5,0,14.0,0,1
+A504825,P100993,2025-02-26 09:30:00,2025-03-04 10:30:00,6,Tuesday,10,3,Dermatology,Follow-up,Mobile App,1,0,0,34.0,M,5.3,Self-pay,2,1,274.0,0,1
+A504826,P100251,2025-02-26 10:45:00,2025-03-04 14:45:00,6,Tuesday,14,3,Dermatology,Routine Check,Phone,1,0,0,33.0,M,4.9,Self-pay,0,0,,0,0
+A504827,P100518,2025-02-26 11:45:00,2025-03-11 16:45:00,13,Tuesday,16,3,General Medicine,Routine Check,Online Portal,1,0,0,68.0,M,2.6,Government Scheme,3,0,183.0,0,1
+A504828,P100542,2025-02-26 12:15:00,2025-03-17 15:15:00,19,Monday,15,3,General Medicine,New,Walk-in,1,0,0,28.0,F,17.2,Insurance,7,1,113.0,0,1
+A504829,P101773,2025-02-26 12:45:00,2025-03-21 16:45:00,23,Friday,16,3,Dermatology,Follow-up,Online Portal,0,0,0,61.0,F,2.6,Government Scheme,3,0,123.0,1,1
+A504831,P101772,2025-02-26 14:30:00,2025-03-05 15:30:00,7,Wednesday,15,3,Pediatrics,New,Mobile App,1,0,0,49.0,M,4.1,Government Scheme,4,0,177.0,0,1
+A504830,P100743,2025-02-26 14:30:00,2025-03-13 15:30:00,15,Thursday,15,3,Orthopedics,Routine Check,Phone,1,0,0,,M,1.9,Government Scheme,3,0,238.0,1,1
+A504832,P101410,2025-02-27 05:30:00,2025-03-13 10:30:00,14,Thursday,10,3,Orthopedics,Follow-up,Mobile App,1,0,0,56.0,F,9.5,Government Scheme,0,0,,0,0
+A504833,P101468,2025-02-27 07:00:00,2025-03-17 10:00:00,18,Monday,10,3,General Medicine,Routine Check,Phone,1,0,0,64.0,M,4.2,Government Scheme,5,0,39.0,0,1
+A504834,P100904,2025-02-27 07:30:00,2025-03-13 08:30:00,14,Thursday,8,3,Gynecology,New,Phone,1,0,0,31.0,F,10.7,Insurance,5,0,57.0,1,1
+A504835,P100237,2025-02-27 07:45:00,2025-03-07 09:45:00,8,Friday,9,3,General Medicine,New,Mobile App,1,0,0,65.0,M,14.8,Government Scheme,1,0,151.0,0,1
+A504836,P101542,2025-02-27 08:15:00,2025-03-11 11:15:00,12,Tuesday,11,3,Pediatrics,New,Phone,0,0,0,20.0,M,9.6,Insurance,2,1,291.0,1,1
+A504837,P100169,2025-02-27 08:30:00,2025-03-07 11:30:00,8,Friday,11,3,General Medicine,Routine Check,Walk-in,1,0,0,22.0,F,1.4,Insurance,3,0,1.0,0,1
+A504838,P100236,2025-02-27 10:30:00,2025-03-06 12:30:00,7,Thursday,12,3,Pediatrics,Follow-up,Phone,0,0,0,33.0,F,10.6,,4,2,352.0,0,1
+A504839,P100785,2025-02-27 11:30:00,2025-03-27 13:30:00,28,Thursday,13,3,Orthopedics,Routine Check,Mobile App,1,0,0,15.0,F,3.1,Government Scheme,5,0,76.0,0,1
+A504840,P100018,2025-02-27 11:45:00,2025-03-05 13:45:00,6,Wednesday,13,3,General Medicine,New,Online Portal,1,0,0,55.0,M,3.9,Insurance,2,0,11.0,0,1
+A504841,P101536,2025-02-27 12:00:00,2025-03-25 17:00:00,26,Tuesday,17,3,General Medicine,Routine Check,Mobile App,0,0,0,24.0,F,9.5,Government Scheme,1,0,26.0,1,1
+A504842,P101213,2025-02-27 12:30:00,2025-03-13 14:30:00,14,Thursday,14,3,Pediatrics,Routine Check,Phone,1,0,0,95.0,M,21.0,Insurance,0,0,,0,0
+A504843,P101265,2025-02-27 13:45:00,2025-03-17 16:45:00,18,Monday,16,3,General Medicine,Follow-up,Phone,1,0,0,65.0,M,7.1,Self-pay,4,0,189.0,0,1
+A504844,P100073,2025-02-28 05:45:00,2025-03-01 10:45:00,1,Saturday,10,3,Dermatology,Follow-up,Online Portal,1,0,0,64.0,F,9.7,Insurance,6,0,145.0,0,1
+A504846,P101481,2025-02-28 06:00:00,2025-03-04 09:00:00,4,Tuesday,9,3,ENT,New,Walk-in,1,0,0,42.0,F,10.8,Self-pay,3,3,,0,0
+A504845,P100449,2025-02-28 06:00:00,2025-03-04 10:00:00,4,Tuesday,10,3,Ophthalmology,New,Mobile App,0,0,0,24.0,F,2.8,Insurance,9,1,15.0,1,1
+A504847,P101260,2025-02-28 08:15:00,2025-03-03 11:15:00,3,Monday,11,3,Ophthalmology,Follow-up,Mobile App,1,0,0,51.0,M,1.2,Government Scheme,3,3,,1,0
+A504848,P100961,2025-02-28 09:00:00,2025-03-05 14:00:00,5,Wednesday,14,3,Pediatrics,Follow-up,Walk-in,1,0,0,16.0,M,8.2,Government Scheme,12,3,26.0,0,1
+A504849,P101443,2025-02-28 11:15:00,2025-03-22 14:15:00,22,Saturday,14,3,Orthopedics,Routine Check,Mobile App,1,0,0,66.0,F,5.3,Insurance,1,0,267.0,0,1
+A504850,P101412,2025-02-28 12:30:00,2025-04-05 16:30:00,36,Saturday,16,4,Orthopedics,Follow-up,Phone,0,0,0,45.0,F,29.2,Insurance,5,1,54.0,1,1
+A504851,P101428,2025-02-28 16:45:00,2025-03-22 17:45:00,22,Saturday,17,3,Orthopedics,Follow-up,Walk-in,1,0,0,44.0,M,10.6,Self-pay,2,1,114.0,0,1
+A504852,P101566,2025-03-01 01:00:00,2025-03-11 08:00:00,10,Tuesday,8,3,General Medicine,New,Mobile App,1,0,0,46.0,M,5.2,Insurance,2,1,394.0,0,1
+A504853,P100372,2025-03-01 03:45:00,2025-03-07 09:45:00,6,Friday,9,3,Dermatology,Follow-up,Online Portal,0,0,0,44.0,F,7.4,Self-pay,2,0,200.0,0,1
+A504854,P101206,2025-03-01 04:00:00,2025-03-24 10:00:00,23,Monday,10,3,Pediatrics,Follow-up,Online Portal,1,0,0,13.0,F,6.2,Government Scheme,2,0,207.0,0,1
+A504855,P101349,2025-03-01 05:30:00,2025-03-11 11:30:00,10,Tuesday,11,3,Orthopedics,Follow-up,Online Portal,1,0,0,61.0,F,3.1,Insurance,5,0,31.0,0,1
+A504857,P100787,2025-03-01 05:45:00,2025-03-12 09:45:00,11,Wednesday,9,3,General Medicine,Follow-up,Online Portal,0,0,0,38.0,F,3.8,Insurance,1,0,356.0,0,1
+A504856,P100721,2025-03-01 05:45:00,2025-03-11 10:45:00,10,Tuesday,10,3,Pediatrics,Follow-up,Walk-in,1,0,0,37.0,F,2.8,Insurance,6,0,53.0,0,1
+A504858,P101144,2025-03-01 06:45:00,2025-03-10 08:45:00,9,Monday,8,3,General Medicine,Follow-up,Online Portal,1,0,0,62.0,M,15.7,Self-pay,9,7,3.0,0,1
+A504859,P101769,2025-03-01 07:15:00,2025-03-18 09:15:00,17,Tuesday,9,3,General Medicine,New,Phone,0,0,0,15.0,M,17.6,Government Scheme,0,0,,1,0
+A504860,P100962,2025-03-01 07:45:00,2025-03-13 10:45:00,12,Thursday,10,3,General Medicine,New,Phone,0,0,0,63.0,F,16.7,Government Scheme,5,0,99.0,0,1
+A504861,P101706,2025-03-01 08:30:00,2025-04-03 12:30:00,33,Thursday,12,4,Pediatrics,New,Phone,1,0,0,55.0,F,1.9,Government Scheme,2,0,77.0,1,1
+A504862,P100594,2025-03-01 09:30:00,2025-03-14 14:30:00,13,Friday,14,3,Orthopedics,Follow-up,Walk-in,1,0,0,58.0,F,7.6,Self-pay,4,3,30.0,1,1
+A504863,P101796,2025-03-01 11:00:00,2025-03-12 14:00:00,11,Wednesday,14,3,Ophthalmology,New,Phone,0,1,0,95.0,M,4.2,Insurance,3,0,20.0,0,1
+A504864,P100447,2025-03-01 11:15:00,2025-04-03 15:15:00,33,Thursday,15,4,General Medicine,Routine Check,Mobile App,1,0,0,69.0,M,6.3,Self-pay,3,2,56.0,0,1
+A504865,P101179,2025-03-01 12:30:00,2025-03-07 13:30:00,6,Friday,13,3,Gynecology,New,Online Portal,1,0,0,68.0,F,7.9,Insurance,2,1,334.0,0,1
+A504866,P101493,2025-03-01 13:00:00,2025-03-08 16:00:00,7,Saturday,16,3,Ophthalmology,Follow-up,Online Portal,0,0,0,35.0,F,6.2,Government Scheme,7,0,67.0,0,1
+A504867,P100280,2025-03-01 14:30:00,2025-03-15 16:30:00,14,Saturday,16,3,Orthopedics,Follow-up,Walk-in,1,0,0,37.0,M,13.1,Self-pay,0,0,,0,0
+A504868,P100359,2025-03-01 15:30:00,2025-03-07 16:30:00,6,Friday,16,3,Dermatology,Follow-up,Walk-in,1,1,0,34.0,M,2.8,Self-pay,1,0,184.0,0,1
+A504869,P100825,2025-03-01 16:45:00,2025-03-31 17:45:00,30,Monday,17,3,Pediatrics,New,Mobile App,1,0,0,35.0,M,2.0,Insurance,2,0,150.0,1,1
+A504870,P100698,2025-03-02 04:00:00,2025-04-17 10:00:00,46,Thursday,10,4,Dermatology,Follow-up,Mobile App,1,0,0,23.0,M,6.3,Insurance,5,2,150.0,1,1
+A504871,P100913,2025-03-02 07:00:00,2025-03-27 09:00:00,25,Thursday,9,3,Pediatrics,New,Walk-in,1,0,0,53.0,M,5.0,Insurance,2,0,3.0,0,1
+A504872,P101449,2025-03-02 08:45:00,2025-04-05 15:45:00,34,Saturday,15,4,Orthopedics,Follow-up,Mobile App,0,0,0,19.0,M,3.6,Self-pay,2,0,306.0,0,1
+A504873,P100623,2025-03-02 09:45:00,2025-04-02 14:45:00,31,Wednesday,14,4,General Medicine,Follow-up,Online Portal,1,0,0,79.0,F,5.0,Insurance,6,0,17.0,0,1
+A504874,P100476,2025-03-02 14:45:00,2025-03-06 15:45:00,4,Thursday,15,3,Orthopedics,New,Phone,1,0,0,45.0,M,2.1,Government Scheme,4,1,97.0,0,1
+A504875,P100573,2025-03-03 05:15:00,2025-04-01 10:15:00,29,Tuesday,10,4,General Medicine,Follow-up,Mobile App,1,1,0,39.0,M,19.3,Insurance,9,1,4.0,0,1
+A504877,P101258,2025-03-03 06:15:00,2025-03-17 10:15:00,14,Monday,10,3,General Medicine,Follow-up,Online Portal,0,0,0,41.0,M,7.5,Insurance,5,1,87.0,0,1
+A504876,P101799,2025-03-03 06:15:00,2025-03-14 09:15:00,11,Friday,9,3,General Medicine,Routine Check,Mobile App,1,1,0,43.0,M,6.4,Insurance,3,3,,0,0
+A504878,P101475,2025-03-03 10:00:00,2025-03-17 17:00:00,14,Monday,17,3,General Medicine,Routine Check,Phone,1,0,0,48.0,M,15.2,Government Scheme,4,1,307.0,0,1
+A504879,P100006,2025-03-03 11:00:00,2025-03-21 17:00:00,18,Friday,17,3,Dermatology,Routine Check,Phone,1,0,0,49.0,F,1.7,Government Scheme,9,0,5.0,0,1
+A504880,P101071,2025-03-03 11:45:00,2025-03-05 12:45:00,2,Wednesday,12,3,Pediatrics,Follow-up,Phone,1,0,0,37.0,F,7.1,Insurance,5,0,34.0,0,1
+A504881,P101675,2025-03-03 14:15:00,2025-03-13 16:15:00,10,Thursday,16,3,Ophthalmology,New,Online Portal,1,0,0,34.0,F,2.8,Insurance,8,0,118.0,0,1
+A504882,P101358,2025-03-03 15:00:00,2025-03-21 16:00:00,18,Friday,16,3,General Medicine,Routine Check,Online Portal,1,0,0,20.0,F,5.9,Government Scheme,6,5,82.0,1,1
+A504883,P100774,2025-03-03 15:30:00,2025-03-08 16:30:00,5,Saturday,16,3,Dermatology,Follow-up,Online Portal,1,1,0,25.0,M,5.0,Insurance,2,0,224.0,0,1
+A504884,P100100,2025-03-04 04:15:00,2025-03-17 11:15:00,13,Monday,11,3,Orthopedics,New,Phone,1,0,0,40.0,F,7.8,Insurance,4,0,23.0,0,1
+A504885,P100332,2025-03-04 05:00:00,2025-03-17 10:00:00,13,Monday,10,3,General Medicine,Follow-up,Phone,1,0,0,52.0,F,8.6,Self-pay,1,0,280.0,0,1
+A504886,P101367,2025-03-04 05:30:00,2025-03-15 11:30:00,11,Saturday,11,3,General Medicine,Follow-up,Phone,1,0,0,18.0,M,7.0,Government Scheme,1,0,150.0,0,1
+A504887,P101369,2025-03-04 06:30:00,2025-03-17 10:30:00,13,Monday,10,3,General Medicine,Follow-up,Walk-in,0,0,0,31.0,M,4.3,Self-pay,2,1,258.0,0,1
+A504888,P100585,2025-03-04 07:45:00,2025-04-26 13:45:00,53,Saturday,13,4,Dermatology,New,Phone,1,0,0,15.0,F,3.2,Government Scheme,6,5,47.0,0,1
+A504889,P100542,2025-03-04 08:15:00,2025-03-07 13:15:00,3,Friday,13,3,Orthopedics,New,Online Portal,1,0,0,28.0,F,17.2,Insurance,7,1,119.0,0,1
+A504890,P100300,2025-03-04 09:45:00,2025-03-20 15:45:00,16,Thursday,15,3,Orthopedics,Follow-up,Mobile App,1,0,0,31.0,F,4.8,Government Scheme,4,0,241.0,0,1
+A504891,P100677,2025-03-04 10:00:00,2025-03-13 14:00:00,9,Thursday,14,3,Ophthalmology,Follow-up,Phone,1,0,0,26.0,F,,Self-pay,0,0,,1,0
+A504892,P101687,2025-03-04 11:15:00,2025-03-22 16:15:00,18,Saturday,16,3,Gynecology,New,Phone,1,1,0,45.0,F,5.6,Insurance,8,4,13.0,0,1
+A504893,P101289,2025-03-04 11:30:00,2025-03-10 16:30:00,6,Monday,16,3,ENT,Routine Check,Mobile App,1,0,0,47.0,M,6.1,Government Scheme,10,4,48.0,0,1
+A504894,P101095,2025-03-04 12:00:00,2025-03-28 16:00:00,24,Friday,16,3,General Medicine,New,Online Portal,1,0,0,55.0,F,42.7,Government Scheme,5,1,79.0,0,1
+A504895,P101687,2025-03-04 13:45:00,2025-03-08 17:45:00,4,Saturday,17,3,ENT,Routine Check,Online Portal,0,0,0,45.0,F,5.6,Insurance,8,4,14.0,1,1
+A504896,P101748,2025-03-04 14:15:00,2025-04-02 15:15:00,29,Wednesday,15,4,General Medicine,New,Mobile App,1,0,0,55.0,F,4.1,Insurance,8,0,48.0,0,1
+A504897,P100564,2025-03-04 14:30:00,2025-03-17 15:30:00,13,Monday,15,3,Ophthalmology,Routine Check,Mobile App,1,0,0,39.0,F,5.4,Self-pay,2,0,76.0,0,1
+A504898,P100130,2025-03-04 16:15:00,2025-03-20 17:15:00,16,Thursday,17,3,General Medicine,New,Phone,1,1,0,36.0,M,7.4,Insurance,0,0,,0,0
+A504899,P101339,2025-03-05 06:00:00,2025-04-07 13:00:00,33,Monday,13,4,General Medicine,Routine Check,Mobile App,1,0,0,46.0,M,11.1,Government Scheme,4,0,21.0,0,1
+A504900,P100334,2025-03-05 06:45:00,2025-03-17 10:45:00,12,Monday,10,3,Pediatrics,New,Online Portal,1,0,0,68.0,F,6.3,Insurance,1,0,151.0,0,1
+A504901,P101773,2025-03-05 07:15:00,2025-03-25 13:15:00,20,Tuesday,13,3,General Medicine,New,Online Portal,1,0,0,61.0,F,2.6,Government Scheme,3,0,130.0,1,1
+A504903,P101630,2025-03-05 09:15:00,2025-04-03 10:15:00,29,Thursday,10,4,ENT,New,Phone,1,0,0,46.0,F,3.8,Self-pay,1,0,8.0,1,1
+A504902,P100567,2025-03-05 09:15:00,2025-03-31 12:15:00,26,Monday,12,3,ENT,New,Phone,0,0,0,37.0,M,1.9,Self-pay,4,0,21.0,1,1
+A504904,P101038,2025-03-05 09:45:00,2025-03-22 10:45:00,17,Saturday,10,3,General Medicine,Follow-up,Mobile App,1,0,0,11.0,M,10.8,Government Scheme,5,1,93.0,0,1
+A504905,P101675,2025-03-05 11:45:00,2025-03-15 14:45:00,10,Saturday,14,3,Pediatrics,Follow-up,Online Portal,1,0,0,34.0,F,2.8,Insurance,8,0,120.0,0,1
+A504907,P101304,2025-03-05 12:30:00,2025-03-22 15:30:00,17,Saturday,15,3,Gynecology,New,Mobile App,1,0,0,23.0,F,5.6,Insurance,7,0,75.0,0,1
+A504906,P101597,2025-03-05 12:30:00,2025-04-01 16:30:00,27,Tuesday,16,4,Ophthalmology,Follow-up,Mobile App,0,0,0,24.0,F,,Insurance,6,1,41.0,0,1
+A504908,P100185,2025-03-05 12:45:00,2025-03-28 15:45:00,23,Friday,15,3,Gynecology,Follow-up,Online Portal,1,0,0,77.0,F,7.8,Government Scheme,2,0,282.0,0,1
+A504909,P100331,2025-03-06 04:00:00,2025-03-10 09:00:00,4,Monday,9,3,Orthopedics,Follow-up,Mobile App,0,0,0,83.0,F,23.1,Insurance,3,0,74.0,0,1
+A504910,P100687,2025-03-06 04:15:00,2025-03-22 10:15:00,16,Saturday,10,3,General Medicine,Routine Check,Phone,0,1,0,72.0,F,3.8,Insurance,2,0,127.0,0,1
+A504911,P101631,2025-03-06 05:15:00,2025-03-08 11:15:00,2,Saturday,11,3,General Medicine,Routine Check,Online Portal,1,0,0,82.0,M,5.2,Insurance,8,2,131.0,1,1
+A504912,P100374,2025-03-06 06:30:00,2025-03-15 08:30:00,9,Saturday,8,3,Gynecology,Follow-up,Walk-in,1,0,0,14.0,F,1.4,Self-pay,3,1,161.0,0,1
+A504913,P100924,2025-03-06 07:00:00,2025-03-11 14:00:00,5,Tuesday,14,3,ENT,Routine Check,Online Portal,1,0,0,10.0,F,13.6,Government Scheme,9,0,23.0,0,1
+A504914,P101494,2025-03-06 08:15:00,2025-03-20 09:15:00,14,Thursday,9,3,Gynecology,Follow-up,Online Portal,1,0,0,18.0,F,14.1,Self-pay,1,0,267.0,0,1
+A504915,P101179,2025-03-06 09:45:00,2025-03-17 11:45:00,11,Monday,11,3,Gynecology,Routine Check,Walk-in,1,0,0,68.0,F,7.9,Insurance,2,1,339.0,0,1
+A504916,P101563,2025-03-06 10:15:00,2025-03-12 11:15:00,6,Wednesday,11,3,General Medicine,Follow-up,Mobile App,1,0,0,51.0,M,3.9,Government Scheme,10,2,51.0,0,1
+A504917,P100263,2025-03-06 10:30:00,2025-03-28 15:30:00,22,Friday,15,3,Ophthalmology,Routine Check,Online Portal,0,0,0,22.0,F,3.9,Government Scheme,0,0,,1,0
+A504918,P101258,2025-03-06 11:15:00,2025-03-27 14:15:00,21,Thursday,14,3,Orthopedics,Routine Check,Phone,1,0,0,41.0,M,7.5,Insurance,5,1,91.0,0,1
+A504920,P100978,2025-03-06 12:45:00,2025-04-11 15:45:00,36,Friday,15,4,General Medicine,Follow-up,Phone,1,0,0,27.0,M,4.3,Government Scheme,4,1,296.0,0,1
+A504919,P100141,2025-03-06 12:45:00,2025-03-12 16:45:00,6,Wednesday,16,3,Pediatrics,Routine Check,Walk-in,0,0,0,68.0,F,8.5,Self-pay,4,2,206.0,1,1
+A504922,P101676,2025-03-06 13:45:00,2025-03-21 14:45:00,15,Friday,14,3,General Medicine,New,Online Portal,0,0,0,42.0,F,8.5,Government Scheme,10,1,52.0,0,1
+A504921,P100933,2025-03-06 13:45:00,2025-03-17 14:45:00,11,Monday,14,3,ENT,Follow-up,Online Portal,1,0,0,63.0,M,36.0,Insurance,10,2,16.0,0,1
+A504923,P100859,2025-03-07 03:15:00,2025-03-10 10:15:00,3,Monday,10,3,Gynecology,Follow-up,Phone,1,0,0,41.0,F,19.9,Self-pay,0,0,,0,0
+A504924,P100277,2025-03-07 05:00:00,2025-03-12 12:00:00,5,Wednesday,12,3,General Medicine,Follow-up,Phone,1,0,0,55.0,F,8.9,Self-pay,2,0,272.0,0,1
+A504925,P101480,2025-03-07 08:00:00,2025-03-10 15:00:00,3,Monday,15,3,General Medicine,Follow-up,Mobile App,1,0,0,50.0,M,9.6,Government Scheme,2,1,289.0,0,1
+A504926,P101007,2025-03-07 10:45:00,2025-03-17 13:45:00,10,Monday,13,3,Pediatrics,Follow-up,Phone,1,0,0,86.0,M,2.4,Insurance,3,0,35.0,0,1
+A504927,P100053,2025-03-07 12:00:00,2025-04-10 13:00:00,34,Thursday,13,4,ENT,Routine Check,Walk-in,1,0,0,58.0,F,8.8,Self-pay,5,0,20.0,0,1
+A504928,P100583,2025-03-07 13:15:00,2025-03-19 14:15:00,12,Wednesday,14,3,Dermatology,Follow-up,Walk-in,1,0,0,16.0,F,16.9,Government Scheme,1,0,162.0,0,1
+A504929,P101028,2025-03-07 15:15:00,2025-03-10 16:15:00,3,Monday,16,3,Pediatrics,Follow-up,Mobile App,0,0,0,95.0,F,3.7,Insurance,5,0,139.0,0,1
+A504930,P101585,2025-03-08 02:00:00,2025-03-20 09:00:00,12,Thursday,9,3,General Medicine,Follow-up,Phone,1,0,0,27.0,M,9.9,Insurance,2,0,188.0,0,1
+A504931,P101066,2025-03-08 02:30:00,2025-03-18 08:30:00,10,Tuesday,8,3,General Medicine,Follow-up,Online Portal,0,0,0,41.0,F,4.2,Insurance,3,0,86.0,0,1
+A504932,P100687,2025-03-08 06:00:00,2025-03-17 10:00:00,9,Monday,10,3,Pediatrics,New,Phone,1,0,0,72.0,F,3.8,Insurance,2,0,129.0,0,1
+A504933,P101466,2025-03-08 06:30:00,2025-03-21 10:30:00,13,Friday,10,3,Ophthalmology,Follow-up,Phone,1,0,0,33.0,M,6.4,Insurance,6,2,25.0,0,1
+A504934,P100408,2025-03-08 07:15:00,2025-03-31 08:15:00,23,Monday,8,3,General Medicine,New,Phone,1,0,0,36.0,F,17.2,Self-pay,3,0,155.0,0,1
+A504936,P101548,2025-03-08 08:00:00,2025-03-12 14:00:00,4,Wednesday,14,3,General Medicine,Routine Check,Phone,1,0,0,25.0,M,1.8,Self-pay,3,0,177.0,0,1
+A504935,P100231,2025-03-08 08:00:00,2025-03-27 12:00:00,19,Thursday,12,3,Pediatrics,New,Walk-in,1,0,0,64.0,M,7.1,Self-pay,1,0,235.0,0,1
+A504937,P101679,2025-03-08 08:45:00,2025-03-12 10:45:00,4,Wednesday,10,3,ENT,Follow-up,Phone,1,0,0,24.0,F,8.8,Self-pay,2,1,413.0,1,1
+A504938,P100073,2025-03-08 09:15:00,2025-03-14 11:15:00,6,Friday,11,3,General Medicine,Routine Check,Online Portal,0,0,0,64.0,F,9.7,Insurance,7,0,6.0,1,1
+A504939,P100702,2025-03-08 09:45:00,2025-03-10 15:45:00,2,Monday,15,3,Gynecology,Follow-up,Phone,1,1,0,35.0,F,5.7,Government Scheme,3,0,157.0,0,1
+A504940,P100212,2025-03-08 11:00:00,2025-04-01 12:00:00,24,Tuesday,12,4,ENT,Routine Check,Mobile App,1,0,0,37.0,F,17.3,Insurance,2,0,273.0,0,1
+A504941,P101046,2025-03-08 13:00:00,2025-03-19 15:00:00,11,Wednesday,15,3,Pediatrics,Routine Check,Online Portal,1,0,0,27.0,M,5.8,Insurance,1,1,,1,0
+A504942,P101363,2025-03-08 13:30:00,2025-03-18 15:30:00,10,Tuesday,15,3,General Medicine,New,Phone,1,0,0,42.0,M,7.1,Self-pay,3,0,65.0,0,1
+A504943,P100379,2025-03-08 14:15:00,2025-03-24 15:15:00,16,Monday,15,3,Dermatology,Follow-up,Online Portal,1,0,0,31.0,M,1.4,Government Scheme,3,0,71.0,1,1
+A504944,P101334,2025-03-08 14:45:00,2025-03-12 15:45:00,4,Wednesday,15,3,General Medicine,Routine Check,Online Portal,1,0,0,41.0,M,2.6,Insurance,5,0,81.0,0,1
+A504945,P100184,2025-03-08 15:15:00,2025-03-18 17:15:00,10,Tuesday,17,3,General Medicine,Follow-up,Walk-in,1,0,0,21.0,F,8.3,Government Scheme,0,0,,0,0
+A504946,P101080,2025-03-08 15:45:00,2025-03-31 16:45:00,23,Monday,16,3,General Medicine,Routine Check,Walk-in,0,0,0,54.0,M,3.2,Insurance,2,0,82.0,0,1
+A504947,P101333,2025-03-08 16:15:00,2025-04-03 17:15:00,26,Thursday,17,4,General Medicine,Follow-up,Phone,1,0,0,16.0,F,1.9,Insurance,5,2,51.0,0,1
+A504948,P100034,2025-03-09 01:45:00,2025-03-15 08:45:00,6,Saturday,8,3,Pediatrics,Follow-up,Phone,0,0,0,18.0,F,23.4,Self-pay,3,1,322.0,1,1
+A504949,P100934,2025-03-09 02:15:00,2025-03-13 09:15:00,4,Thursday,9,3,Gynecology,New,Phone,0,0,0,42.0,F,16.5,Insurance,1,0,154.0,1,1
+A504950,P101152,2025-03-09 05:30:00,2025-03-25 11:30:00,16,Tuesday,11,3,Orthopedics,Follow-up,Online Portal,1,0,0,46.0,M,1.3,Insurance,2,0,200.0,0,1
+A504951,P101633,2025-03-09 06:45:00,2025-03-24 11:45:00,15,Monday,11,3,Dermatology,Follow-up,Walk-in,1,0,0,20.0,F,11.8,Self-pay,9,5,365.0,0,1
+A504952,P100130,2025-03-09 09:15:00,2025-03-17 14:15:00,8,Monday,14,3,General Medicine,New,Phone,0,0,0,36.0,M,7.4,Insurance,0,0,,0,0
+A504953,P101178,2025-03-09 13:30:00,2025-03-27 14:30:00,18,Thursday,14,3,Gynecology,Follow-up,Phone,1,0,0,42.0,F,9.2,Government Scheme,3,1,145.0,0,1
+A504954,P100164,2025-03-09 15:45:00,2025-03-22 16:45:00,13,Saturday,16,3,Dermatology,New,Phone,1,0,0,56.0,M,1.1,Government Scheme,7,1,16.0,0,1
+A504955,P101819,2025-03-10 01:30:00,2025-03-20 08:30:00,10,Thursday,8,3,ENT,New,Mobile App,1,0,0,23.0,F,,Government Scheme,3,0,23.0,0,1
+A504956,P100213,2025-03-10 03:00:00,2025-03-11 10:00:00,1,Tuesday,10,3,Orthopedics,New,Mobile App,0,0,0,40.0,M,3.7,Self-pay,1,0,389.0,0,1
+A504957,P100336,2025-03-10 04:30:00,2025-04-18 10:30:00,39,Friday,10,4,General Medicine,Follow-up,Mobile App,1,0,0,23.0,M,5.3,Government Scheme,2,0,10.0,1,1
+A504958,P100798,2025-03-10 06:45:00,2025-03-31 12:45:00,21,Monday,12,3,General Medicine,New,Phone,1,0,0,48.0,F,4.0,Government Scheme,1,0,213.0,0,1
+A504959,P101143,2025-03-10 07:00:00,2025-03-17 13:00:00,7,Monday,13,3,General Medicine,Routine Check,Mobile App,0,0,0,54.0,M,20.1,Insurance,1,0,195.0,1,1
+A504960,P100793,2025-03-10 08:00:00,2025-03-15 10:00:00,5,Saturday,10,3,ENT,Follow-up,Phone,1,0,0,14.0,F,3.1,Insurance,6,1,13.0,0,1
+A504961,P101400,2025-03-10 08:00:00,2025-03-22 09:00:00,12,Saturday,9,3,ENT,Routine Check,Walk-in,0,0,0,34.0,F,19.2,Self-pay,1,0,275.0,0,1
+A504962,P101526,2025-03-10 08:15:00,2025-04-05 15:15:00,26,Saturday,15,4,ENT,Follow-up,Phone,0,0,0,75.0,M,11.8,Self-pay,11,0,4.0,0,1
+A504963,P100921,2025-03-10 08:45:00,2025-03-15 12:45:00,5,Saturday,12,3,Pediatrics,Follow-up,Walk-in,1,0,0,23.0,M,,Government Scheme,1,1,,1,0
+A504964,P101385,2025-03-10 08:45:00,2025-03-29 15:45:00,19,Saturday,15,3,ENT,Follow-up,Mobile App,0,0,0,86.0,F,26.6,Self-pay,7,3,93.0,0,1
+A504966,P100979,2025-03-10 09:45:00,2025-03-18 11:45:00,8,Tuesday,11,3,General Medicine,Follow-up,Online Portal,1,0,0,21.0,M,5.9,Insurance,2,0,41.0,0,1
+A504967,P101267,2025-03-10 09:45:00,2025-03-27 13:45:00,17,Thursday,13,3,Ophthalmology,Routine Check,Phone,0,0,0,44.0,F,2.4,Insurance,1,0,344.0,0,1
+A504965,P101611,2025-03-10 09:45:00,2025-03-17 10:45:00,7,Monday,10,3,General Medicine,Routine Check,Phone,0,0,0,62.0,F,5.6,Self-pay,4,0,118.0,0,1
+A504968,P100049,2025-03-10 13:30:00,2025-03-28 17:30:00,18,Friday,17,3,Pediatrics,New,Phone,1,0,0,31.0,F,4.4,Insurance,1,0,313.0,0,1
+A504969,P101522,2025-03-10 13:45:00,2025-03-18 15:45:00,8,Tuesday,15,3,Ophthalmology,Follow-up,Online Portal,1,0,0,36.0,M,11.8,Insurance,0,0,,0,0
+A504970,P100904,2025-03-10 14:15:00,2025-03-18 16:15:00,8,Tuesday,16,3,General Medicine,Follow-up,Mobile App,0,0,0,31.0,F,10.7,Insurance,5,0,69.0,0,1
+A504971,P100572,2025-03-10 15:00:00,2025-03-21 17:00:00,11,Friday,17,3,General Medicine,Follow-up,Online Portal,1,1,0,39.0,F,5.4,Insurance,13,1,13.0,0,1
+A504972,P100195,2025-03-11 02:15:00,2025-03-17 08:15:00,6,Monday,8,3,Gynecology,Follow-up,Mobile App,0,1,0,25.0,F,9.5,Insurance,7,0,14.0,0,1
+A504973,P101812,2025-03-11 06:15:00,2025-03-29 11:15:00,18,Saturday,11,3,General Medicine,New,Walk-in,1,0,0,41.0,F,2.1,Insurance,0,0,,0,0
+A504974,P101800,2025-03-11 06:30:00,2025-04-01 08:30:00,21,Tuesday,8,4,Ophthalmology,New,Mobile App,1,0,0,29.0,M,4.3,Government Scheme,5,0,182.0,0,1
+A504975,P101385,2025-03-11 07:00:00,2025-05-07 10:00:00,57,Wednesday,10,5,General Medicine,Routine Check,Mobile App,1,0,0,86.0,F,26.6,Self-pay,7,3,94.0,0,1
+A504976,P100692,2025-03-11 07:30:00,2025-03-18 14:30:00,7,Tuesday,14,3,General Medicine,Routine Check,Mobile App,1,0,0,42.0,M,2.5,Government Scheme,1,0,91.0,0,1
+A504979,P100994,2025-03-11 09:30:00,2025-03-18 13:30:00,7,Tuesday,13,3,Pediatrics,Follow-up,Online Portal,1,0,0,33.0,M,6.0,Government Scheme,2,0,12.0,0,1
+A504978,P101133,2025-03-11 09:30:00,2025-03-18 13:30:00,7,Tuesday,13,3,ENT,Follow-up,Walk-in,1,0,0,52.0,M,12.9,Government Scheme,1,0,60.0,0,1
+A504977,P100112,2025-03-11 09:30:00,2025-03-22 11:30:00,11,Saturday,11,3,ENT,Follow-up,Mobile App,1,0,0,40.0,F,7.3,Government Scheme,8,1,25.0,1,1
+A504980,P101806,2025-03-11 11:15:00,2025-03-14 15:15:00,3,Friday,15,3,Orthopedics,Routine Check,Phone,1,0,0,76.0,F,2.0,Government Scheme,0,0,,0,0
+A504981,P100705,2025-03-11 12:00:00,2025-03-15 14:00:00,4,Saturday,14,3,Pediatrics,Routine Check,Phone,1,0,0,29.0,F,1.2,Insurance,1,0,402.0,0,1
+A504982,P101049,2025-03-11 13:30:00,2025-03-24 15:30:00,13,Monday,15,3,ENT,New,Phone,0,0,0,40.0,M,9.6,Self-pay,4,0,165.0,0,1
+A504983,P101285,2025-03-11 16:15:00,2025-03-21 17:15:00,10,Friday,17,3,Orthopedics,Routine Check,Phone,1,0,0,48.0,M,27.4,Government Scheme,1,0,346.0,0,1
+A504984,P100468,2025-03-12 04:30:00,2025-03-17 09:30:00,5,Monday,9,3,Orthopedics,Follow-up,Mobile App,0,0,0,34.0,M,4.8,Self-pay,2,0,41.0,0,1
+A504986,P100616,2025-03-12 04:45:00,2025-03-27 08:45:00,15,Thursday,8,3,ENT,Follow-up,Online Portal,1,0,0,50.0,M,1.3,Insurance,1,0,38.0,0,1
+A504985,P101038,2025-03-12 04:45:00,2025-03-21 09:45:00,9,Friday,9,3,Pediatrics,Follow-up,Phone,1,0,0,11.0,M,10.8,Government Scheme,5,1,99.0,0,1
+A504987,P101172,2025-03-12 05:00:00,2025-03-14 11:00:00,2,Friday,11,3,General Medicine,New,Walk-in,1,0,0,57.0,F,3.8,Government Scheme,0,0,,0,0
+A504988,P100436,2025-03-12 05:15:00,2025-04-10 12:15:00,29,Thursday,12,4,Pediatrics,Follow-up,Mobile App,0,1,0,26.0,F,12.1,Self-pay,16,1,91.0,0,1
+A504989,P101383,2025-03-12 07:00:00,2025-03-27 12:00:00,15,Thursday,12,3,Orthopedics,Routine Check,Walk-in,1,0,0,59.0,F,11.2,Government Scheme,2,0,62.0,0,1
+A504990,P101816,2025-03-12 07:30:00,2025-03-15 10:30:00,3,Saturday,10,3,Pediatrics,Follow-up,Mobile App,1,0,0,27.0,M,6.4,Insurance,3,0,27.0,0,1
+A504991,P100039,2025-03-12 08:15:00,2025-03-15 13:15:00,3,Saturday,13,3,Gynecology,Follow-up,Online Portal,1,0,0,48.0,F,2.2,Self-pay,2,2,,1,0
+A504992,P100619,2025-03-12 09:15:00,2025-03-21 14:15:00,9,Friday,14,3,Ophthalmology,Follow-up,Phone,1,0,0,20.0,F,1.9,Insurance,0,0,,0,0
+A504993,P100395,2025-03-12 10:15:00,2025-03-24 12:15:00,12,Monday,12,3,General Medicine,Follow-up,Mobile App,0,1,0,37.0,F,2.0,Self-pay,7,0,143.0,0,1
+A504994,P100374,2025-03-12 11:15:00,2025-03-19 15:15:00,7,Wednesday,15,3,General Medicine,Follow-up,Walk-in,1,0,0,14.0,F,1.4,Self-pay,3,1,168.0,0,1
+A504995,P100542,2025-03-12 12:15:00,2025-04-07 14:15:00,26,Monday,14,4,Dermatology,Follow-up,Online Portal,1,0,0,28.0,F,17.2,Insurance,8,1,4.0,0,1
+A504996,P101448,2025-03-12 12:30:00,2025-03-24 14:30:00,12,Monday,14,3,Orthopedics,Follow-up,Online Portal,1,0,0,27.0,F,6.8,Insurance,0,0,,0,0
+A504997,P101265,2025-03-12 13:30:00,2025-04-07 15:30:00,26,Monday,15,4,General Medicine,New,Walk-in,1,0,0,65.0,M,7.1,Self-pay,4,0,201.0,1,1
+A504998,P100360,2025-03-13 03:00:00,2025-04-04 09:00:00,22,Friday,9,4,Ophthalmology,Routine Check,Phone,0,0,0,38.0,F,5.6,Self-pay,4,0,18.0,0,1
+A504999,P100393,2025-03-13 04:45:00,2025-03-29 11:45:00,16,Saturday,11,3,General Medicine,Follow-up,Phone,1,0,0,20.0,M,16.3,Insurance,10,5,100.0,0,1
+A505000,P101479,2025-03-13 05:15:00,2025-04-12 08:15:00,30,Saturday,8,4,General Medicine,Routine Check,Phone,0,0,0,10.0,M,,Insurance,0,0,,1,0
+A505001,P100168,2025-03-13 06:15:00,2025-03-27 11:15:00,14,Thursday,11,3,Orthopedics,Follow-up,Online Portal,1,0,0,53.0,F,4.6,Government Scheme,1,0,212.0,0,1
+A505002,P101083,2025-03-13 06:30:00,2025-03-31 09:30:00,18,Monday,9,3,General Medicine,Follow-up,Phone,1,0,0,52.0,F,1.6,Government Scheme,1,0,209.0,1,1
+A505003,P101604,2025-03-13 09:00:00,2025-03-27 16:00:00,14,Thursday,16,3,Pediatrics,Routine Check,Mobile App,0,0,0,32.0,F,5.4,Self-pay,5,0,20.0,0,1
+A505004,P100237,2025-03-13 09:15:00,2025-03-21 11:15:00,8,Friday,11,3,General Medicine,Routine Check,Phone,1,0,0,65.0,M,14.8,Government Scheme,3,0,5.0,0,1
+A505005,P101647,2025-03-13 10:15:00,2025-03-17 14:15:00,4,Monday,14,3,Pediatrics,New,Mobile App,1,1,0,21.0,F,4.3,Government Scheme,6,0,33.0,0,1
+A505006,P101570,2025-03-13 12:00:00,2025-03-14 16:00:00,1,Friday,16,3,General Medicine,Follow-up,Online Portal,1,0,0,64.0,F,3.3,Insurance,3,0,76.0,0,1
+A505007,P100910,2025-03-13 14:45:00,2025-03-18 15:45:00,5,Tuesday,15,3,Ophthalmology,Routine Check,Phone,1,0,0,60.0,M,5.8,Self-pay,1,0,241.0,0,1
+A505008,P100912,2025-03-14 04:30:00,2025-03-26 10:30:00,12,Wednesday,10,3,ENT,Follow-up,Walk-in,1,0,0,56.0,F,3.9,Insurance,4,1,314.0,0,1
+A505009,P100146,2025-03-14 05:15:00,2025-03-31 12:15:00,17,Monday,12,3,Dermatology,Follow-up,Phone,1,0,0,33.0,F,8.2,Self-pay,1,1,,1,0
+A505010,P101055,2025-03-14 06:00:00,2025-03-26 08:00:00,12,Wednesday,8,3,General Medicine,New,Mobile App,1,0,0,25.0,M,2.5,Self-pay,2,0,40.0,0,1
+A505011,P101103,2025-03-14 06:30:00,2025-03-28 10:30:00,14,Friday,10,3,Pediatrics,Follow-up,Mobile App,1,0,0,30.0,F,2.9,Insurance,0,0,,0,0
+A505012,P100857,2025-03-14 07:00:00,2025-04-01 14:00:00,18,Tuesday,14,4,Pediatrics,Follow-up,Online Portal,1,0,0,8.0,M,7.1,Self-pay,7,1,22.0,0,1
+A505013,P101695,2025-03-14 07:30:00,2025-04-16 09:30:00,33,Wednesday,9,4,ENT,New,Online Portal,1,0,0,37.0,F,15.6,Insurance,3,0,7.0,0,1
+A505014,P100211,2025-03-14 08:00:00,2025-03-25 09:00:00,11,Tuesday,9,3,Ophthalmology,Routine Check,Phone,1,0,0,25.0,M,6.9,Government Scheme,10,4,194.0,0,1
+A505015,P101064,2025-03-14 08:15:00,2025-03-15 10:15:00,1,Saturday,10,3,General Medicine,New,Online Portal,1,0,0,95.0,F,7.9,Insurance,2,0,24.0,0,1
+A505016,P100436,2025-03-14 09:00:00,2025-03-31 15:00:00,17,Monday,15,3,Pediatrics,Follow-up,Online Portal,0,0,0,26.0,F,12.1,Self-pay,16,1,93.0,0,1
+A505017,P100763,2025-03-14 09:30:00,2025-04-12 10:30:00,29,Saturday,10,4,General Medicine,New,Online Portal,1,0,0,35.0,M,7.3,Government Scheme,4,1,10.0,1,1
+A505018,P100109,2025-03-14 11:00:00,2025-03-21 14:00:00,7,Friday,14,3,Gynecology,New,Walk-in,0,0,0,35.0,F,4.0,Government Scheme,6,1,24.0,0,1
+A505019,P100187,2025-03-14 11:30:00,2025-03-19 14:30:00,5,Wednesday,14,3,Pediatrics,New,Online Portal,1,0,0,58.0,F,15.2,Government Scheme,5,2,63.0,0,1
+A505020,P101339,2025-03-14 12:15:00,2025-04-08 14:15:00,25,Tuesday,14,4,General Medicine,Follow-up,Phone,0,0,0,46.0,M,11.1,Government Scheme,4,0,31.0,0,1
+A505021,P100275,2025-03-14 15:00:00,2025-04-05 16:00:00,22,Saturday,16,4,Pediatrics,Routine Check,Mobile App,1,0,0,34.0,M,4.8,Self-pay,0,0,,0,0
+A505022,P100611,2025-03-14 15:45:00,2025-03-29 16:45:00,15,Saturday,16,3,General Medicine,Follow-up,Phone,1,0,0,17.0,F,6.2,,2,2,,0,0
+A505023,P100801,2025-03-15 04:15:00,2025-03-18 09:15:00,3,Tuesday,9,3,General Medicine,Follow-up,Phone,1,0,0,66.0,F,2.7,Self-pay,3,1,242.0,1,1
+A505024,P100763,2025-03-15 05:00:00,2025-03-21 10:00:00,6,Friday,10,3,Orthopedics,Follow-up,Online Portal,1,0,0,35.0,M,7.3,Government Scheme,4,1,11.0,0,1
+A505025,P101251,2025-03-15 05:15:00,2025-03-27 12:15:00,12,Thursday,12,3,Ophthalmology,Follow-up,Phone,1,0,0,51.0,F,5.8,Insurance,2,0,331.0,0,1
+A505026,P100284,2025-03-15 06:45:00,2025-03-31 10:45:00,16,Monday,10,3,Dermatology,Follow-up,Phone,1,0,0,37.0,F,13.6,Insurance,6,4,94.0,0,1
+A505027,P101762,2025-03-15 08:00:00,2025-03-27 14:00:00,12,Thursday,14,3,Ophthalmology,New,Online Portal,1,0,0,46.0,F,2.6,Insurance,4,1,319.0,0,1
+A505028,P100885,2025-03-15 08:00:00,2025-03-19 10:00:00,4,Wednesday,10,3,General Medicine,Follow-up,Phone,1,0,0,58.0,F,7.8,Government Scheme,4,2,142.0,1,1
+A505029,P100530,2025-03-15 09:00:00,2025-03-27 15:00:00,12,Thursday,15,3,Pediatrics,Follow-up,Mobile App,0,0,0,17.0,M,13.4,Insurance,0,0,,1,0
+A505030,P101774,2025-03-15 09:45:00,2025-03-29 15:45:00,14,Saturday,15,3,Ophthalmology,Routine Check,Online Portal,1,0,0,59.0,F,2.3,Government Scheme,3,0,140.0,0,1
+A505031,P100671,2025-03-15 10:45:00,2025-03-27 17:45:00,12,Thursday,17,3,ENT,Routine Check,Online Portal,1,1,0,89.0,F,2.1,Insurance,4,1,88.0,1,1
+A505032,P100622,2025-03-15 10:45:00,2025-04-03 13:45:00,19,Thursday,13,4,Pediatrics,Follow-up,Walk-in,0,0,0,51.0,M,23.8,Insurance,1,0,290.0,0,1
+A505033,P100258,2025-03-15 11:00:00,2025-04-16 15:00:00,32,Wednesday,15,4,General Medicine,New,Online Portal,0,0,0,15.0,M,1.3,Insurance,1,0,48.0,0,1
+A505034,P100744,2025-03-16 01:30:00,2025-04-05 08:30:00,20,Saturday,8,4,Orthopedics,Routine Check,Phone,1,0,0,51.0,F,9.5,Government Scheme,1,0,208.0,0,1
+A505035,P101628,2025-03-16 02:45:00,2025-03-26 09:45:00,10,Wednesday,9,3,Pediatrics,Follow-up,Phone,1,0,0,38.0,M,3.5,Insurance,3,0,25.0,0,1
+A505036,P100835,2025-03-16 04:00:00,2025-03-24 11:00:00,8,Monday,11,3,Pediatrics,Routine Check,Phone,1,0,0,44.0,M,2.8,Government Scheme,6,3,126.0,0,1
+A505037,P100053,2025-03-16 04:15:00,2025-03-26 11:15:00,10,Wednesday,11,3,Dermatology,Follow-up,Phone,1,0,0,58.0,F,8.8,Self-pay,5,0,29.0,0,1
+A505038,P101417,2025-03-16 06:00:00,2025-03-20 11:00:00,4,Thursday,11,3,Orthopedics,Follow-up,Walk-in,1,0,0,62.0,F,2.3,Insurance,3,0,217.0,1,1
+A505039,P101249,2025-03-16 06:45:00,2025-04-02 11:45:00,17,Wednesday,11,4,Orthopedics,Routine Check,Mobile App,0,0,0,36.0,F,6.3,Self-pay,4,0,38.0,1,1
+A505040,P101850,2025-03-16 07:00:00,2025-03-25 14:00:00,9,Tuesday,14,3,Ophthalmology,New,Phone,0,0,0,73.0,F,5.0,Self-pay,1,0,131.0,1,1
+A505041,P100424,2025-03-16 08:00:00,2025-03-25 11:00:00,9,Tuesday,11,3,Gynecology,Routine Check,Mobile App,0,0,0,89.0,F,1.1,Self-pay,4,0,89.0,0,1
+A505042,P101854,2025-03-16 08:45:00,2025-03-18 11:45:00,2,Tuesday,11,3,Orthopedics,Routine Check,Mobile App,1,0,0,35.0,M,7.2,Insurance,3,0,28.0,0,1
+A505043,P100194,2025-03-16 09:30:00,2025-04-16 16:30:00,31,Wednesday,16,4,Pediatrics,Routine Check,Mobile App,1,0,0,18.0,F,,Government Scheme,12,8,19.0,0,1
+A505044,P101231,2025-03-16 09:30:00,2025-03-22 16:30:00,6,Saturday,16,3,Pediatrics,New,Walk-in,0,0,0,35.0,M,8.2,Insurance,3,1,257.0,0,1
+A505045,P100712,2025-03-16 12:30:00,2025-03-31 14:30:00,15,Monday,14,3,Orthopedics,Routine Check,Online Portal,1,0,0,62.0,F,13.2,Government Scheme,3,0,306.0,0,1
+A505046,P101190,2025-03-16 12:45:00,2025-04-10 17:45:00,25,Thursday,17,4,General Medicine,Follow-up,Online Portal,1,0,0,33.0,F,,Self-pay,1,0,371.0,0,1
+A505047,P101319,2025-03-16 13:00:00,2025-03-21 17:00:00,5,Friday,17,3,Dermatology,New,Phone,1,0,0,68.0,M,6.9,Insurance,3,0,16.0,1,1
+A505048,P101369,2025-03-16 13:15:00,2025-04-09 16:15:00,24,Wednesday,16,4,General Medicine,New,Online Portal,1,0,0,31.0,M,4.3,Self-pay,2,1,270.0,1,1
+A505049,P100782,2025-03-16 13:15:00,2025-04-03 14:15:00,18,Thursday,14,4,General Medicine,Follow-up,Phone,0,0,0,20.0,F,,Government Scheme,2,0,288.0,1,1
+A505050,P100265,2025-03-16 14:00:00,2025-03-31 16:00:00,15,Monday,16,3,General Medicine,Follow-up,Phone,1,0,0,74.0,M,7.1,Insurance,3,1,291.0,1,1
+A505051,P100520,2025-03-16 14:15:00,2025-03-21 16:15:00,5,Friday,16,3,Orthopedics,Follow-up,Walk-in,1,0,0,29.0,M,11.3,Insurance,0,0,,0,0
+A505052,P101039,2025-03-16 15:00:00,2025-04-01 16:00:00,16,Tuesday,16,4,Pediatrics,Routine Check,Online Portal,1,0,0,40.0,F,2.1,Government Scheme,3,0,99.0,0,1
+A505053,P100626,2025-03-16 16:30:00,2025-04-04 17:30:00,19,Friday,17,4,Dermatology,New,Walk-in,1,0,0,40.0,M,2.1,Self-pay,4,0,6.0,0,1
+A505054,P101003,2025-03-17 05:45:00,2025-04-04 09:45:00,18,Friday,9,4,ENT,Follow-up,Phone,1,0,0,44.0,M,2.2,Government Scheme,0,0,,0,0
+A505055,P101713,2025-03-17 06:15:00,2025-03-28 08:15:00,11,Friday,8,3,Gynecology,New,Mobile App,0,0,0,41.0,F,15.2,Insurance,1,0,97.0,1,1
+A505056,P100825,2025-03-17 07:30:00,2025-04-09 10:30:00,23,Wednesday,10,4,Orthopedics,Follow-up,Online Portal,1,0,0,35.0,M,,Insurance,2,0,165.0,1,1
+A505057,P100422,2025-03-17 08:00:00,2025-03-27 12:00:00,10,Thursday,12,3,Ophthalmology,Follow-up,Online Portal,0,0,0,25.0,F,7.0,Government Scheme,3,1,50.0,0,1
+A505058,P101342,2025-03-17 08:00:00,2025-04-05 10:00:00,19,Saturday,10,4,Ophthalmology,New,Walk-in,1,0,0,34.0,F,6.3,Government Scheme,2,0,50.0,0,1
+A505059,P100912,2025-03-17 08:45:00,2025-04-07 11:45:00,21,Monday,11,4,ENT,Routine Check,Online Portal,1,0,0,56.0,F,3.9,Insurance,4,1,317.0,1,1
+A505060,P101105,2025-03-17 09:30:00,2025-03-24 10:30:00,7,Monday,10,3,Orthopedics,New,Phone,0,0,0,57.0,M,9.1,Insurance,4,0,42.0,0,1
+A505061,P101265,2025-03-17 09:45:00,2025-03-20 13:45:00,3,Thursday,13,3,General Medicine,Follow-up,Mobile App,1,0,0,65.0,M,7.1,Self-pay,4,0,206.0,0,1
+A505062,P101526,2025-03-18 03:30:00,2025-04-02 10:30:00,15,Wednesday,10,4,ENT,Follow-up,Phone,1,0,0,75.0,M,11.8,Self-pay,11,0,12.0,0,1
+A505063,P100835,2025-03-18 04:00:00,2025-04-04 10:00:00,17,Friday,10,4,General Medicine,Routine Check,Phone,0,0,0,44.0,M,2.8,Government Scheme,6,3,128.0,1,1
+A505064,P100194,2025-03-18 09:45:00,2025-04-01 10:45:00,14,Tuesday,10,4,Pediatrics,New,Mobile App,1,0,0,18.0,F,41.6,Government Scheme,12,8,21.0,1,1
+A505065,P100653,2025-03-18 10:00:00,2025-03-20 14:00:00,2,Thursday,14,3,Orthopedics,Routine Check,Phone,1,0,0,22.0,M,3.5,Government Scheme,1,0,360.0,0,1
+A505066,P101257,2025-03-18 10:00:00,2025-03-24 11:00:00,6,Monday,11,3,General Medicine,New,Online Portal,1,0,0,43.0,F,14.1,Government Scheme,3,0,84.0,0,1
+A505067,P101592,2025-03-18 10:15:00,2025-04-16 11:15:00,29,Wednesday,11,4,ENT,New,Mobile App,1,0,0,16.0,F,6.8,Insurance,2,1,348.0,0,1
+A505068,P100660,2025-03-18 10:30:00,2025-04-12 15:30:00,25,Saturday,15,4,General Medicine,Routine Check,Phone,1,0,0,47.0,M,5.9,,3,1,112.0,0,1
+A505069,P100163,2025-03-18 12:00:00,2025-04-02 15:00:00,15,Wednesday,15,4,Dermatology,New,Mobile App,1,0,0,40.0,M,2.1,Government Scheme,0,0,,0,0
+A505070,P101582,2025-03-18 13:15:00,2025-04-07 15:15:00,20,Monday,15,4,Orthopedics,New,Online Portal,1,1,0,51.0,F,13.2,Government Scheme,5,2,18.0,0,1
+A505071,P100999,2025-03-18 13:45:00,2025-03-27 15:45:00,9,Thursday,15,3,General Medicine,Routine Check,Online Portal,1,0,0,47.0,F,9.7,Insurance,7,2,94.0,0,1
+A505072,P100358,2025-03-18 14:00:00,2025-04-02 16:00:00,15,Wednesday,16,4,General Medicine,Follow-up,Phone,0,0,0,23.0,M,2.2,Insurance,3,0,232.0,0,1
+A505073,P101758,2025-03-18 16:45:00,2025-04-14 17:45:00,27,Monday,17,4,General Medicine,Routine Check,Mobile App,1,0,0,35.0,M,17.4,Government Scheme,4,0,38.0,0,1
+A505074,P101305,2025-03-19 05:15:00,2025-04-04 10:15:00,16,Friday,10,4,Pediatrics,New,Phone,1,0,0,35.0,F,15.3,Insurance,2,2,,0,0
+A505075,P100436,2025-03-19 07:30:00,2025-03-25 08:30:00,6,Tuesday,8,3,Orthopedics,Follow-up,Phone,0,0,0,26.0,F,12.1,Self-pay,16,1,98.0,0,1
+A505076,P101478,2025-03-19 11:15:00,2025-03-21 15:15:00,2,Friday,15,3,General Medicine,Follow-up,Phone,1,0,0,32.0,F,4.3,Government Scheme,5,0,44.0,0,1
+A505077,P100769,2025-03-19 11:30:00,2025-04-04 12:30:00,16,Friday,12,4,Orthopedics,New,Walk-in,1,0,0,22.0,M,1.4,Government Scheme,1,1,,0,0
+A505078,P100027,2025-03-20 04:00:00,2025-03-20 10:00:00,0,Thursday,10,3,General Medicine,New,Online Portal,1,0,0,33.0,F,8.3,Insurance,10,4,33.0,0,1
+A505079,P101768,2025-03-20 06:15:00,2025-04-16 11:15:00,27,Wednesday,11,4,Pediatrics,New,Mobile App,0,0,0,47.0,M,5.3,Government Scheme,6,0,95.0,1,1
+A505080,P101407,2025-03-20 07:15:00,2025-04-01 11:15:00,12,Tuesday,11,4,Gynecology,Follow-up,Walk-in,1,0,0,32.0,F,4.8,Government Scheme,0,0,,0,0
+A505081,P101231,2025-03-20 08:30:00,2025-04-09 11:30:00,20,Wednesday,11,4,Dermatology,Routine Check,Phone,0,0,0,35.0,M,8.2,Insurance,3,1,261.0,0,1
+A505082,P101832,2025-03-20 11:00:00,2025-04-02 17:00:00,13,Wednesday,17,4,General Medicine,Follow-up,Walk-in,1,0,0,55.0,F,3.3,Self-pay,0,0,,0,0
+A505083,P100140,2025-03-20 11:30:00,2025-03-28 13:30:00,8,Friday,13,3,Gynecology,Routine Check,Walk-in,1,0,0,44.0,F,13.6,Insurance,7,0,49.0,0,1
+A505084,P100925,2025-03-20 12:30:00,2025-03-31 15:30:00,11,Monday,15,3,General Medicine,Follow-up,Walk-in,1,0,0,20.0,F,4.3,Self-pay,1,0,78.0,0,1
+A505085,P101527,2025-03-20 12:45:00,2025-04-02 13:45:00,13,Wednesday,13,4,General Medicine,Routine Check,Online Portal,1,0,0,23.0,M,3.9,Government Scheme,4,1,240.0,1,1
+A505086,P100089,2025-03-21 02:15:00,2025-03-25 08:15:00,4,Tuesday,8,3,Orthopedics,New,Online Portal,0,0,0,71.0,F,5.3,Government Scheme,4,1,212.0,0,1
+A505087,P101137,2025-03-21 02:45:00,2025-04-14 09:45:00,24,Monday,9,4,Orthopedics,Routine Check,Online Portal,1,0,0,41.0,F,22.0,Insurance,2,1,147.0,0,1
+A505088,P100453,2025-03-21 04:00:00,2025-03-24 10:00:00,3,Monday,10,3,Orthopedics,Routine Check,Mobile App,0,0,0,49.0,M,5.3,Insurance,3,0,304.0,0,1
+A505089,P101076,2025-03-21 04:15:00,2025-03-22 11:15:00,1,Saturday,11,3,Orthopedics,Routine Check,Online Portal,1,0,0,37.0,F,3.8,Insurance,3,0,108.0,0,1
+A505090,P100481,2025-03-21 04:45:00,2025-04-05 09:45:00,15,Saturday,9,4,General Medicine,Follow-up,Walk-in,1,0,0,26.0,F,3.9,Government Scheme,1,0,327.0,0,1
+A505091,P101353,2025-03-21 05:00:00,2025-04-07 11:00:00,17,Monday,11,4,Dermatology,Follow-up,Online Portal,0,0,0,68.0,F,2.1,Government Scheme,5,2,29.0,1,1
+A505092,P100731,2025-03-21 06:00:00,2025-04-04 11:00:00,14,Friday,11,4,General Medicine,Routine Check,Phone,0,0,0,36.0,M,6.6,Self-pay,1,1,,1,0
+A505093,P100896,2025-03-21 07:15:00,2025-04-12 08:15:00,22,Saturday,8,4,General Medicine,Follow-up,Phone,0,1,0,15.0,F,4.9,Government Scheme,1,0,251.0,0,1
+A505094,P101271,2025-03-21 08:45:00,2025-04-07 11:45:00,17,Monday,11,4,Dermatology,Follow-up,Walk-in,1,0,0,53.0,M,4.0,Insurance,1,0,30.0,0,1
+A505095,P100911,2025-03-21 11:45:00,2025-04-17 16:45:00,27,Thursday,16,4,General Medicine,Follow-up,Online Portal,1,0,0,33.0,F,1.1,Insurance,3,1,35.0,1,1
+A505096,P101731,2025-03-21 12:15:00,2025-04-05 14:15:00,15,Saturday,14,4,General Medicine,Follow-up,Mobile App,1,0,0,92.0,F,5.0,Government Scheme,6,0,101.0,0,1
+A505097,P101133,2025-03-21 12:30:00,2025-03-28 14:30:00,7,Friday,14,3,Orthopedics,Follow-up,Phone,1,0,0,52.0,M,12.9,Government Scheme,2,0,2.0,0,1
+A505099,P101536,2025-03-21 13:00:00,2025-03-27 16:00:00,6,Thursday,16,3,Dermatology,Follow-up,Mobile App,1,0,0,24.0,F,9.5,Government Scheme,1,0,48.0,1,1
+A505098,P101100,2025-03-21 13:00:00,2025-03-24 14:00:00,3,Monday,14,3,Orthopedics,Follow-up,Walk-in,1,0,0,29.0,F,4.3,Insurance,3,0,33.0,0,1
